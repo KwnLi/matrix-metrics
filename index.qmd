@@ -3,7 +3,7 @@ title: "Matrix Metrics"
 toc: false
 ---
 
-## What are matrix metrics?
+***This site is still under construction. Come back soon for updates!***
 
 Ecological and social systems are critically interconnected in the landscape. In the vocabulary of landscape and agro-ecology, the landscape ***matrix*** describes parts of the landscape where people and nature interact. As a scientist and researcher, I value ***metrics*** as tools for quantifying the observable world around me in hopes of better understanding it. Matrix metrics has a nice alliterative ring to it.
 
