@@ -1,0 +1,60 @@
+---
+title: "Kevin Li"
+image: media/kevin.jpg
+toc: false
+about:
+  template: solana
+  image-shape: round
+  image-width: 17em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/neivk/
+    - text: Google Scholar
+      href: https://scholar.google.com/citations?user=JQkwWL4AAAAJ
+    - text: ResearchGate
+      href: https://www.researchgate.net/profile/Kevin-Li-39
+---
+
+I am a landscape- and agro-ecologist who is also trained in landscape architecture. I use my unique background to take an encompassing approach to research in landscape systems that includes aspects of agriculture, ecology, and public health, as well as a data-driven approach to ecological landscape design. My work aims to make environmental data accessible and actionable for communities and decision makers. I have expertise in geographic information systems (GIS), statistical analysis, and data visualization, as well as hands-on experience in ecological restoration, stewardship, and landscape design.
+
+Through research and consulting work, I am dedicated to creating landscapes that meet human and ecological needs and foster resilient communities for people and nature.
+
+## Education
+
+**University of Göttingen** \| Göttingen, Germany \| 2020
+
+Ph.D. Crop Sciences
+
+**University of Michigan** \| Ann Arbor, MI \| 2015
+
+M. Landscape Architecture
+
+M.S. Conservation Ecology
+
+**University of North Carolina** \| Chapel Hill, NC \| 2008
+
+B.S. Biology
+
+## Professional Training and Certificates
+
+**Introduction to Data Science and AI Summer Academy** \| Michigan Institute for Data Science & AI in Society, University of Michigan \| 2024
+
+**Postdoctoral Short Course on College Teaching in STEM** \| The Center for Research on Learning and Teaching and Rackham Graduate School, University of Michigan \| 2021
+
+**Certificate of Graduate Studies in Spatial Analysis** \| School of Environment and Sustainability, University of Michigan \| 2015
+
+## Experience
+
+**Matrix Metrics** \| Data Analysis Consultant \| 2020 - present
+
+**Pennsylvania State University** \| Postdoctoral Scholar \| 2025 - present
+
+**Oak Ridge Institute for Science Education and US Department of Agriculture** \| SCINet Postdoctoral Fellow \| 2022 - 2025
+
+**University of Michigan** \| Postdoctoral Researcher \| 2020 - 2022
+
+**Sustainable Stables** \| Landscape Design Consultant \| 2015 - 2017
+
+**North Carolina State University** \| Postgraduate Researcher \| 2015 - 2017
+
+**Cornell University** \| GIS Consultant \| 2016 - 2017

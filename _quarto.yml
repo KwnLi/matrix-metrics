@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Matrix Metrics"
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - href: kevin.qmd
+        text: About me
+      - href: research.qmd
+      - href: publications.qmd
+      - posts.qmd
+
+format:
+  html:
+    theme: minty
+    css: styles.css
+    toc: true
+
+editor: visual
+

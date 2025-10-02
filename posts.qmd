@@ -1,0 +1,8 @@
+---
+title: "Notes"
+listing: 
+  contents: posts
+  type: default
+  sort: "date desc"
+  categories: true
+---

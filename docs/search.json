@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Notes",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Li, K. and S. Goslee. Modeling tools for ecosystem service tradeoffs and synergies in agricultural landscapes. Journal of Soil and Water Conservation. In press.\nBosshard, E., M. E. Harrison, F. J. F. van Veen, N. B. Chikkarangappa, J. E. Banks, P. Basu, B. Dalsgaard, A. Dutta, E. Enríquez, N. Escobedo-Kenefic, B. Gemmill-Herren, J. Ghazoul, K. Hansen, A. L. Hass, O. Honnay, J. M. Kasina, A.-M. Klein, I. K. Motzke, S. Krishnan, P. Landaverde, A. O. Latini, K. Li, R. Lucas-Garcia, T. Munyuli, D. Narasimhaiah, D. Obregon, J. J. G. Quezada-Euán, V. Rosas-Guerrero, J. Schrader, F. Severiano-Galeana, T. M. Sitotaw, T. Sritongchuay, P. Tangtorwangsakul, M. Toledo-Hernandez, P. Viswanathan, C. Vogel, K. Wayo, C. Westphal, M. L. Jones, and C. N. Kaiser-Bunbury. Proximity to natural habitat is not consistently associated with pollination services in tropical smallholder farms: A systematic review and meta-analysis. Ecology Letters. In press.\nSu, C., Z. Hajian-Forooshani, K. Li, J. Vandermeer, and I. Perfecto. Non-independent co-occurrence of two important coffee fungal pathogens suggests a potential trade-off in varietal resistance. Journal of Phytopathology. In press.\nLi, K. and S. Goslee. 2025. Benefits of wildflower strips in agricultural field margins differ based on landscape complexity across four ecosystem services. Landscape Ecology 40:173."
+  },
+  {
+    "objectID": "kevin.html",
+    "href": "kevin.html",
+    "title": "Kevin Li",
+    "section": "",
+    "text": "I am a landscape- and agro-ecologist who is also trained in landscape architecture. I use my unique background to take an encompassing approach to research in landscape systems that includes aspects of agriculture, ecology, and public health, as well as a data-driven approach to ecological landscape design. My work aims to make environmental data accessible and actionable for communities and decision makers. I have expertise in geographic information systems (GIS), statistical analysis, and data visualization, as well as hands-on experience in ecological restoration, stewardship, and landscape design.\nThrough research and consulting work, I am dedicated to creating landscapes that meet human and ecological needs and foster resilient communities for people and nature."
+  },
+  {
+    "objectID": "kevin.html#education",
+    "href": "kevin.html#education",
+    "title": "Kevin Li",
+    "section": "Education",
+    "text": "Education\nUniversity of Göttingen | Göttingen, Germany | 2020\nPh.D. Crop Sciences\nUniversity of Michigan | Ann Arbor, MI | 2015\nM. Landscape Architecture\nM.S. Conservation Ecology\nUniversity of North Carolina | Chapel Hill, NC | 2008\nB.S. Biology"
+  },
+  {
+    "objectID": "kevin.html#professional-training-and-certificates",
+    "href": "kevin.html#professional-training-and-certificates",
+    "title": "Kevin Li",
+    "section": "Professional Training and Certificates",
+    "text": "Professional Training and Certificates\nIntroduction to Data Science and AI Summer Academy | Michigan Institute for Data Science & AI in Society, University of Michigan | 2024\nPostdoctoral Short Course on College Teaching in STEM | The Center for Research on Learning and Teaching and Rackham Graduate School, University of Michigan | 2021\nCertificate of Graduate Studies in Spatial Analysis | School of Environment and Sustainability, University of Michigan | 2015"
+  },
+  {
+    "objectID": "kevin.html#experience",
+    "href": "kevin.html#experience",
+    "title": "Kevin Li",
+    "section": "Experience",
+    "text": "Experience\nMatrix Metrics | Data Analysis Consultant | 2020 - present\nPennsylvania State University | Postdoctoral Scholar | 2025 - present\nOak Ridge Institute for Science Education and US Department of Agriculture | SCINet Postdoctoral Fellow | 2022 - 2025\nUniversity of Michigan | Postdoctoral Researcher | 2020 - 2022\nSustainable Stables | Landscape Design Consultant | 2015 - 2017\nNorth Carolina State University | Postgraduate Researcher | 2015 - 2017\nCornell University | GIS Consultant | 2016 - 2017"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research investigates how ecology and society interact in a landscape context. I use quantitative methods to support sustainable and equitable solutions that seek to integrate human activity within the larger landscape system, with a goal of fulfilling people’s needs while fostering conservation and restoration of natural ecosystems."
+  },
+  {
+    "objectID": "research.html#landscape-ecosystem-functions-and-services",
+    "href": "research.html#landscape-ecosystem-functions-and-services",
+    "title": "Research",
+    "section": "Landscape ecosystem functions and services",
+    "text": "Landscape ecosystem functions and services\n\nDistance from forest effects\nWildflower strips ecosystem services\nPollinator resource connectivity and continuity"
+  },
+  {
+    "objectID": "research.html#data-tools-for-environmental-research-and-planning",
+    "href": "research.html#data-tools-for-environmental-research-and-planning",
+    "title": "Research",
+    "section": "Data tools for environmental research and planning",
+    "text": "Data tools for environmental research and planning\n\nBeeSpatial\nbioaccessibility modeling tool\nforest floral resource phenology modeling"
+  },
+  {
+    "objectID": "research.html#disruption-and-restoration-of-landscape-systems",
+    "href": "research.html#disruption-and-restoration-of-landscape-systems",
+    "title": "Research",
+    "section": "Disruption and restoration of landscape systems",
+    "text": "Disruption and restoration of landscape systems\n\neffects of islands on trophic connections\ncritical transitions are ecological surprises - coffee rust"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Matrix Metrics",
+    "section": "",
+    "text": "Ecological and social systems are critically interconnected in the landscape. In the vocabulary of landscape and agro-ecology, the landscape matrix describes parts of the landscape where people and nature interact. As a scientist and researcher, I value metrics as tools for quantifying the observable world around me in hopes of better understanding it. Matrix metrics has a nice alliterative ring to it.\nAs a landscape ecologist, I want to understand certain things about the landscape matrix – how we humans impact it, how the natural systems within it support us, and how we can support it. I am committed to using my expertise to find solutions that support a sustainable and functioning matrix, which are responsive to local communities, support people’s health and needs, and restore natural systems.\n\n\n\nLandscape ecology and agroecology\nEcological Landscape Planning and Design\nEcoSpatial Statistics\nGeospatial Analysis"
+  },
+  {
+    "objectID": "index.html#what-are-matrix-metrics",
+    "href": "index.html#what-are-matrix-metrics",
+    "title": "Matrix Metrics",
+    "section": "",
+    "text": "Ecological and social systems are critically interconnected in the landscape. In the vocabulary of landscape and agro-ecology, the landscape matrix describes parts of the landscape where people and nature interact. As a scientist and researcher, I value metrics as tools for quantifying the observable world around me in hopes of better understanding it. Matrix metrics has a nice alliterative ring to it.\nAs a landscape ecologist, I want to understand certain things about the landscape matrix – how we humans impact it, how the natural systems within it support us, and how we can support it. I am committed to using my expertise to find solutions that support a sustainable and functioning matrix, which are responsive to local communities, support people’s health and needs, and restore natural systems.\n\n\n\nLandscape ecology and agroecology\nEcological Landscape Planning and Design\nEcoSpatial Statistics\nGeospatial Analysis"
+  },
+  {
+    "objectID": "publications-dynamic.html",
+    "href": "publications-dynamic.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Li, K. and S. Goslee. Modeling tools for ecosystem service tradeoffs and synergies in agricultural landscapes. Journal of Soil and Water Conservation. In press.\nBosshard, E., M. E. Harrison, F. J. F. van Veen, N. B. Chikkarangappa, J. E. Banks, P. Basu, B. Dalsgaard, A. Dutta, E. Enríquez, N. Escobedo-Kenefic, B. Gemmill-Herren, J. Ghazoul, K. Hansen, A. L. Hass, O. Honnay, J. M. Kasina, A.-M. Klein, I. K. Motzke, S. Krishnan, P. Landaverde, A. O. Latini, K. Li, R. Lucas-Garcia, T. Munyuli, D. Narasimhaiah, D. Obregon, J. J. G. Quezada-Euán, V. Rosas-Guerrero, J. Schrader, F. Severiano-Galeana, T. M. Sitotaw, T. Sritongchuay, P. Tangtorwangsakul, M. Toledo-Hernandez, P. Viswanathan, C. Vogel, K. Wayo, C. Westphal, M. L. Jones, and C. N. Kaiser-Bunbury. Proximity to natural habitat is not consistently associated with pollination services in tropical smallholder farms: A systematic review and meta-analysis. Ecology Letters. In press.\nSu, C., Z. Hajian-Forooshani, K. Li, J. Vandermeer, and I. Perfecto. Non-independent co-occurrence of two important coffee fungal pathogens suggests a potential trade-off in varietal resistance. Journal of Phytopathology. In press.\nLi, K. and S. Goslee. 2025. Benefits of wildflower strips in agricultural field margins differ based on landscape complexity across four ecosystem services. Landscape Ecology 40:173.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        authors\n      \n      \n        year\n      \n      \n        venue\n      \n      \n        Categories\n      \n      \n        link\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nLi, K.; Goslee, S. (2025).\n\n\nBenefits of wildflower strips in agricultural field margins differ based on landscape complexity across four ecosystem services\n\n\nLandscape Ecology DOI\n\nagricultural landscapes,ecosystem service models,field margins,hydrologic services,landscape metrics,pollination,wildflower strips \n\n\nNo matching items"
+  }
+]

@@ -1,0 +1,15 @@
+<ul class="pub-list list">
+<% for (const item of items) { %>
+  <li <%= metadataAttrs(item) %>>
+    <p class="listing-authors"><%= item.authors %> (<span class="listing-year"><%= item.year %></span>).</p>
+    <p class="listing-title"><strong><%= item.title %></strong></p>
+    <p class="listing-venue">
+      <em><%= item.venue %><% if (item.volume) { %>, <%= item.volume %><% } %><% if (item.pages) { %>, <%= item.pages %><% } %></em>
+      <% if (item.link) { %> <a href="<%- item.link %>" target="_blank">DOI</a><% } %>
+    </p>
+    <a href="<%- item.href %>" class="listing-categories"><%= item.categories %></a><br/>
+    <span class="listing-custom-field"><%= item['custom-field'] %><span>
+
+  </li>
+<% } %>
+</ul>

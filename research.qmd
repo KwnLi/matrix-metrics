@@ -1,0 +1,30 @@
+---
+title: "Research"
+format: html
+---
+
+My research investigates how ecology and society interact in a landscape context. I use quantitative methods to support sustainable and equitable solutions that seek to integrate human activity within the larger landscape system, with a goal of fulfilling people’s needs while fostering conservation and restoration of natural ecosystems.
+
+## Landscape ecosystem functions and services
+
+-   Distance from forest effects
+
+-   Wildflower strips ecosystem services
+
+-   Pollinator resource connectivity and continuity
+
+## Data tools for environmental research and planning
+
+-   BeeSpatial
+
+-   bioaccessibility modeling tool
+
+-   forest floral resource phenology modeling
+
+## Disruption and restoration of landscape systems
+
+-   effects of islands on trophic connections
+
+-   critical transitions are ecological surprises - coffee rust
+
+-   
