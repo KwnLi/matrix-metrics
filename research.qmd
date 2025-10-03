@@ -19,7 +19,7 @@ Can we design landscapes leverage ecological processes to optimize multiple ecos
 
 Ecological data is messy and complex. I am passionate about learning and using a variety of applied statistical methods, from spatially explicit point process models to generalized linear mixed effects models to disentangle ecological patterns. I am also interested in developing tools that make landscape data and dynamic processes accessible to a wide audience.
 
-### System disruption and transformation in the landscape
+### Landscape transformation
 
 A landscape is a complex system where social, historical, and ecological forces interact. My work searches for leverage points where relatively small changes can lead to broader impacts, to apply in building resilient socio-ecological systems.
 
