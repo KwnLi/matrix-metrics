@@ -5,26 +5,28 @@ format: html
 
 My research investigates how ecology and society interact in a landscape context. I use quantitative methods to support sustainable and equitable solutions that seek to integrate human activity within the larger landscape system, with a goal of fulfilling people’s needs while fostering conservation and restoration of natural ecosystems.
 
-## Landscape ecosystem functions and services
+## Spatial ecological processes, functions, and services over multiple scales
 
--   Distance from forest effects
+Recurring question in my work are:
 
--   Wildflower strips ecosystem services
+-   What can we understand from the spatial organization of ecological phenomena?
 
--   Pollinator resource connectivity and continuity
+-   To what degree do ecological processes organize and influence their own spatial distribution, versus being determined by environmental and landscape context?
 
-## Data tools for environmental research and planning
+I am especially interested in how we can leverage ecological processes in the landscape to design conservation practices that optimize ecosystem services such as pollination and crop production. This requires understanding how the landscape influences ecosystem functions and services through the composition and configuration of natural habitats versus human land uses.
 
--   BeeSpatial
+-   In my dissertation work in Indonesia, I found that oil palm pollinators may benefit from mesopredator-suppressing effects, e.g. insectivorous birds that spill over from the forest into the oil palm farm (Li et al. 2023, *Agric Ecosyst Environ*).
 
--   bioaccessibility modeling tool
+## Data tools for conservation and environmental planning
 
--   forest floral resource phenology modeling
+I use a variety of applied statistical methods, from spatially explicit point process models to generalized linear mixed effects models to disentangle ecological patterns. I am also develop tools that make landscape data and dynamic processes accessible to a wide audience.
 
-## Disruption and restoration of landscape systems
+-   I developed the web application [BeeSpatial](https://beesuite.psu.edu/beespatial/) as a research-focused complement to [Beescape](https://beescape.psu.edu/), an interactive map-based application that helps users assess landscape quality for supporting bees and other pollinators.
 
--   effects of islands on trophic connections
+## System disruption and transformation in the landscape
 
--   critical transitions are ecological surprises - coffee rust
+A landscape is a complex system where social, historical, and ecological forces interact. My work searches for leverage points where relatively small changes can lead to broader impacts, to apply in building resilient socio-ecological systems.
 
--   
+-   I applied a tipping point indicator from engineering to understand the spatiotemporal dynamics of annual resurgences of the coffee leaf rust (*Hemileia vastatrix*) in a Mexican farm (Li *et al.* 2022, *Sci Rep*).
+
+-   My recently published work shows that distinct aspects of landscape composition and configuration maximize different ecosystem services through nonlinear relationships, suggesting thresholds or tipping points (Li and Goslee 2025, *Landscape Ecol*).
