@@ -3,30 +3,48 @@ title: "Research"
 format: html
 ---
 
+## Research Themes
+
 My research investigates how ecology and society interact in a landscape context. I use quantitative methods to support sustainable and equitable solutions that seek to integrate human activity within the larger landscape system, with a goal of fulfilling people’s needs while fostering conservation and restoration of natural ecosystems.
 
-## Spatial ecological processes, functions, and services over multiple scales
+### Endogenous and Exogenous Spatial Patterns
 
-Recurring question in my work are:
+A recurring theme of my work is inferring pattern from the spatial organization of ecological phenomena. I want to understand, to what degree do ecological processes organize and influence their own spatial distribution (are **endogenous**), as opposed to reflect their environmental (**exogenous**) context?
 
--   What can we understand from the spatial organization of ecological phenomena?
+### Landscape Ecosystem Services
 
--   To what degree do ecological processes organize and influence their own spatial distribution, versus being determined by environmental and landscape context?
+Can we design landscapes leverage ecological processes to optimize multiple ecosystem services, like pollination and crop production? This requires understanding how the landscape influences ecosystem functions and services through the composition and configuration of various types of natural habitats versus human land uses.
 
-I am especially interested in how we can leverage ecological processes in the landscape to design conservation practices that optimize ecosystem services such as pollination and crop production. This requires understanding how the landscape influences ecosystem functions and services through the composition and configuration of natural habitats versus human land uses.
+### Data tools for conservation and environmental planning
 
--   In my dissertation work in Indonesia, I found that oil palm pollinators may benefit from mesopredator-suppressing effects, e.g. insectivorous birds that spill over from the forest into the oil palm farm (Li et al. 2023, *Agric Ecosyst Environ*).
+Ecological data is messy and complex. I am passionate about learning and using a variety of applied statistical methods, from spatially explicit point process models to generalized linear mixed effects models to disentangle ecological patterns. I am also interested in developing tools that make landscape data and dynamic processes accessible to a wide audience.
 
-## Data tools for conservation and environmental planning
-
-I use a variety of applied statistical methods, from spatially explicit point process models to generalized linear mixed effects models to disentangle ecological patterns. I am also develop tools that make landscape data and dynamic processes accessible to a wide audience.
-
--   I developed the web application [BeeSpatial](https://beesuite.psu.edu/beespatial/) as a research-focused complement to [Beescape](https://beescape.psu.edu/), an interactive map-based application that helps users assess landscape quality for supporting bees and other pollinators.
-
-## System disruption and transformation in the landscape
+### System disruption and transformation in the landscape
 
 A landscape is a complex system where social, historical, and ecological forces interact. My work searches for leverage points where relatively small changes can lead to broader impacts, to apply in building resilient socio-ecological systems.
 
--   I applied a tipping point indicator from engineering to understand the spatiotemporal dynamics of annual resurgences of the coffee leaf rust (*Hemileia vastatrix*) in a Mexican farm (Li *et al.* 2022, *Sci Rep*).
+## Research Projects
+
+*Under development!*
+
+### Landscape Floral Resource Continuity and Connectivity
+
+Insect pollinators rely on floral resources in their landscape, while their visits to flowering plants can provide pollination. My ongoing work seeks to better understand what floral resources are available to pollinators over space and time. I am developing projects that use citizen science data and satellite imagery to map floral communities and use existing long-term datasets from the US Forest Service to model underappreciated forest-based floral resources.
+
+### BeeSpatial
+
+I develop the web application [BeeSpatial](https://beesuite.psu.edu/beespatial/) as a research-focused complement to [Beescape](https://beescape.psu.edu/), an interactive map-based application that helps users assess landscape quality for supporting bees and other pollinators. BeeSpatial helps researchers access a trove of habitat and environmental landscape data, including predicted seasonal floral resources, bee nesting habitat, land cover, and climate variables.
+
+### Modeling Landscape Agroecosystem Services
 
 -   My recently published work shows that distinct aspects of landscape composition and configuration maximize different ecosystem services through nonlinear relationships, suggesting thresholds or tipping points (Li and Goslee 2025, *Landscape Ecol*).
+
+## Completed Research Projects
+
+### Coffee Leaf Rust Transmission Dynamics and Tipping Points
+
+-   I applied a tipping point indicator from engineering to understand the spatiotemporal dynamics of annual resurgences of the coffee leaf rust (*Hemileia vastatrix*) in a Mexican farm (Li *et al.* 2022, *Sci Rep*).
+
+### Pollinators in Oil Palm-Transformed Landscapes
+
+-   In my dissertation work in Indonesia, I found that oil palm pollinators may benefit from mesopredator-suppressing effects, e.g. insectivorous birds that spill over from the forest into the oil palm farm (Li et al. 2023, *Agric Ecosyst Environ*).
