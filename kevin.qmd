@@ -1,10 +1,10 @@
 ---
 title: "Kevin Li"
-image: media/kevin.jpg
+image: media/tree.jpg
 toc: false
 about:
   template: solana
-  image-shape: round
+  image-shape: rounded
   image-width: 17em
   links:
     - text: LinkedIn

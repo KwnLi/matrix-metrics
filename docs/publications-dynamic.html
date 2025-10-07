@@ -79,9 +79,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-authors','listing-year','listing-venue','listing-categories','listing-link',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-authors","listing-year","listing-venue","listing-categories","listing-link"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -182,7 +182,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YWdyaWN1bHR1cmFsJTIwbGFuZHNjYXBlcw==">agricultural landscapes <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZWNvc3lzdGVtJTIwc2VydmljZSUyMG1vZGVscw==">ecosystem service models <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZmllbGQlMjBtYXJnaW5z">field margins <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aHlkcm9sb2dpYyUyMHNlcnZpY2Vz">hydrologic services <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bGFuZHNjYXBlJTIwbWV0cmljcw==">landscape metrics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cG9sbGluYXRpb24=">pollination <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d2lsZGZsb3dlciUyMHN0cmlwcw==">wildflower strips <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -205,15 +205,11 @@ window.Quarto = {
 </header>
 
 
-<p><strong>Li, K.</strong> and S. Goslee. Modeling tools for ecosystem service tradeoffs and synergies in agricultural landscapes. <em>Journal of Soil and Water Conservation</em>. <em>In press.</em></p>
-<p>Bosshard, E., M. E. Harrison, F. J. F. van Veen, N. B. Chikkarangappa, J. E. Banks, P. Basu, B. Dalsgaard, A. Dutta, E. Enríquez, N. Escobedo-Kenefic, B. Gemmill-Herren, J. Ghazoul, K. Hansen, A. L. Hass, O. Honnay, J. M. Kasina, A.-M. Klein, I. K. Motzke, S. Krishnan, P. Landaverde, A. O. Latini, <strong>K. Li</strong>, R. Lucas-Garcia, T. Munyuli, D. Narasimhaiah, D. Obregon, J. J. G. Quezada-Euán, V. Rosas-Guerrero, J. Schrader, F. Severiano-Galeana, T. M. Sitotaw, T. Sritongchuay, P. Tangtorwangsakul, M. Toledo-Hernandez, P. Viswanathan, C. Vogel, K. Wayo, C. Westphal, M. L. Jones, and C. N. Kaiser-Bunbury. Proximity to natural habitat is not consistently associated with pollination services in tropical smallholder farms: A systematic review and meta-analysis. <em>Ecology Letters</em>. <em>In press.</em></p>
-<p>Su, C., Z. Hajian-Forooshani, <strong>K. Li</strong>, J. Vandermeer, and I. Perfecto. Non-independent co-occurrence of two important coffee fungal pathogens suggests a potential trade-off in varietal resistance. <em>Journal of Phytopathology</em>. <em>In press</em>.</p>
-<p><strong>Li, K.</strong> and S. Goslee. 2025. Benefits of wildflower strips in agricultural field margins differ based on landscape complexity across four ecosystem services. <em>Landscape Ecology</em> 40:173.</p>
 
 
 
 
-<div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
@@ -223,20 +219,8 @@ window.Quarto = {
       <option value="listing-title" data-direction="asc">
         Title
       </option>
-      <option value="listing-authors" data-direction="asc">
-        authors
-      </option>
-      <option value="listing-year" data-direction="asc">
-        year
-      </option>
-      <option value="listing-venue" data-direction="asc">
-        venue
-      </option>
-      <option value="listing-categories" data-direction="asc">
-        Categories
-      </option>
-      <option value="listing-link" data-direction="asc">
-        link
+      <option value="listing-author" data-direction="asc">
+        Author
       </option>
     </select>
   </div>
@@ -245,20 +229,108 @@ window.Quarto = {
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-<ul class="pub-list list">
-<li data-index="0" data-categories="YWdyaWN1bHR1cmFsJTIwbGFuZHNjYXBlcyUyQ2Vjb3N5c3RlbSUyMHNlcnZpY2UlMjBtb2RlbHMlMkNmaWVsZCUyMG1hcmdpbnMlMkNoeWRyb2xvZ2ljJTIwc2VydmljZXMlMkNsYW5kc2NhcGUlMjBtZXRyaWNzJTJDcG9sbGluYXRpb24lMkN3aWxkZmxvd2VyJTIwc3RyaXBz">
-<p class="listing-authors">
-Li, K.; Goslee, S. (<span class="listing-year">2025</span>).
-</p>
-<p class="listing-title">
-<strong>Benefits of wildflower strips in agricultural field margins differ based on landscape complexity across four ecosystem services</strong>
-</p>
-<p class="listing-venue">
-<em>Landscape Ecology</em> <a href="https://doi.org/10.1007/s10980-025-02185-y" target="_blank">DOI</a>
-</p>
-<p><a href="" class="listing-categories">agricultural landscapes,ecosystem service models,field margins,hydrologic services,landscape metrics,pollination,wildflower strips</a><br> <span class="listing-custom-field"><span></span></span></p>
-</li>
-</ul>
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1759691375311" data-listing-reading-time-sort="2" data-listing-word-count-sort="283">
+<div class="thumbnail"><a href="./kevin.html" class="no-external">
+
+<img loading="lazy" src="./media/tree.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./kevin.html" class="no-external">Kevin Li</a>
+</h3>
+<div class="delink listing-description"><a href="./kevin.html" class="no-external">
+I am a landscape- and agro-ecologist who is also trained in landscape architecture. I use my unique background to take an encompassing approach to research in landscape…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./kevin.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1759500037109" data-listing-reading-time-sort="1" data-listing-word-count-sort="156">
+<div class="thumbnail"><a href="./index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./index.html" class="no-external">Matrix Metrics</a>
+</h3>
+<div class="delink listing-description"><a href="./index.html" class="no-external">
+<strong><em>I am actively developing this site. Come back soon for updates!</em></strong>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./index.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-file-modified-sort="1759386599910" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail"><a href="./posts.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts.html" class="no-external">Notes</a>
+</h3>
+<div class="delink listing-description"><a href="./posts.html" class="no-external">
+
+<div class="list quarto-listing-default">
+
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-listing-file-modified-sort="1759468502608" data-listing-reading-time-sort="8" data-listing-word-count-sort="1517">
+<div class="thumbnail"><a href="./publications.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./publications.html" class="no-external">Publications</a>
+</h3>
+<div class="delink listing-description"><a href="./publications.html" class="no-external">
+<strong>Li, K.</strong> and S. Goslee. Modeling tools for ecosystem service tradeoffs and synergies in agricultural landscapes. <em>Journal of Soil and Water Conservation</em>. <em>In press.</em>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./publications.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-listing-file-modified-sort="1759689409914" data-listing-reading-time-sort="3" data-listing-word-count-sort="497">
+<div class="thumbnail"><a href="./research.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./research.html" class="no-external">Research</a>
+</h3>
+<div class="delink listing-description"><a href="./research.html" class="no-external">
+My research investigates how ecology and society interact in a landscape context. I conduct field and computational research in ecology to look for solutions that integrate…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./research.html" class="no-external">
+</a>
+</div>
+</div>
+</div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

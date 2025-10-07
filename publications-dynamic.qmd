@@ -1,18 +1,10 @@
 ---
 title: "Publications"
 listing:
-  contents: publications/publications.yml
-  template: publications/pub-template.ejs
+  # contents: publications/publications.yml
+  # template: publications/pub-template.ejs
   sort-ui: true
   categories: true
   filter-ui: true
 page-layout: full
 ---
-
-**Li, K.** and S. Goslee. Modeling tools for ecosystem service tradeoffs and synergies in agricultural landscapes. *Journal of Soil and Water Conservation*. *In press.*
-
-Bosshard, E., M. E. Harrison, F. J. F. van Veen, N. B. Chikkarangappa, J. E. Banks, P. Basu, B. Dalsgaard, A. Dutta, E. Enríquez, N. Escobedo-Kenefic, B. Gemmill-Herren, J. Ghazoul, K. Hansen, A. L. Hass, O. Honnay, J. M. Kasina, A.-M. Klein, I. K. Motzke, S. Krishnan, P. Landaverde, A. O. Latini, **K. Li**, R. Lucas-Garcia, T. Munyuli, D. Narasimhaiah, D. Obregon, J. J. G. Quezada-Euán, V. Rosas-Guerrero, J. Schrader, F. Severiano-Galeana, T. M. Sitotaw, T. Sritongchuay, P. Tangtorwangsakul, M. Toledo-Hernandez, P. Viswanathan, C. Vogel, K. Wayo, C. Westphal, M. L. Jones, and C. N. Kaiser-Bunbury. Proximity to natural habitat is not consistently associated with pollination services in tropical smallholder farms: A systematic review and meta-analysis. *Ecology Letters*. *In press.*
-
-Su, C., Z. Hajian-Forooshani, **K. Li**, J. Vandermeer, and I. Perfecto. Non-independent co-occurrence of two important coffee fungal pathogens suggests a potential trade-off in varietal resistance. *Journal of Phytopathology*. *In press*.
-
-**Li, K.** and S. Goslee. 2025. Benefits of wildflower strips in agricultural field margins differ based on landscape complexity across four ecosystem services. *Landscape Ecology* 40:173.

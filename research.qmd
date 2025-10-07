@@ -5,21 +5,21 @@ format: html
 
 ## Research Themes
 
-My research investigates how ecology and society interact in a landscape context. I use quantitative methods to support sustainable and equitable solutions that seek to integrate human activity within the larger landscape system, with a goal of fulfilling people’s needs while fostering conservation and restoration of natural ecosystems.
+My research investigates how ecology and society interact in a landscape context. I conduct field and computational research in ecology to look for solutions that integrate human activity within the larger landscape system. My goal is to find sustainable and equitable ways to fulfill people’s needs while restoring and protecting natural ecosystems.
 
-### Endogenous and Exogenous Spatial Patterns
+### Understanding spatial patterns of ecological processes
 
 A recurring theme of my work is inferring pattern from the spatial organization of ecological phenomena. I want to understand, to what degree do ecological processes organize and influence their own spatial distribution (are **endogenous**), as opposed to reflect their environmental (**exogenous**) context?
 
-### Landscape Ecosystem Services
+### Optimizing landscape ecosystem services
 
 Can we design landscapes leverage ecological processes to optimize multiple ecosystem services, like pollination and crop production? This requires understanding how the landscape influences ecosystem functions and services through the composition and configuration of various types of natural habitats versus human land uses.
 
-### Data tools for conservation and environmental planning
+### Supporting data-driven decision making in conservation and environment
 
 Ecological data is messy and complex. I am passionate about learning and using a variety of applied statistical methods, from spatially explicit point process models to generalized linear mixed effects models to disentangle ecological patterns. I am also interested in developing tools that make landscape data and dynamic processes accessible to a wide audience.
 
-### Landscape transformation
+### Understanding factors of landscape transformation
 
 A landscape is a complex system where social, historical, and ecological forces interact. My work searches for leverage points where relatively small changes can lead to broader impacts, to apply in building resilient socio-ecological systems.
 

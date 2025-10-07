@@ -5,6 +5,12 @@
   },
   {
     "listing": "/publications-dynamic.html",
-    "items": []
+    "items": [
+      "/kevin.html",
+      "/index.html",
+      "/posts.html",
+      "/publications.html",
+      "/research.html"
+    ]
   }
 ]
