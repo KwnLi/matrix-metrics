@@ -62,7 +62,7 @@ title: "Publications"
 
 30. Bradham, K. D., C. M. Nelson, J. Kelly, A. Pomales, K. Scruton, T. Dignam, J. C. Misenheimer, **K. Li**, D. R. Obenour, and D. J. Thomas. 2017. Relationship Between Total and Bioaccessible Lead on Children’s Blood Lead Levels in Urban Residential Philadelphia Soils. *Environmental Science & Technology* 51:10005–10011.
 
-31. **Li, K.**, Y. He, S. K. Campbell, A. S. Colborn, E. L. Jackson, A. Martin, I. V. Monagan, T. W. Y. Ong, and I. Perfecto. 2017. From endogenous to exogenous pattern formation: Invasive plant species changes the spatial distribution of a native ant. *Global Change Biology* 23:2250–2261.
+31. **Li, K.\***, Y. He\*, S. K. Campbell, A. S. Colborn, E. L. Jackson, A. Martin, I. V. Monagan, T. W. Y. Ong, and I. Perfecto. 2017. From endogenous to exogenous pattern formation: Invasive plant species changes the spatial distribution of a native ant. *Global Change Biology* 23:2250–2261. \**Denotes equal contribution as co-first authors.*
 
 32. **Li, K.**, J. H. Vandermeer, and I. Perfecto. 2016. Disentangling endogenous versus exogenous pattern formation in spatial ecology: a case study of the ant *Azteca sericeasur* in southern Mexico. *Royal Society Open Science* 3:160073–160073.
 
