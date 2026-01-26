@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,14 +32,15 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6bdd2aebeb936dcddaa5f935a5de481c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f93c2b1f3f0577f377aefa4848a86a36.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,6 +80,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Matrix Metrics</span>
     </a>
@@ -127,10 +130,10 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#research-themes" id="toc-research-themes" class="nav-link active" data-scroll-target="#research-themes">Research Themes</a>
   <ul class="collapse">
-  <li><a href="#endogenous-and-exogenous-spatial-patterns" id="toc-endogenous-and-exogenous-spatial-patterns" class="nav-link" data-scroll-target="#endogenous-and-exogenous-spatial-patterns">Endogenous and Exogenous Spatial Patterns</a></li>
-  <li><a href="#landscape-ecosystem-services" id="toc-landscape-ecosystem-services" class="nav-link" data-scroll-target="#landscape-ecosystem-services">Landscape Ecosystem Services</a></li>
-  <li><a href="#data-tools-for-conservation-and-environmental-planning" id="toc-data-tools-for-conservation-and-environmental-planning" class="nav-link" data-scroll-target="#data-tools-for-conservation-and-environmental-planning">Data tools for conservation and environmental planning</a></li>
-  <li><a href="#landscape-transformation" id="toc-landscape-transformation" class="nav-link" data-scroll-target="#landscape-transformation">Landscape transformation</a></li>
+  <li><a href="#understanding-spatial-patterns-of-ecological-processes" id="toc-understanding-spatial-patterns-of-ecological-processes" class="nav-link" data-scroll-target="#understanding-spatial-patterns-of-ecological-processes">Understanding spatial patterns of ecological processes</a></li>
+  <li><a href="#optimizing-landscape-ecosystem-services" id="toc-optimizing-landscape-ecosystem-services" class="nav-link" data-scroll-target="#optimizing-landscape-ecosystem-services">Optimizing landscape ecosystem services</a></li>
+  <li><a href="#supporting-data-driven-decision-making-in-conservation-and-environment" id="toc-supporting-data-driven-decision-making-in-conservation-and-environment" class="nav-link" data-scroll-target="#supporting-data-driven-decision-making-in-conservation-and-environment">Supporting data-driven decision making in conservation and environment</a></li>
+  <li><a href="#understanding-factors-of-landscape-transformation" id="toc-understanding-factors-of-landscape-transformation" class="nav-link" data-scroll-target="#understanding-factors-of-landscape-transformation">Understanding factors of landscape transformation</a></li>
   </ul></li>
   <li><a href="#research-projects" id="toc-research-projects" class="nav-link" data-scroll-target="#research-projects">Research Projects</a>
   <ul class="collapse">
@@ -141,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#completed-research-projects" id="toc-completed-research-projects" class="nav-link" data-scroll-target="#completed-research-projects">Completed Research Projects</a>
   <ul class="collapse">
   <li><a href="#coffee-leaf-rust-transmission-dynamics-and-tipping-points" id="toc-coffee-leaf-rust-transmission-dynamics-and-tipping-points" class="nav-link" data-scroll-target="#coffee-leaf-rust-transmission-dynamics-and-tipping-points">Coffee Leaf Rust Transmission Dynamics and Tipping Points</a></li>
-  <li><a href="#pollinators-in-oil-palm-transformed-landscapes" id="toc-pollinators-in-oil-palm-transformed-landscapes" class="nav-link" data-scroll-target="#pollinators-in-oil-palm-transformed-landscapes">Pollinators in Oil Palm-Transformed Landscapes</a></li>
+  <li><a href="#pollinators-in-oil-palm-landscapes" id="toc-pollinators-in-oil-palm-landscapes" class="nav-link" data-scroll-target="#pollinators-in-oil-palm-landscapes">Pollinators in Oil Palm Landscapes</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -171,29 +174,28 @@ ul.task-list li input[type="checkbox"] {
 <section id="research-themes" class="level2">
 <h2 class="anchored" data-anchor-id="research-themes">Research Themes</h2>
 <p>My research investigates how ecology and society interact in a landscape context. I conduct field and computational research in ecology to look for solutions that integrate human activity within the larger landscape system. My goal is to find sustainable and equitable ways to fulfill people’s needs while restoring and protecting natural ecosystems.</p>
-<section id="endogenous-and-exogenous-spatial-patterns" class="level3">
-<h3 class="anchored" data-anchor-id="endogenous-and-exogenous-spatial-patterns">Endogenous and Exogenous Spatial Patterns</h3>
+<section id="understanding-spatial-patterns-of-ecological-processes" class="level3">
+<h3 class="anchored" data-anchor-id="understanding-spatial-patterns-of-ecological-processes">Understanding spatial patterns of ecological processes</h3>
 <p>A recurring theme of my work is inferring pattern from the spatial organization of ecological phenomena. I want to understand, to what degree do ecological processes organize and influence their own spatial distribution (are <strong>endogenous</strong>), as opposed to reflect their environmental (<strong>exogenous</strong>) context?</p>
 </section>
-<section id="landscape-ecosystem-services" class="level3">
-<h3 class="anchored" data-anchor-id="landscape-ecosystem-services">Landscape Ecosystem Services</h3>
+<section id="optimizing-landscape-ecosystem-services" class="level3">
+<h3 class="anchored" data-anchor-id="optimizing-landscape-ecosystem-services">Optimizing landscape ecosystem services</h3>
 <p>Can we design landscapes leverage ecological processes to optimize multiple ecosystem services, like pollination and crop production? This requires understanding how the landscape influences ecosystem functions and services through the composition and configuration of various types of natural habitats versus human land uses.</p>
 </section>
-<section id="data-tools-for-conservation-and-environmental-planning" class="level3">
-<h3 class="anchored" data-anchor-id="data-tools-for-conservation-and-environmental-planning">Data tools for conservation and environmental planning</h3>
-<p>Ecological data is messy and complex. I am passionate about learning and using a variety of applied statistical methods, from spatially explicit point process models to generalized linear mixed effects models to disentangle ecological patterns. I am also interested in developing tools that make landscape data and dynamic processes accessible to a wide audience.</p>
+<section id="supporting-data-driven-decision-making-in-conservation-and-environment" class="level3">
+<h3 class="anchored" data-anchor-id="supporting-data-driven-decision-making-in-conservation-and-environment">Supporting data-driven decision making in conservation and environment</h3>
+<p>Ecological data is messy and complex. I am use a variety of applied statistical methods, from spatially explicit point process models to generalized linear mixed effects models to disentangle ecological patterns. I am also interested in developing tools that make landscape data and dynamic processes accessible to a wide audience.</p>
 </section>
-<section id="landscape-transformation" class="level3">
-<h3 class="anchored" data-anchor-id="landscape-transformation">Landscape transformation</h3>
+<section id="understanding-factors-of-landscape-transformation" class="level3">
+<h3 class="anchored" data-anchor-id="understanding-factors-of-landscape-transformation">Understanding factors of landscape transformation</h3>
 <p>A landscape is a complex system where social, historical, and ecological forces interact. My work searches for leverage points where relatively small changes can lead to broader impacts, to apply in building resilient socio-ecological systems.</p>
 </section>
 </section>
 <section id="research-projects" class="level2">
 <h2 class="anchored" data-anchor-id="research-projects">Research Projects</h2>
-<p><em>Under development!</em></p>
 <section id="landscape-floral-resource-continuity-and-connectivity" class="level3">
 <h3 class="anchored" data-anchor-id="landscape-floral-resource-continuity-and-connectivity">Landscape Floral Resource Continuity and Connectivity</h3>
-<p>Insect pollinators rely on floral resources in their landscape, while their visits to flowering plants can provide pollination. My ongoing work seeks to better understand what floral resources are available to pollinators over space and time. I am developing projects that use citizen science data and satellite imagery to map floral communities and use existing long-term datasets from the US Forest Service to model underappreciated forest-based floral resources.</p>
+<p>Insect pollinators rely on floral resources in their landscape, while their visits to flowering plants can provide pollination. My ongoing work seeks to better understand what floral resources are available to pollinators over space and time. I am developing projects that use citizen science data and satellite imagery to map floral communities.</p>
 </section>
 <section id="beespatial" class="level3">
 <h3 class="anchored" data-anchor-id="beespatial">BeeSpatial</h3>
@@ -201,24 +203,18 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="modeling-landscape-agroecosystem-services" class="level3">
 <h3 class="anchored" data-anchor-id="modeling-landscape-agroecosystem-services">Modeling Landscape Agroecosystem Services</h3>
-<ul>
-<li>My recently published work shows that distinct aspects of landscape composition and configuration maximize different ecosystem services through nonlinear relationships, suggesting thresholds or tipping points (Li and Goslee 2025, <em>Landscape Ecol</em>).</li>
-</ul>
+<p>My recently published work shows that distinct aspects of landscape composition and configuration maximize different ecosystem services through nonlinear relationships, suggesting thresholds or tipping points (Li and Goslee 2025, <em>Landscape Ecol</em>).</p>
 </section>
 </section>
 <section id="completed-research-projects" class="level2">
 <h2 class="anchored" data-anchor-id="completed-research-projects">Completed Research Projects</h2>
 <section id="coffee-leaf-rust-transmission-dynamics-and-tipping-points" class="level3">
 <h3 class="anchored" data-anchor-id="coffee-leaf-rust-transmission-dynamics-and-tipping-points">Coffee Leaf Rust Transmission Dynamics and Tipping Points</h3>
-<ul>
-<li>I applied a tipping point indicator from engineering to understand the spatiotemporal dynamics of annual resurgences of the coffee leaf rust (<em>Hemileia vastatrix</em>) in a Mexican farm (Li <em>et al.</em> 2022, <em>Sci Rep</em>).</li>
-</ul>
+<p>I applied a tipping point indicator from engineering to understand the spatiotemporal dynamics of annual resurgences of the coffee leaf rust (<em>Hemileia vastatrix</em>) in a Mexican farm (Li <em>et al.</em> 2022, <em>Sci Rep</em>).</p>
 </section>
-<section id="pollinators-in-oil-palm-transformed-landscapes" class="level3">
-<h3 class="anchored" data-anchor-id="pollinators-in-oil-palm-transformed-landscapes">Pollinators in Oil Palm-Transformed Landscapes</h3>
-<ul>
-<li>In my dissertation work in Indonesia, I found that oil palm pollinators may benefit from mesopredator-suppressing effects, e.g.&nbsp;insectivorous birds that spill over from the forest into the oil palm farm (Li et al.&nbsp;2023, <em>Agric Ecosyst Environ</em>).</li>
-</ul>
+<section id="pollinators-in-oil-palm-landscapes" class="level3">
+<h3 class="anchored" data-anchor-id="pollinators-in-oil-palm-landscapes">Pollinators in Oil Palm Landscapes</h3>
+<p>In my dissertation work in Indonesia, I found that oil palm pollinators may benefit from mesopredator-suppressing effects, e.g.&nbsp;insectivorous birds that spill over from the forest into the oil palm farm (Li et al.&nbsp;2023, <em>Agric Ecosyst Environ</em>).</p>
 
 
 </section>
@@ -276,13 +272,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

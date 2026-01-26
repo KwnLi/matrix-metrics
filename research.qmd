@@ -17,7 +17,7 @@ Can we design landscapes leverage ecological processes to optimize multiple ecos
 
 ### Supporting data-driven decision making in conservation and environment
 
-Ecological data is messy and complex. I am passionate about learning and using a variety of applied statistical methods, from spatially explicit point process models to generalized linear mixed effects models to disentangle ecological patterns. I am also interested in developing tools that make landscape data and dynamic processes accessible to a wide audience.
+Ecological data is messy and complex. I am use a variety of applied statistical methods, from spatially explicit point process models to generalized linear mixed effects models to disentangle ecological patterns. I am also interested in developing tools that make landscape data and dynamic processes accessible to a wide audience.
 
 ### Understanding factors of landscape transformation
 
@@ -25,11 +25,9 @@ A landscape is a complex system where social, historical, and ecological forces 
 
 ## Research Projects
 
-*Under development!*
-
 ### Landscape Floral Resource Continuity and Connectivity
 
-Insect pollinators rely on floral resources in their landscape, while their visits to flowering plants can provide pollination. My ongoing work seeks to better understand what floral resources are available to pollinators over space and time. I am developing projects that use citizen science data and satellite imagery to map floral communities and use existing long-term datasets from the US Forest Service to model underappreciated forest-based floral resources.
+Insect pollinators rely on floral resources in their landscape, while their visits to flowering plants can provide pollination. My ongoing work seeks to better understand what floral resources are available to pollinators over space and time. I am developing projects that use citizen science data and satellite imagery to map floral communities.
 
 ### BeeSpatial
 
@@ -37,14 +35,14 @@ I develop the web application [BeeSpatial](https://beesuite.psu.edu/beespatial/)
 
 ### Modeling Landscape Agroecosystem Services
 
--   My recently published work shows that distinct aspects of landscape composition and configuration maximize different ecosystem services through nonlinear relationships, suggesting thresholds or tipping points (Li and Goslee 2025, *Landscape Ecol*).
+My recently published work shows that distinct aspects of landscape composition and configuration maximize different ecosystem services through nonlinear relationships, suggesting thresholds or tipping points (Li and Goslee 2025, *Landscape Ecol*).
 
 ## Completed Research Projects
 
 ### Coffee Leaf Rust Transmission Dynamics and Tipping Points
 
--   I applied a tipping point indicator from engineering to understand the spatiotemporal dynamics of annual resurgences of the coffee leaf rust (*Hemileia vastatrix*) in a Mexican farm (Li *et al.* 2022, *Sci Rep*).
+I applied a tipping point indicator from engineering to understand the spatiotemporal dynamics of annual resurgences of the coffee leaf rust (*Hemileia vastatrix*) in a Mexican farm (Li *et al.* 2022, *Sci Rep*).
 
-### Pollinators in Oil Palm-Transformed Landscapes
+### Pollinators in Oil Palm Landscapes
 
--   In my dissertation work in Indonesia, I found that oil palm pollinators may benefit from mesopredator-suppressing effects, e.g. insectivorous birds that spill over from the forest into the oil palm farm (Li et al. 2023, *Agric Ecosyst Environ*).
+In my dissertation work in Indonesia, I found that oil palm pollinators may benefit from mesopredator-suppressing effects, e.g. insectivorous birds that spill over from the forest into the oil palm farm (Li et al. 2023, *Agric Ecosyst Environ*).
