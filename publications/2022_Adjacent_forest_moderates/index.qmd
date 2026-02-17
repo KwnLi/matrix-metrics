@@ -1,0 +1,20 @@
+---
+title: Adjacent forest moderates insect pollination of oil palm
+author:
+- Li, K.
+- Grass, I.
+- Fung, T.
+- Fardiansah, R.
+- Rohlfs, M.
+- Buchori, D.
+- Tscharntke, T.
+categories: []
+url_source: https://linkinghub.elsevier.com/retrieve/pii/S0167880922002572
+url_preprint: ''
+journ: Agriculture, Ecosystems & Environment
+volume: 338
+page: '108108'
+year: 2022
+doi: 10.1016/j.agee.2022.108108
+---
+

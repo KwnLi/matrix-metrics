@@ -1,0 +1,25 @@
+---
+title: Relationship Between Total and Bioaccessible Lead on Children’s Blood Lead
+  Levels in Urban Residential Philadelphia Soils
+author:
+- Bradham, K. D.
+- Nelson, C. M.
+- Kelly, J.
+- Pomales, A.
+- Scruton, K.
+- Dignam, T.
+- Misenheimer, J. C.
+- Li, K.
+- Obenour, D. R.
+- Thomas, D. J.
+categories: []
+url_source: https://doi.org/10.1021/acs.est.7b02058
+url_preprint: ''
+journ: Environmental Science & Technology
+volume: 51
+issue: 17
+page: 10005-10011
+year: 2017
+doi: 10.1021/acs.est.7b02058
+---
+

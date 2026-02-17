@@ -1,16 +1,46 @@
 [
   {
-    "listing": "/posts.html",
-    "items": []
+    "listing": "/publications.html",
+    "items": [
+      "/publications/2026_Agricultural_intensification_associated/index.html",
+      "/publications/2025_Benefits_of_wildflower/index.html",
+      "/publications/2025_Estimating_accuracy_and/index.html",
+      "/publications/2025_Interplay_between_harvesting,/index.html",
+      "/publications/2025_Modeling_tools_for/index.html",
+      "/publications/2025_Non-Independent_Co-Occurrence_of/index.html",
+      "/publications/2025_Proximity_to_Natural/index.html",
+      "/publications/2024_A_map_of/index.html",
+      "/publications/2024_A_simple_mechanism/index.html",
+      "/publications/2024_Farmer_Perceptions_of/index.html",
+      "/publications/2024_Not_just_crop/index.html",
+      "/publications/2024_Seasonal_bee_communities/index.html",
+      "/publications/2024_United_States_house/index.html",
+      "/publications/2023_An_estuary_stress/index.html",
+      "/publications/2023_Coffee_leaf_rust/index.html",
+      "/publications/2023_Looking_beyond_land-use/index.html",
+      "/publications/2023_Tree_identity_and/index.html",
+      "/publications/2023_Tree_islands_enhance/index.html",
+      "/publications/2023_Tropical_lowland_rainforest/index.html",
+      "/publications/2022_A_national_survey/index.html",
+      "/publications/2022_Adjacent_forest_moderates/index.html",
+      "/publications/2022_Biomonitoring_via_DNA/index.html",
+      "/publications/2022_Reduced_rainfall_and/index.html",
+      "/publications/2020_Landscape_drivers_of/index.html",
+      "/publications/2020_Taylor_made_landscapes:/index.html",
+      "/publications/2019_Critical_factors_limiting/index.html",
+      "/publications/2019_Reducing_Fertilizer_and/index.html",
+      "/publications/2019_The_Community_Ecology/index.html",
+      "/publications/2018_Context_Matters:_Contrasting/index.html",
+      "/publications/2018_Relating_soil_geochemical/index.html",
+      "/publications/2017_From_endogenous_to/index.html",
+      "/publications/2017_Relationship_Between_Total/index.html",
+      "/publications/2016_Disentangling_endogenous_versus/index.html",
+      "/publications/2013_Effect_of_Sub-Canopy/index.html",
+      "/publications/2009_Coyote,_Canis_latrans,/index.html"
+    ]
   },
   {
-    "listing": "/publications-dynamic.html",
-    "items": [
-      "/kevin.html",
-      "/index.html",
-      "/posts.html",
-      "/publications.html",
-      "/research.html"
-    ]
+    "listing": "/posts.html",
+    "items": []
   }
 ]

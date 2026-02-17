@@ -1,0 +1,18 @@
+---
+title: An estuary stress index based on nekton relationships with thematic watershed
+  stressors
+author:
+- Li, K.
+- Blackhart, K.
+- Miller, J.
+- Obenour, D.
+categories: []
+url_source: https://www.sciencedirect.com/science/article/pii/S1470160X23008208
+url_preprint: ''
+journ: Ecological Indicators
+volume: 154
+page: '110678'
+year: 2023
+doi: 10.1016/j.ecolind.2023.110678
+---
+

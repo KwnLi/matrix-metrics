@@ -1,0 +1,24 @@
+---
+title: 'From endogenous to exogenous pattern formation: Invasive plant species changes
+  the spatial distribution of a native ant'
+author:
+- Li, K.
+- He, Y.
+- Campbell, S. K.
+- Colborn, A. S.
+- Jackson, E. L.
+- Martin, A.
+- Monagan, I. V.
+- Ong, T. W. Y.
+- Perfecto, I.
+categories: []
+url_source: http://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.13671
+url_preprint: ''
+journ: Global Change Biology
+volume: 23
+issue: 6
+page: 2250-2261
+year: 2017
+doi: 10.1111/gcb.13671
+---
+

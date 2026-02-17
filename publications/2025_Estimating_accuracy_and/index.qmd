@@ -1,0 +1,19 @@
+---
+title: Estimating accuracy and precision in the bioavailability-adjusted exposure
+  point concentration to support human health risk assessment of lead-contaminated
+  soils
+author:
+- Nelson, C. M.
+- Li, K.
+- Diamond, G. L.
+- Lambert, M.
+- Bradham, K. D.
+categories: []
+url_source: https://doi.org/10.1080/15287394.2025.2542348
+url_preprint: ''
+journ: Journal of Toxicology and Environmental Health, Part A
+page: ''
+year: 2025
+doi: 10.1080/15287394.2025.2542348
+---
+

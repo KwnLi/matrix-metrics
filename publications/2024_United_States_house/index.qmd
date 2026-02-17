@@ -1,0 +1,26 @@
+---
+title: 'United States house dust Pb concentrations are influenced by soil, paint,
+  and house age: insights from a national survey'
+author:
+- Sowers, T. D.
+- Nelson, C. M.
+- Blackmon, M. D.
+- Li, K.
+- Jerden, M. L.
+- Kirby, A. M.
+- Kovalcik, K.
+- Cox, D.
+- Dewalt, G.
+- Friedman, W.
+- Pinzer, E. A.
+- Ashley, P. J.
+- Bradham, K. D.
+categories: []
+url_source: https://www.nature.com/articles/s41370-024-00655-0
+url_preprint: ''
+journ: Journal of Exposure Science & Environmental Epidemiology
+page: 1-9
+year: 2024
+doi: 10.1038/s41370-024-00655-0
+---
+

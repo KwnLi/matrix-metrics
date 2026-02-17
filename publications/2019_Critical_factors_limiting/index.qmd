@@ -1,0 +1,18 @@
+---
+title: 'Critical factors limiting pollination success in oil palm: A systematic review'
+author:
+- Li, K.
+- Tscharntke, T.
+- Saintes, B.
+- Buchori, D.
+- Grass, I.
+categories: []
+url_source: http://www.sciencedirect.com/science/article/pii/S0167880919301240
+url_preprint: ''
+journ: Agriculture, Ecosystems & Environment
+volume: 280
+page: 152-160
+year: 2019
+doi: 10.1016/j.agee.2019.05.001
+---
+

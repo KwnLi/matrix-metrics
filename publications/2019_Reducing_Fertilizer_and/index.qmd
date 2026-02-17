@@ -1,0 +1,44 @@
+---
+title: Reducing Fertilizer and Avoiding Herbicides in Oil Palm Plantations—Ecological
+  and Economic Valuations
+author:
+- Darras, K. F. A.
+- Corre, M. D.
+- Formaglio, G.
+- Tjoa, A.
+- Potapov, A.
+- Brambach, F.
+- Sibhatu, K. T.
+- Grass, I.
+- Rubiano, A. A.
+- Buchori, D.
+- Drescher, J.
+- Fardiansah, R.
+- Hölscher, D.
+- Irawan, B.
+- Kneib, T.
+- Krashevska, V.
+- Krause, A.
+- Kreft, H.
+- Li, K.
+- Maraun, M.
+- Polle, A.
+- Ryadin, A. R.
+- Rembold, K.
+- Stiegler, C.
+- Scheu, S.
+- Tarigan, S.
+- Valdés-Uribe, A.
+- Yadi, S.
+- Tscharntke, T.
+- Veldkamp, E.
+categories: []
+url_source: http://www.frontiersin.org/articles/10.3389/ffgc.2019.00065/full?utm_source=S-TWT&utm_medium=SNET&utm_campaign=ECO_FSUFS_XXXXXXXX_auto-dlvrit
+url_preprint: ''
+journ: Frontiers in Forests and Global Change
+volume: 2
+page: ''
+year: 2019
+doi: 10.3389/ffgc.2019.00065
+---
+

@@ -1,0 +1,111 @@
+```{=html}
+<%
+function formatAuthorsAPA(authors) {
+  if (!authors) return "";
+
+  // If string, use it
+  if (typeof authors === "string") {
+    return authors;
+  }
+
+  // If array, format APA-style
+  if (Array.isArray(authors)) {
+    if (authors.length === 1) return authors[0];
+
+    if (authors.length === 2) {
+      return `${authors[0]} & ${authors[1]}`;
+    }
+
+    const lastAuthor = authors[authors.length - 1];
+    const others = authors.slice(0, -1);
+    return `${others.join(", ")}, & ${lastAuthor}`;
+  }
+
+  return "";
+}
+
+function formatAPA(item) {
+  const authors = formatAuthorsAPA(item.author);
+  const year = item.year ? `(${item.year}).` : "";
+  const title = item.title ? `${item.title}.` : "";
+  const journal = item.journ ? `<i>${item.journ}</i>` : "";
+  const volume = item.volume ? ` <i>${item.volume}</i>` : "";
+  const issue = item.issue ? `(${item.issue})` : "";
+  const pages = item.page ? `, ${item.page}` : "";
+  const doi = item.doi ? ` https://doi.org/${item.doi}` : "";
+
+  return `
+    ${authors} ${year}
+    ${title}
+    ${journal}${volume}${issue}${pages}.
+    ${doi}
+  `.replace(/\s+/g, " ").trim();
+}
+%>
+
+<div class="list quarto-listing-default">
+    <% for (const item of items) { %>
+    
+    <% const hasImage = !!item.image; %>
+
+    <div class="quarto-post image-right <%= hasImage ? 'has-image' : 'no-image' %>"
+         <%= metadataAttrs(item) %>>
+         
+        <% if (hasImage) { %>
+          <div class="thumbnail">
+            <img
+              alt="<%= item.title %>"
+              src="<%= item.path %>/<%= item.image %>"
+              class="thumbnail-image">
+          </div>
+        <% } %>
+         
+        <div class="body">
+            <!-- <a href="<%- item.path %>"> -->
+
+            <div class="listing-pub-apa">
+              <%= formatAPA(item) %>
+            </div>
+
+            <!-- </a> -->
+        <% if (Array.isArray(item.categories)) { %>
+          <div class="listing-categories">
+            <% for (const category of item.categories) { %>
+              <div class="listing-category"
+                   onclick="window.quartoListingCategory('<%= category %>'); return false;">
+                <%= category %>
+              </div>
+            <% } %>
+          </div>
+        <% } %>
+
+        </div>
+        <div class="listing-links">
+            <% if (item.url_source) { %>
+            <div class="listing-pub-url">
+
+                    <a href="<%- item.url_source %>">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    <% } %>
+
+            <% if (item.url_preprint) { %>
+            <div class="listing-pub-url">
+
+                    <a href="<%- item.url_preprint %>">
+                    <p style="color:#8250E6;">preprint URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    <% } %>
+
+
+
+
+        </div>
+    </div>
+
+    <% } %>
+    </div>
+
+```

@@ -1,0 +1,27 @@
+---
+title: A national survey of lead and other metal(loids) in residential drinking water
+  in the United States
+author:
+- Bradham, K. D.
+- Nelson, C. M.
+- Sowers, T. D.
+- Lytle, D. A.
+- Tully, J.
+- Schock, M. R.
+- Li, K.
+- Blackmon, M. D.
+- Kovalcik, K.
+- Cox, D.
+- Dewalt, G.
+- Friedman, W.
+- Pinzer, E. A.
+- Ashley, P. J.
+categories: []
+url_source: https://www.nature.com/articles/s41370-022-00461-6
+url_preprint: ''
+journ: Journal of Exposure Science & Environmental Epidemiology
+page: 1-8
+year: 2022
+doi: 10.1038/s41370-022-00461-6
+---
+

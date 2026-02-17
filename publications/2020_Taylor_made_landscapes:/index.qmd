@@ -1,0 +1,21 @@
+---
+title: 'Taylor made landscapes: using Taylor''s law to scale between metapopulations
+  and source-sinks in urban garden space'
+author:
+- Ong, T. W. Y.
+- Li, K.
+- Lucatero, A.
+- Pak, D.
+- Hawkes, L. M.
+- Hunter, M. R.
+- Vandermeer, J. H.
+categories: []
+url_source: https://www.frontiersin.org/articles/10.3389/fsufs.2020.00046/abstract
+url_preprint: ''
+journ: Frontiers in Sustainable Food Systems
+volume: 4
+page: ''
+year: 2020
+doi: 10.3389/fsufs.2020.00046
+---
+

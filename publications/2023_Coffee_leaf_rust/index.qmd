@@ -1,0 +1,19 @@
+---
+title: Coffee leaf rust (Hemileia vastatrix) is spread by rain splash from infected
+  leaf litter in a semi-controlled experiment
+author:
+- Li, K.
+- Hajian-Forooshani, Z.
+- Vandermeer, J.
+- Perfecto, I.
+categories: []
+url_source: https://doi.org/10.1007/s42161-023-01404-2
+url_preprint: ''
+journ: Journal of Plant Pathology
+volume: 105
+issue: 3
+page: 667-672
+year: 2023
+doi: 10.1007/s42161-023-01404-2
+---
+

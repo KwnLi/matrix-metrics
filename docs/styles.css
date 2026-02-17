@@ -1,5 +1,22 @@
 /* css styles */
 
+/* Default Quarto listing layout */
+.quarto-post {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 1rem;
+}
+
+/* When there is NO image, let the body expand fully */
+.quarto-post.no-image {
+  grid-template-columns: 1fr auto;
+}
+
+/* Ensure body can actually grow */
+.quarto-post.no-image .body {
+  width: 100%;
+}
+
 .pub-list { list-style: none; padding: 0; }
 
 .pub-list li { margin-bottom: 1.0rem; }

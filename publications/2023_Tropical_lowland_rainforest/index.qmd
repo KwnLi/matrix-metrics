@@ -1,0 +1,21 @@
+---
+title: Tropical lowland rainforest conversion to rubber monoculture affects flight
+  activity and pollen resources of the stingless bees Tetragonula laeviceps
+author:
+- Pulungan, Z. N.
+- Priawandiputra, W.
+- Grass, I.
+- Li, K.
+- Robo, R. J.
+- Raffiudin, R.
+categories: []
+url_source: https://jurnal.pei-pusat.org/index.php/jei/article/view/741
+url_preprint: ''
+journ: Jurnal Entomologi Indonesia
+volume: 20
+issue: 1
+page: 88-100
+year: 2023
+doi: 10.5994/jei.20.1.88
+---
+

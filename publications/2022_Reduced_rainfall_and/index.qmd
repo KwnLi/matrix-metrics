@@ -1,0 +1,20 @@
+---
+title: Reduced rainfall and resistant varieties mediate a critical transition in the
+  coffee rust disease
+author:
+- Li, K.
+- Hajian-Forooshani, Z.
+- Su, C.
+- Perfecto, I.
+- Vandermeer, J.
+categories: []
+url_source: http://www.nature.com/articles/s41598-022-05362-0
+url_preprint: ''
+journ: Scientific Reports
+volume: 12
+issue: 1
+page: '1564'
+year: 2022
+doi: 10.1038/s41598-022-05362-0
+---
+

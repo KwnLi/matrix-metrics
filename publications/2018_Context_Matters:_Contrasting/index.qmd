@@ -1,0 +1,18 @@
+---
+title: 'Context Matters: Contrasting Ladybird Beetle Responses to Urban Environments
+  across Two US Regions'
+author:
+- Egerer, M.
+- Li, K.
+- Ong, T. W. Y.
+categories: []
+url_source: http://www.mdpi.com/2071-1050/10/6/1829
+url_preprint: ''
+journ: Sustainability
+volume: 10
+issue: 6
+page: '1829'
+year: 2018
+doi: 10.3390/su10061829
+---
+

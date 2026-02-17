@@ -1,0 +1,17 @@
+---
+title: Landscape drivers of connectivity for a forest rodent in a coffee agroecosystem
+author:
+- Otero-Jiménez, B.
+- Li, K.
+- Tucker, P. K.
+categories: []
+url_source: https://doi.org/10.1007/s10980-020-00999-6
+url_preprint: ''
+journ: Landscape Ecology
+volume: 35
+issue: 5
+page: 1249-1261
+year: 2020
+doi: 10.1007/s10980-020-00999-6
+---
+

@@ -1,0 +1,19 @@
+---
+title: 'Not just crop or forest: an integrated land cover map for agricultural and
+  natural areas'
+author:
+- Kammerer, M.
+- Iverson, A. L.
+- Li, K.
+- Goslee, S. C.
+categories: []
+url_source: https://www.nature.com/articles/s41597-024-02979-w
+url_preprint: ''
+journ: Scientific Data
+volume: 11
+issue: 1
+page: '137'
+year: 2024
+doi: 10.1038/s41597-024-02979-w
+---
+

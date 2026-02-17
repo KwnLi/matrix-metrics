@@ -1,0 +1,24 @@
+---
+title: Tree identity and canopy openness mediate oil palm biodiversity enrichment
+  effects on insect herbivory and pollination
+author:
+- Li, K.
+- Grass, I.
+- Zemp, D. C.
+- Lorenz, H.
+- Sachsenmaier, L.
+- Nurdiansyah, F.
+- Hölscher, D.
+- Kreft, H.
+- Tscharntke, T.
+categories: []
+url_source: https://onlinelibrary.wiley.com/doi/abs/10.1002/eap.2862
+url_preprint: ''
+journ: Ecological Applications
+volume: 33
+issue: 5
+page: e2862
+year: 2023
+doi: 10.1002/eap.2862
+---
+

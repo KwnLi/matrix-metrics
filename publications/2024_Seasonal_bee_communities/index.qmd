@@ -1,0 +1,20 @@
+---
+title: 'Seasonal bee communities vary in their responses to resources at local and
+  landscape scales: implication for land managers'
+author:
+- Kammerer, M.
+- Iverson, A. L.
+- Li, K.
+- Tooker, J. F.
+- Grozinger, C. M.
+categories: []
+url_source: https://doi.org/10.1007/s10980-024-01895-z
+url_preprint: ''
+journ: Landscape Ecology
+volume: 39
+issue: 5
+page: '97'
+year: 2024
+doi: 10.1007/s10980-024-01895-z
+---
+

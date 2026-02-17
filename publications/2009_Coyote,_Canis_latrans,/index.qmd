@@ -1,0 +1,20 @@
+---
+title: Coyote, Canis latrans, Predation on a Bison, Bison bison, Calf in Yellowstone
+  National Park
+author:
+- Sheldon, J. W.
+- Reed, G.
+- Burnett, A. C.
+- Li, K.
+- Crabtree, R. L.
+categories: []
+url_source: https://www.canadianfieldnaturalist.ca/index.php/cfn/article/view/974
+url_preprint: ''
+journ: The Canadian Field-Naturalist
+volume: 123
+issue: 3
+page: 260-261
+year: 2009
+doi: 10.22621/cfn.v123i3.974
+---
+

@@ -1,0 +1,62 @@
+---
+title: 'Proximity to Natural Habitat Is Not Consistently Associated With Pollination
+  Services in Tropical Smallholder Farms: A Systematic Review and Meta-Analysis'
+author:
+- Bosshard, E.
+- Harrison, M. E.
+- van Veen, F.
+- Kettle, C. J.
+- Chikkarangappa, N. B.
+- Banks, J. E.
+- Basu, P.
+- Casiá-Ajché, Q. B.
+- Dalsgaard, B.
+- Dutta, A.
+- Enríquez, E.
+- Escobedo-Kenefic, N.
+- Fierros-López, H. E.
+- Gemmill-Herren, B.
+- Ghazoul, J.
+- Hansen, K.
+- Hass, A. L.
+- Hipólito, J.
+- Honnay, O.
+- Kasina, J. M.
+- Klein, A.
+- Motzke, I. K.
+- Krishnan, S.
+- Landaverde, P.
+- Latini, A. O.
+- Li, K.
+- Lucas-García, R.
+- Munyuli, T.
+- Narasimhaiah, D.
+- Obregon, D.
+- Quezada-Euán, J. J. G.
+- Riojas-López, M. E.
+- Rosas-Guerrero, V.
+- Schrader, J.
+- Severiano-Galeana, F.
+- Sitotaw, T. M.
+- Sritongchuay, T.
+- Tangtorwangsakul, P.
+- Toledo-Hernandez, M.
+- Tscharntke, T.
+- Viswanathan, P.
+- Vogel, C.
+- Wanger, T. C.
+- Wayo, K.
+- Westphal, C.
+- Jones, M. L.
+- Kaiser-Bunbury, C. N.
+categories: []
+url_source: https://onlinelibrary.wiley.com/doi/abs/10.1111/ele.70229
+url_preprint: ''
+journ: Ecology Letters
+volume: 28
+issue: 12
+page: e70229
+year: 2025
+doi: 10.1111/ele.70229
+---
+

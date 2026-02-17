@@ -1,0 +1,58 @@
+---
+title: Tree islands enhance biodiversity and functioning in oil palm landscapes
+author:
+- Zemp, D. C.
+- Guerrero-Ramirez, N.
+- Brambach, F.
+- Darras, K.
+- Grass, I.
+- Potapov, A.
+- Röll, A.
+- Arimond, I.
+- Ballauff, J.
+- Behling, H.
+- Berkelmann, D.
+- Biagioni, S.
+- Buchori, D.
+- Craven, D.
+- Daniel, R.
+- Gailing, O.
+- Ellsäßer, F.
+- Fardiansah, R.
+- Hennings, N.
+- Irawan, B.
+- Khokthong, W.
+- Krashevska, V.
+- Krause, A.
+- Kückes, J.
+- Li, K.
+- Lorenz, H.
+- Maraun, M.
+- Merk, M. S.
+- Moura, C. C. M.
+- Mulyani, Y. A.
+- Paterno, G. B.
+- Pebrianti, H. D.
+- Polle, A.
+- Prameswari, D. A.
+- Sachsenmaier, L.
+- Scheu, S.
+- Schneider, D.
+- Setiajiati, F.
+- Setyaningsih, C. A.
+- Sundawati, L.
+- Tscharntke, T.
+- Wollni, M.
+- Hölscher, D.
+- Kreft, H.
+categories: []
+url_source: https://www.nature.com/articles/s41586-023-06086-5
+url_preprint: ''
+journ: Nature
+volume: 618
+issue: 7964
+page: 316-321
+year: 2023
+doi: 10.1038/s41586-023-06086-5
+---
+

@@ -1,73 +1,17 @@
 ---
 title: "Publications"
+listing:
+  - id: pubs
+    template: _ejs/publications.ejs
+    contents: publications/**/*.qmd
+    sort: "year desc"
+    page-size: 30
+    filter-ui: true
+    fields: [image, title, publication, author,url_source]
+page-layout: full
 ---
 
-1.  Morris, J. R., J. de la Fuente Ramírez, S. K. Morris, **K. Li**, M. Benítez, I. Perfecto. Agricultural intensification associated with significant reduction in epiphyte diversity on coffee plants. *Agriculture, Ecosystems & Environment*. *In press.*
+<hr>
 
-2.  **Li, K.** and S. Goslee. 2025. Modeling tools for ecosystem service tradeoffs and synergies in agricultural landscapes. *Journal of Soil and Water Conservation*:1–17.
-
-3.  Bosshard, E., M. E. Harrison, F. J. F. van Veen, N. B. Chikkarangappa, J. E. Banks, P. Basu, B. Dalsgaard, A. Dutta, E. Enríquez, N. Escobedo-Kenefic, B. Gemmill-Herren, J. Ghazoul, K. Hansen, A. L. Hass, O. Honnay, J. M. Kasina, A.-M. Klein, I. K. Motzke, S. Krishnan, P. Landaverde, A. O. Latini, **K. Li**, R. Lucas-Garcia, T. Munyuli, D. Narasimhaiah, D. Obregon, J. J. G. Quezada-Euán, V. Rosas-Guerrero, J. Schrader, F. Severiano-Galeana, T. M. Sitotaw, T. Sritongchuay, P. Tangtorwangsakul, M. Toledo-Hernandez, P. Viswanathan, C. Vogel, K. Wayo, C. Westphal, M. L. Jones, and C. N. Kaiser-Bunbury. Proximity to natural habitat is not consistently associated with pollination services in tropical smallholder farms: A systematic review and meta-analysis. *Ecology Letters* 28:e70229.
-
-4.  Su, C., Z. Hajian-Forooshani, **K. Li**, J. Vandermeer, and I. Perfecto. Non-independent co-occurrence of two important coffee fungal pathogens suggests a potential trade-off in varietal resistance. *Journal of Phytopathology* 173:e70184.
-
-5.  **Li, K.** and S. Goslee. 2025. Benefits of wildflower strips in agricultural field margins differ based on landscape complexity across four ecosystem services. *Landscape Ecology* 40:173.
-
-6.  Nelson, C. M., **K. Li**, G. L. Diamond, M. Lambert, and K. D. Bradham. 2025. Estimating accuracy and precision in the bioavailability-adjusted exposure point concentration to support human health risk assessment of lead-contaminated soils. *Journal of Toxicology and Environmental Health, Part A*
-
-7.  Mora Van Cauwelaert, E., **K. Li**, Z. Hajian-Forooshani, J. Vandermeer, and M. Benítez. 2025. Interplay between harvesting, planting density, and ripening time affects coffee leaf rust dispersal and infection. *Theoretical Ecology* 18:14.
-
-8.  Adkins, K. A.\*, **K. Li\***, M. N. Blasko, J. L. Cabrera, B. H. Neal, T. Y. James, Z. Hajian-Forooshani, S. Brines, and I. Perfecto. 2024. A simple mechanism for uncrewed aircraft bioaerosol sampling in the lower atmosphere. *Landscape Ecology* 39:133. \**Denotes equal contribution as co-first authors.*
-
-9.  Klenke, G., S. Brines, N. Hernandez, **K. Li**, R. Glancy, J. Cabrera, B. H. Neal, K. A. Adkins, R. Schroeder, and I. Perfecto. 2024. Farmer Perceptions of Land Cover Classification of UAS Imagery of Coffee Agroecosystems in Puerto Rico. *Geographies* 4:321–342.
-
-10. **Li, K.**, J. Fisher, A. Power, and A. Iverson. 2024. A map of pollinator floral resource habitats in the agricultural landscape of Central New York. *One Ecosystem* 9:e118634.
-
-11. Kammerer, M., A. L. Iverson, **K. Li**, J. F. Tooker, and C. M. Grozinger. 2024. Seasonal bee communities vary in their responses to resources at local and landscape scales: implication for land managers. *Landscape Ecology* 39:97.
-
-12. Sowers, T. D., C. M. Nelson, M. D. Blackmon, **K. Li**, M. L. Jerden, A. M. Kirby, K. Kovalcik, D. Cox, G. Dewalt, W. Friedman, E. A. Pinzer, P. J. Ashley, and K. D. Bradham. 2024. United States house dust Pb concentrations are influenced by soil, paint, and house age: insights from a national survey. *Journal of Exposure Science & Environmental Epidemiology*:1–9.
-
-13. Kammerer, M., A. L. Iverson, **K. Li**, and S. C. Goslee. 2024. Not just crop or forest: an integrated land cover map for agricultural and natural areas. *Scientific Data* 11:137.
-
-14. **Li, K.**,K. Blackhart, J. Miller, and D. Obenour. 2023. An estuary stress index based on nekton relationships with thematic watershed stressors. *Ecological Indicators* 154:110678.
-
-15. **Li, K.**, Z. Hajian-Forooshani, J. Vandermeer, and I. Perfecto. 2023. Coffee leaf rust (*Hemileia vastatrix*) is spread by rain splash from infected leaf litter in a semi-controlled experiment. *Journal of Plant Pathology* 105:667–672.
-
-16. **Li, K.**, I. Grass, D. C. Zemp, H. Lorenz, L. Sachsenmaier, F. Nurdiansyah, D. Hölscher, H. Kreft, and T. Tscharntke. 2023. Tree identity and canopy openness mediate oil palm biodiversity enrichment effects on insect herbivory and pollination. *Ecological Applications* 33:e2862.
-
-17. Zemp, D. C., N. R. Guerrero-Ramírez, F. Brambach, K. Darras, I. Grass, A. Potapov, A. Röll, I. Arimond, J. Ballauff, B. Hermann, D. Berkelmann, S. Biagioni, D. Buchori, D. Craven, R. Daniel, O. Gailing, F. Ellsäßer, R. Fardiansah, N. Hennings, B. Irawan, W. Khokthong, V. Krashevska, A. Krause, J. Kückes, **K. Li**, H. Lorenz, M. Maraun, M. Merk, C. C. d. M. Moura, Y. Mulyani, G. P. H. Pebrianti, A. Polle, D. A. Prameswari, L. Sachsenmaier, S. Scheu, D. Schneider, F. Setianjiati, C. Setyaningsih, L. Sundawati, T. Tscharntke, M. Wollni, D. Hölscher, and H. Kreft. 2023. Tree islands enhance biodiversity and functioning in oil palm landscapes. *Nature*.
-
-18. Perfecto, I., L. F. Chaves, G. M. Fitch, Z. Hajian-Forooshani, B. Iuliano, **K. Li**, N. Medina, J. Morris, B. O. Jiménez, I. S. Rivera-Salinas, C. Su, J. Vandermeer, A. White, and K. Williams-Guillén. 2023. Looking beyond land-use and land-cover change: Zoonoses emerge in the agricultural matrix. O*ne Earth* 6:1131–1142.
-
-19. Pulungan, Z. N., W. Priawandiputra, I. Grass, **K. Li**, R. J. Robo, and R. Raffiudin. 2023. Tropical lowland rainforest conversion to rubber monoculture affects flight activity and pollen resources of the stingless bees Tetragonula laeviceps. *Jurnal Entomologi Indonesia* 20:88–100.
-
-20. **Li, K.**, I. Grass, T.-Y. Fung, R. Fardiansah, M. Rohlfs, D. Buchori, and T. Tscharntke. 2022. Adjacent forest moderates insect pollination of oil palm. *Agriculture, Ecosystems & Environment* 338:108108.
-
-21. **Li, K.**, Z. Hajian-Forooshani, C. Su, I. Perfecto, and J. Vandermeer. 2022. Reduced rainfall and resistant varieties mediate a critical transition in the coffee rust disease. *Scientific Reports* 12:1564.
-
-22. Bradham, K. D., C. M. Nelson, T. D. Sowers, D. A. Lytle, J. Tully, M. R. Schock, **K. Li**, M. D. Blackmon, K. Kovalcik, D. Cox, G. Dewalt, W. Friedman, E. A. Pinzer, and P. J. Ashley. 2022. A national survey of lead and other metal(loids) in residential drinking water in the United States. *Journal of Exposure Science & Environmental Epidemiology*:1–8.
-
-23. Carneiro de Melo Moura, C., C. A. Setyaningsih, **K. Li**, M. S. Merk, S. Schulze, R. Raffiudin, I. Grass, H. Behling, T. Tscharntke, C. Westphal, and O. Gailing. 2022. Biomonitoring via DNA metabarcoding and light microscopy of bee pollen in rainforest transformation landscapes of Sumatra. *BMC Ecology and Evolution* 22:51.
-
-24. Ong, T. W., **K. Li**, A. Lucatero, D. Pak, L. Hawkes, M. Hunter, and J. Vandermeer. 2020. Taylor Made Landscapes: Using Taylor’s Law to Scale Between Metapopulations and Source-Sinks in Urban Garden Space. *Frontiers in Sustainable Food Systems* 4.
-
-25. Otero Jiménez, B., **K. Li**, and P. K. Tucker. 2020. Landscape drivers of connectivity for a forest rodent in a coffee agroecosystem. *Landscape Ecology* 35:1249–1261.
-
-26. Vandermeer, J., I. Armbrecht, A. de la Mora, K. K. Ennis, G. Fitch, D. J. Gonthier, Z. Hajian-Forooshani, H.-Y. Hsieh, A. Iverson, D. Jackson, S. Jha, E. Jiménez-Soto, G. Lopez-Bautista, A. Larsen, **K. Li**, H. Liere, A. MacDonald, L. Marin, K. A. Mathis, I. Monagan, J. R. Morris, T. Ong, G. L. Pardee, I. S. Rivera-Salinas, C. Vaiyda, K. Williams-Guillen, S. Yitbarek, S. Uno, A. Zemenick, S. M. Philpott, and I. Perfecto. 2019. The Community Ecology of Herbivore Regulation in an Agroecosystem: Lessons from Complex Systems. *BioScience* 69:974–996.
-
-27. Darras, K. F. A., M. D. Corre, G. Formaglio, A. Tjoa, A. Potapov, F. Brambach, K. T. Sibhatu, I. Grass, A. A. Rubiano, D. Buchori, J. Drescher, R. Fardiansah, D. Hölscher, B. Irawan, T. Kneib, V. Krashevska, A. Krause, H. Kreft, **K. Li**, M. Maraun, A. Polle, A. R. Ryadin, K. Rembold, C. Stiegler, S. Scheu, S. Tarigan, A. Valdés-Uribe, S. Yadi, T. Tscharntke, and E. Veldkamp. 2019. Reducing Fertilizer and Avoiding Herbicides in Oil Palm Plantations—Ecological and Economic Valuations. *Frontiers in Forests and Global Change* 2.
-
-28. **Li, K.**, T. Tscharntke, B. Saintes, D. Buchori, and I. Grass. 2019. Critical factors limiting pollination success in oil palm: A systematic review. *Agriculture, Ecosystems & Environment* 280:152–160.
-
-29. Egerer, M., **K. Li**, and T. Ong. 2018. Context Matters: Contrasting Ladybird Beetle Responses to Urban Environments across Two US Regions. *Sustainability* 10:1829.
-
-30. Nelson, C. M., **K. Li**, D. R. Obenour, J. Miller, J. C. Misenheimer, K. Scheckel, A. Betts, A. Juhasz, D. J. Thomas, and K. D. Bradham. 2018. Relating soil geochemical properties to arsenic bioaccessibility through hierarchical modeling. *Journal of Toxicology and Environmental Health*, Part A 81:160–172.
-
-31. Bradham, K. D., C. M. Nelson, J. Kelly, A. Pomales, K. Scruton, T. Dignam, J. C. Misenheimer, **K. Li**, D. R. Obenour, and D. J. Thomas. 2017. Relationship Between Total and Bioaccessible Lead on Children’s Blood Lead Levels in Urban Residential Philadelphia Soils. *Environmental Science & Technology* 51:10005–10011.
-
-32. **Li, K.\***, Y. He\*, S. K. Campbell, A. S. Colborn, E. L. Jackson, A. Martin, I. V. Monagan, T. W. Y. Ong, and I. Perfecto. 2017. From endogenous to exogenous pattern formation: Invasive plant species changes the spatial distribution of a native ant. *Global Change Biology* 23:2250–2261. \**Denotes equal contribution as co-first authors.*
-
-33. **Li, K.**, J. H. Vandermeer, and I. Perfecto. 2016. Disentangling endogenous versus exogenous pattern formation in spatial ecology: a case study of the ant *Azteca sericeasur* in southern Mexico. *Royal Society Open Science* 3:160073–160073.
-
-34. Belasen, A., E. Burkett, A. Injaian, **K. Li**, D. Allen, I. Perfecto. 2013. Effect of Sub-Canopy on Habitat Selection in the Blue-spotted Salamander (*Ambystoma laterale-jeffersonianum* unisexual complex). *Copeia*, *2013*(2), 254-261.
-
-35. Sheldon, J. W., G. Reed, A. C. Burnett, **K. Li**, R. L. Crabtree. 2009. Coyote, *Canis latrans*, Predation on a Bison, *Bison bison*, Calf in Yellowstone National Park. *The Canadian Field-Naturalist*, 123(3), 260-261.
+::: {#pubs}
+:::

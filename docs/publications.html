@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -68,7 +70,66 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-pubs .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-publication','listing-author','listing-url_source',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      page: 30,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-project","listing-website","listing-format","listing-editor","listing-language","listing-title","listing-author","listing-categories","listing-url_source","listing-url_preprint","listing-journ","listing-volume","listing-issue","listing-page","listing-year","listing-doi","listing-path","listing-outputHref","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-pubs'] = new List('listing-pubs', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -120,14 +181,14 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -136,7 +197,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -148,43 +209,1355 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<ol type="1">
-<li><p>Morris, J. R., J. de la Fuente Ramírez, S. K. Morris, <strong>K. Li</strong>, M. Benítez, I. Perfecto. Agricultural intensification associated with significant reduction in epiphyte diversity on coffee plants. <em>Agriculture, Ecosystems &amp; Environment</em>. <em>In press.</em></p></li>
-<li><p><strong>Li, K.</strong> and S. Goslee. 2025. Modeling tools for ecosystem service tradeoffs and synergies in agricultural landscapes. <em>Journal of Soil and Water Conservation</em>:1–17.</p></li>
-<li><p>Bosshard, E., M. E. Harrison, F. J. F. van Veen, N. B. Chikkarangappa, J. E. Banks, P. Basu, B. Dalsgaard, A. Dutta, E. Enríquez, N. Escobedo-Kenefic, B. Gemmill-Herren, J. Ghazoul, K. Hansen, A. L. Hass, O. Honnay, J. M. Kasina, A.-M. Klein, I. K. Motzke, S. Krishnan, P. Landaverde, A. O. Latini, <strong>K. Li</strong>, R. Lucas-Garcia, T. Munyuli, D. Narasimhaiah, D. Obregon, J. J. G. Quezada-Euán, V. Rosas-Guerrero, J. Schrader, F. Severiano-Galeana, T. M. Sitotaw, T. Sritongchuay, P. Tangtorwangsakul, M. Toledo-Hernandez, P. Viswanathan, C. Vogel, K. Wayo, C. Westphal, M. L. Jones, and C. N. Kaiser-Bunbury. Proximity to natural habitat is not consistently associated with pollination services in tropical smallholder farms: A systematic review and meta-analysis. <em>Ecology Letters</em> 28:e70229.</p></li>
-<li><p>Su, C., Z. Hajian-Forooshani, <strong>K. Li</strong>, J. Vandermeer, and I. Perfecto. Non-independent co-occurrence of two important coffee fungal pathogens suggests a potential trade-off in varietal resistance. <em>Journal of Phytopathology</em> 173:e70184.</p></li>
-<li><p><strong>Li, K.</strong> and S. Goslee. 2025. Benefits of wildflower strips in agricultural field margins differ based on landscape complexity across four ecosystem services. <em>Landscape Ecology</em> 40:173.</p></li>
-<li><p>Nelson, C. M., <strong>K. Li</strong>, G. L. Diamond, M. Lambert, and K. D. Bradham. 2025. Estimating accuracy and precision in the bioavailability-adjusted exposure point concentration to support human health risk assessment of lead-contaminated soils. <em>Journal of Toxicology and Environmental Health, Part A</em></p></li>
-<li><p>Mora Van Cauwelaert, E., <strong>K. Li</strong>, Z. Hajian-Forooshani, J. Vandermeer, and M. Benítez. 2025. Interplay between harvesting, planting density, and ripening time affects coffee leaf rust dispersal and infection. <em>Theoretical Ecology</em> 18:14.</p></li>
-<li><p>Adkins, K. A.*, <strong>K. Li*</strong>, M. N. Blasko, J. L. Cabrera, B. H. Neal, T. Y. James, Z. Hajian-Forooshani, S. Brines, and I. Perfecto. 2024. A simple mechanism for uncrewed aircraft bioaerosol sampling in the lower atmosphere. <em>Landscape Ecology</em> 39:133. *<em>Denotes equal contribution as co-first authors.</em></p></li>
-<li><p>Klenke, G., S. Brines, N. Hernandez, <strong>K. Li</strong>, R. Glancy, J. Cabrera, B. H. Neal, K. A. Adkins, R. Schroeder, and I. Perfecto. 2024. Farmer Perceptions of Land Cover Classification of UAS Imagery of Coffee Agroecosystems in Puerto Rico. <em>Geographies</em> 4:321–342.</p></li>
-<li><p><strong>Li, K.</strong>, J. Fisher, A. Power, and A. Iverson. 2024. A map of pollinator floral resource habitats in the agricultural landscape of Central New York. <em>One Ecosystem</em> 9:e118634.</p></li>
-<li><p>Kammerer, M., A. L. Iverson, <strong>K. Li</strong>, J. F. Tooker, and C. M. Grozinger. 2024. Seasonal bee communities vary in their responses to resources at local and landscape scales: implication for land managers. <em>Landscape Ecology</em> 39:97.</p></li>
-<li><p>Sowers, T. D., C. M. Nelson, M. D. Blackmon, <strong>K. Li</strong>, M. L. Jerden, A. M. Kirby, K. Kovalcik, D. Cox, G. Dewalt, W. Friedman, E. A. Pinzer, P. J. Ashley, and K. D. Bradham. 2024. United States house dust Pb concentrations are influenced by soil, paint, and house age: insights from a national survey. <em>Journal of Exposure Science &amp; Environmental Epidemiology</em>:1–9.</p></li>
-<li><p>Kammerer, M., A. L. Iverson, <strong>K. Li</strong>, and S. C. Goslee. 2024. Not just crop or forest: an integrated land cover map for agricultural and natural areas. <em>Scientific Data</em> 11:137.</p></li>
-<li><p><strong>Li, K.</strong>,K. Blackhart, J. Miller, and D. Obenour. 2023. An estuary stress index based on nekton relationships with thematic watershed stressors. <em>Ecological Indicators</em> 154:110678.</p></li>
-<li><p><strong>Li, K.</strong>, Z. Hajian-Forooshani, J. Vandermeer, and I. Perfecto. 2023. Coffee leaf rust (<em>Hemileia vastatrix</em>) is spread by rain splash from infected leaf litter in a semi-controlled experiment. <em>Journal of Plant Pathology</em> 105:667–672.</p></li>
-<li><p><strong>Li, K.</strong>, I. Grass, D. C. Zemp, H. Lorenz, L. Sachsenmaier, F. Nurdiansyah, D. Hölscher, H. Kreft, and T. Tscharntke. 2023. Tree identity and canopy openness mediate oil palm biodiversity enrichment effects on insect herbivory and pollination. <em>Ecological Applications</em> 33:e2862.</p></li>
-<li><p>Zemp, D. C., N. R. Guerrero-Ramírez, F. Brambach, K. Darras, I. Grass, A. Potapov, A. Röll, I. Arimond, J. Ballauff, B. Hermann, D. Berkelmann, S. Biagioni, D. Buchori, D. Craven, R. Daniel, O. Gailing, F. Ellsäßer, R. Fardiansah, N. Hennings, B. Irawan, W. Khokthong, V. Krashevska, A. Krause, J. Kückes, <strong>K. Li</strong>, H. Lorenz, M. Maraun, M. Merk, C. C. d.&nbsp;M. Moura, Y. Mulyani, G. P. H. Pebrianti, A. Polle, D. A. Prameswari, L. Sachsenmaier, S. Scheu, D. Schneider, F. Setianjiati, C. Setyaningsih, L. Sundawati, T. Tscharntke, M. Wollni, D. Hölscher, and H. Kreft. 2023. Tree islands enhance biodiversity and functioning in oil palm landscapes. <em>Nature</em>.</p></li>
-<li><p>Perfecto, I., L. F. Chaves, G. M. Fitch, Z. Hajian-Forooshani, B. Iuliano, <strong>K. Li</strong>, N. Medina, J. Morris, B. O. Jiménez, I. S. Rivera-Salinas, C. Su, J. Vandermeer, A. White, and K. Williams-Guillén. 2023. Looking beyond land-use and land-cover change: Zoonoses emerge in the agricultural matrix. O<em>ne Earth</em> 6:1131–1142.</p></li>
-<li><p>Pulungan, Z. N., W. Priawandiputra, I. Grass, <strong>K. Li</strong>, R. J. Robo, and R. Raffiudin. 2023. Tropical lowland rainforest conversion to rubber monoculture affects flight activity and pollen resources of the stingless bees Tetragonula laeviceps. <em>Jurnal Entomologi Indonesia</em> 20:88–100.</p></li>
-<li><p><strong>Li, K.</strong>, I. Grass, T.-Y. Fung, R. Fardiansah, M. Rohlfs, D. Buchori, and T. Tscharntke. 2022. Adjacent forest moderates insect pollination of oil palm. <em>Agriculture, Ecosystems &amp; Environment</em> 338:108108.</p></li>
-<li><p><strong>Li, K.</strong>, Z. Hajian-Forooshani, C. Su, I. Perfecto, and J. Vandermeer. 2022. Reduced rainfall and resistant varieties mediate a critical transition in the coffee rust disease. <em>Scientific Reports</em> 12:1564.</p></li>
-<li><p>Bradham, K. D., C. M. Nelson, T. D. Sowers, D. A. Lytle, J. Tully, M. R. Schock, <strong>K. Li</strong>, M. D. Blackmon, K. Kovalcik, D. Cox, G. Dewalt, W. Friedman, E. A. Pinzer, and P. J. Ashley. 2022. A national survey of lead and other metal(loids) in residential drinking water in the United States. <em>Journal of Exposure Science &amp; Environmental Epidemiology</em>:1–8.</p></li>
-<li><p>Carneiro de Melo Moura, C., C. A. Setyaningsih, <strong>K. Li</strong>, M. S. Merk, S. Schulze, R. Raffiudin, I. Grass, H. Behling, T. Tscharntke, C. Westphal, and O. Gailing. 2022. Biomonitoring via DNA metabarcoding and light microscopy of bee pollen in rainforest transformation landscapes of Sumatra. <em>BMC Ecology and Evolution</em> 22:51.</p></li>
-<li><p>Ong, T. W., <strong>K. Li</strong>, A. Lucatero, D. Pak, L. Hawkes, M. Hunter, and J. Vandermeer. 2020. Taylor Made Landscapes: Using Taylor’s Law to Scale Between Metapopulations and Source-Sinks in Urban Garden Space. <em>Frontiers in Sustainable Food Systems</em> 4.</p></li>
-<li><p>Otero Jiménez, B., <strong>K. Li</strong>, and P. K. Tucker. 2020. Landscape drivers of connectivity for a forest rodent in a coffee agroecosystem. <em>Landscape Ecology</em> 35:1249–1261.</p></li>
-<li><p>Vandermeer, J., I. Armbrecht, A. de la Mora, K. K. Ennis, G. Fitch, D. J. Gonthier, Z. Hajian-Forooshani, H.-Y. Hsieh, A. Iverson, D. Jackson, S. Jha, E. Jiménez-Soto, G. Lopez-Bautista, A. Larsen, <strong>K. Li</strong>, H. Liere, A. MacDonald, L. Marin, K. A. Mathis, I. Monagan, J. R. Morris, T. Ong, G. L. Pardee, I. S. Rivera-Salinas, C. Vaiyda, K. Williams-Guillen, S. Yitbarek, S. Uno, A. Zemenick, S. M. Philpott, and I. Perfecto. 2019. The Community Ecology of Herbivore Regulation in an Agroecosystem: Lessons from Complex Systems. <em>BioScience</em> 69:974–996.</p></li>
-<li><p>Darras, K. F. A., M. D. Corre, G. Formaglio, A. Tjoa, A. Potapov, F. Brambach, K. T. Sibhatu, I. Grass, A. A. Rubiano, D. Buchori, J. Drescher, R. Fardiansah, D. Hölscher, B. Irawan, T. Kneib, V. Krashevska, A. Krause, H. Kreft, <strong>K. Li</strong>, M. Maraun, A. Polle, A. R. Ryadin, K. Rembold, C. Stiegler, S. Scheu, S. Tarigan, A. Valdés-Uribe, S. Yadi, T. Tscharntke, and E. Veldkamp. 2019. Reducing Fertilizer and Avoiding Herbicides in Oil Palm Plantations—Ecological and Economic Valuations. <em>Frontiers in Forests and Global Change</em> 2.</p></li>
-<li><p><strong>Li, K.</strong>, T. Tscharntke, B. Saintes, D. Buchori, and I. Grass. 2019. Critical factors limiting pollination success in oil palm: A systematic review. <em>Agriculture, Ecosystems &amp; Environment</em> 280:152–160.</p></li>
-<li><p>Egerer, M., <strong>K. Li</strong>, and T. Ong. 2018. Context Matters: Contrasting Ladybird Beetle Responses to Urban Environments across Two US Regions. <em>Sustainability</em> 10:1829.</p></li>
-<li><p>Nelson, C. M., <strong>K. Li</strong>, D. R. Obenour, J. Miller, J. C. Misenheimer, K. Scheckel, A. Betts, A. Juhasz, D. J. Thomas, and K. D. Bradham. 2018. Relating soil geochemical properties to arsenic bioaccessibility through hierarchical modeling. <em>Journal of Toxicology and Environmental Health</em>, Part A 81:160–172.</p></li>
-<li><p>Bradham, K. D., C. M. Nelson, J. Kelly, A. Pomales, K. Scruton, T. Dignam, J. C. Misenheimer, <strong>K. Li</strong>, D. R. Obenour, and D. J. Thomas. 2017. Relationship Between Total and Bioaccessible Lead on Children’s Blood Lead Levels in Urban Residential Philadelphia Soils. <em>Environmental Science &amp; Technology</em> 51:10005–10011.</p></li>
-<li><p><strong>Li, K.*</strong>, Y. He*, S. K. Campbell, A. S. Colborn, E. L. Jackson, A. Martin, I. V. Monagan, T. W. Y. Ong, and I. Perfecto. 2017. From endogenous to exogenous pattern formation: Invasive plant species changes the spatial distribution of a native ant. <em>Global Change Biology</em> 23:2250–2261. *<em>Denotes equal contribution as co-first authors.</em></p></li>
-<li><p><strong>Li, K.</strong>, J. H. Vandermeer, and I. Perfecto. 2016. Disentangling endogenous versus exogenous pattern formation in spatial ecology: a case study of the ant <em>Azteca sericeasur</em> in southern Mexico. <em>Royal Society Open Science</em> 3:160073–160073.</p></li>
-<li><p>Belasen, A., E. Burkett, A. Injaian, <strong>K. Li</strong>, D. Allen, I. Perfecto. 2013. Effect of Sub-Canopy on Habitat Selection in the Blue-spotted Salamander (<em>Ambystoma laterale-jeffersonianum</em> unisexual complex). <em>Copeia</em>, <em>2013</em>(2), 254-261.</p></li>
-<li><p>Sheldon, J. W., G. Reed, A. C. Burnett, <strong>K. Li</strong>, R. L. Crabtree. 2009. Coyote, <em>Canis latrans</em>, Predation on a Bison, <em>Bison bison</em>, Calf in Yellowstone National Park. <em>The Canadian Field-Naturalist</em>, 123(3), 260-261.</p></li>
-</ol>
+<hr>
+<div id="listing-pubs" class="quarto-listing quarto-listing-container-custom">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+
+<div class="list quarto-listing-default">
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="0" data-categories="" data-listing-file-modified-sort="1771305865203" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2026_Agricultural_intensification_associated/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Morris, J. R., de la Fuente Ramírez, F., Morris, S. K., Li, K., Benítez, M., Perfecto, I. (2026). Agricultural intensification associated with significant reduction in epiphyte diversity on coffee plants. <i>Agriculture, Ecosystems &amp; Environment</i> <i>401</i>, 110249. https://doi.org/10.1016/j.agee.2026.110249
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://www.sciencedirect.com/science/article/pii/S0167880926000368">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="1" data-categories="" data-listing-file-modified-sort="1771305865195" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2025_Benefits_of_wildflower/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Li, K., Goslee, S. (2025). Benefits of wildflower strips in agricultural field margins differ based on landscape complexity across four ecosystem services. <i>Landscape Ecology</i> <i>40</i>(8), 173. https://doi.org/10.1007/s10980-025-02185-y
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://doi.org/10.1007/s10980-025-02185-y">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="2" data-categories="" data-listing-file-modified-sort="1771305865196" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2025_Estimating_accuracy_and/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Nelson, C. M., Li, K., Diamond, G. L., Lambert, M., Bradham, K. D. (2025). Estimating accuracy and precision in the bioavailability-adjusted exposure point concentration to support human health risk assessment of lead-contaminated soils. <i>Journal of Toxicology and Environmental Health, Part A</i>. https://doi.org/10.1080/15287394.2025.2542348
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://doi.org/10.1080/15287394.2025.2542348">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="3" data-categories="" data-listing-file-modified-sort="1771305865195" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2025_Interplay_between_harvesting,/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Mora Van Cauwelaert, E., Li, K., Hajian-Forooshani, Z., Vandermeer, J., Benítez, M. (2025). Interplay between harvesting, planting density, and ripening time affects coffee leaf rust dispersal and infection. <i>Theoretical Ecology</i> <i>18</i>(1), 14. https://doi.org/10.1007/s12080-025-00609-8
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://doi.org/10.1007/s12080-025-00609-8">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="4" data-categories="" data-listing-file-modified-sort="1771305865200" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2025_Modeling_tools_for/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Li, K., Goslee, S. C. (2025). Modeling tools for ecosystem service tradeoffs and synergies in agricultural landscapes. <i>Journal of Soil and Water Conservation</i>, 1-17. https://doi.org/10.1080/00224561.2025.2533100
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://www.tandfonline.com/doi/full/10.1080/00224561.2025.2533100">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="5" data-categories="" data-listing-file-modified-sort="1771305865199" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2025_Non-Independent_Co-Occurrence_of/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Su, C., Hajian-Forooshani, Z., Li, K., Vandermeer, J., Perfecto, I. (2025). Non-Independent Co-Occurrence of Two Important Fungal Pathogens of Coffee Suggests a Potential Trade-Off in Varietal Resistance. <i>Journal of Phytopathology</i> <i>173</i>(5), e70184. https://doi.org/10.1111/jph.70184
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/jph.70184">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="6" data-categories="" data-listing-file-modified-sort="1771305865202" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2025_Proximity_to_Natural/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Bosshard, E., Harrison, M. E., van Veen, F., Kettle, C. J., Chikkarangappa, N. B., Banks, J. E., Basu, P., Casiá-Ajché, Q. B., Dalsgaard, B., Dutta, A., Enríquez, E., Escobedo-Kenefic, N., Fierros-López, H. E., Gemmill-Herren, B., Ghazoul, J., Hansen, K., Hass, A. L., Hipólito, J., Honnay, O., Kasina, J. M., Klein, A., Motzke, I. K., Krishnan, S., Landaverde, P., Latini, A. O., Li, K., Lucas-García, R., Munyuli, T., Narasimhaiah, D., Obregon, D., Quezada-Euán, J. J. G., Riojas-López, M. E., Rosas-Guerrero, V., Schrader, J., Severiano-Galeana, F., Sitotaw, T. M., Sritongchuay, T., Tangtorwangsakul, P., Toledo-Hernandez, M., Tscharntke, T., Viswanathan, P., Vogel, C., Wanger, T. C., Wayo, K., Westphal, C., Jones, M. L., Kaiser-Bunbury, C. N. (2025). Proximity to Natural Habitat Is Not Consistently Associated With Pollination Services in Tropical Smallholder Farms: A Systematic Review and Meta-Analysis. <i>Ecology Letters</i> <i>28</i>(12), e70229. https://doi.org/10.1111/ele.70229
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/ele.70229">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="7" data-categories="" data-listing-file-modified-sort="1771305865191" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2024_A_map_of/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Li, K., Fisher, J., Power, A., Iverson, A. (2024). A map of pollinator floral resource habitats in the agricultural landscape of Central New York. <i>One Ecosystem</i> <i>9</i>, e118634. https://doi.org/10.3897/oneeco.9.e118634
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://oneecosystem.pensoft.net/article/118634/">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="8" data-categories="" data-listing-file-modified-sort="1771305865194" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2024_A_simple_mechanism/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Adkins, K. A., Li, K., Blasko, M. N., Cabrera, J. L., Neal, B. H., James, T. Y., Hajian-Forooshani, Z., Brines, S., Perfecto, I. (2024). A simple mechanism for uncrewed aircraft bioaerosol sampling in the lower atmosphere. <i>Landscape Ecology</i> <i>39</i>(8), 133. https://doi.org/10.1007/s10980-024-01918-9
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://doi.org/10.1007/s10980-024-01918-9">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="9" data-categories="" data-listing-file-modified-sort="1771305865192" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2024_Farmer_Perceptions_of/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Klenke, G., Brines, S., Hernandez, N., Li, K., Glancy, R., Cabrera, J., Neal, B. H., Adkins, K. A., Schroeder, R., Perfecto, I. (2024). Farmer Perceptions of Land Cover Classification of UAS Imagery of Coffee Agroecosystems in Puerto Rico. <i>Geographies</i> <i>4</i>(2), 321-342. https://doi.org/10.3390/geographies4020019
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://www.mdpi.com/2673-7086/4/2/19">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="10" data-categories="" data-listing-file-modified-sort="1771305865188" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2024_Not_just_crop/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Kammerer, M., Iverson, A. L., Li, K., Goslee, S. C. (2024). Not just crop or forest: an integrated land cover map for agricultural and natural areas. <i>Scientific Data</i> <i>11</i>(1), 137. https://doi.org/10.1038/s41597-024-02979-w
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://www.nature.com/articles/s41597-024-02979-w">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="11" data-categories="" data-listing-file-modified-sort="1771305865189" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2024_Seasonal_bee_communities/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Kammerer, M., Iverson, A. L., Li, K., Tooker, J. F., Grozinger, C. M. (2024). Seasonal bee communities vary in their responses to resources at local and landscape scales: implication for land managers. <i>Landscape Ecology</i> <i>39</i>(5), 97. https://doi.org/10.1007/s10980-024-01895-z
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://doi.org/10.1007/s10980-024-01895-z">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="12" data-categories="" data-listing-file-modified-sort="1771305865190" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2024_United_States_house/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Sowers, T. D., Nelson, C. M., Blackmon, M. D., Li, K., Jerden, M. L., Kirby, A. M., Kovalcik, K., Cox, D., Dewalt, G., Friedman, W., Pinzer, E. A., Ashley, P. J., Bradham, K. D. (2024). United States house dust Pb concentrations are influenced by soil, paint, and house age: insights from a national survey. <i>Journal of Exposure Science &amp; Environmental Epidemiology</i>, 1-9. https://doi.org/10.1038/s41370-024-00655-0
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://www.nature.com/articles/s41370-024-00655-0">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="13" data-categories="" data-listing-file-modified-sort="1771305865188" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2023_An_estuary_stress/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Li, K., Blackhart, K., Miller, J., Obenour, D. (2023). An estuary stress index based on nekton relationships with thematic watershed stressors. <i>Ecological Indicators</i> <i>154</i>, 110678. https://doi.org/10.1016/j.ecolind.2023.110678
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://www.sciencedirect.com/science/article/pii/S1470160X23008208">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="14" data-categories="" data-listing-file-modified-sort="1771305865187" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2023_Coffee_leaf_rust/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Li, K., Hajian-Forooshani, Z., Vandermeer, J., Perfecto, I. (2023). Coffee leaf rust (Hemileia vastatrix) is spread by rain splash from infected leaf litter in a semi-controlled experiment. <i>Journal of Plant Pathology</i> <i>105</i>(3), 667-672. https://doi.org/10.1007/s42161-023-01404-2
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://doi.org/10.1007/s42161-023-01404-2">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="15" data-categories="" data-listing-file-modified-sort="1771305865186" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2023_Looking_beyond_land-use/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Perfecto, I., Chaves, L. F., Fitch, G. M., Hajian-Forooshani, Z., Iuliano, B., Li, K., Medina, N., Morris, J., Otero-Jiménez, B., Rivera-Salinas, I. S., Su, C., Vandermeer, J., White, A., Williams-Guillén, K. (2023). Looking beyond land-use and land-cover change: Zoonoses emerge in the agricultural matrix. <i>One Earth</i> <i>6</i>(9), 1131-1142. https://doi.org/10.1016/j.oneear.2023.08.010
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://www.sciencedirect.com/science/article/pii/S2590332223003895">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="16" data-categories="" data-listing-file-modified-sort="1771305865188" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2023_Tree_identity_and/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Li, K., Grass, I., Zemp, D. C., Lorenz, H., Sachsenmaier, L., Nurdiansyah, F., Hölscher, D., Kreft, H., Tscharntke, T. (2023). Tree identity and canopy openness mediate oil palm biodiversity enrichment effects on insect herbivory and pollination. <i>Ecological Applications</i> <i>33</i>(5), e2862. https://doi.org/10.1002/eap.2862
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/eap.2862">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="17" data-categories="" data-listing-file-modified-sort="1771305865205" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2023_Tree_islands_enhance/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Zemp, D. C., Guerrero-Ramirez, N., Brambach, F., Darras, K., Grass, I., Potapov, A., Röll, A., Arimond, I., Ballauff, J., Behling, H., Berkelmann, D., Biagioni, S., Buchori, D., Craven, D., Daniel, R., Gailing, O., Ellsäßer, F., Fardiansah, R., Hennings, N., Irawan, B., Khokthong, W., Krashevska, V., Krause, A., Kückes, J., Li, K., Lorenz, H., Maraun, M., Merk, M. S., Moura, C. C. M., Mulyani, Y. A., Paterno, G. B., Pebrianti, H. D., Polle, A., Prameswari, D. A., Sachsenmaier, L., Scheu, S., Schneider, D., Setiajiati, F., Setyaningsih, C. A., Sundawati, L., Tscharntke, T., Wollni, M., Hölscher, D., Kreft, H. (2023). Tree islands enhance biodiversity and functioning in oil palm landscapes. <i>Nature</i> <i>618</i>(7964), 316-321. https://doi.org/10.1038/s41586-023-06086-5
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://www.nature.com/articles/s41586-023-06086-5">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="18" data-categories="" data-listing-file-modified-sort="1771305865186" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2023_Tropical_lowland_rainforest/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Pulungan, Z. N., Priawandiputra, W., Grass, I., Li, K., Robo, R. J., Raffiudin, R. (2023). Tropical lowland rainforest conversion to rubber monoculture affects flight activity and pollen resources of the stingless bees Tetragonula laeviceps. <i>Jurnal Entomologi Indonesia</i> <i>20</i>(1), 88-100. https://doi.org/10.5994/jei.20.1.88
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://jurnal.pei-pusat.org/index.php/jei/article/view/741">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="19" data-categories="" data-listing-file-modified-sort="1771305865185" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2022_A_national_survey/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Bradham, K. D., Nelson, C. M., Sowers, T. D., Lytle, D. A., Tully, J., Schock, M. R., Li, K., Blackmon, M. D., Kovalcik, K., Cox, D., Dewalt, G., Friedman, W., Pinzer, E. A., Ashley, P. J. (2022). A national survey of lead and other metal(loids) in residential drinking water in the United States. <i>Journal of Exposure Science &amp; Environmental Epidemiology</i>, 1-8. https://doi.org/10.1038/s41370-022-00461-6
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://www.nature.com/articles/s41370-022-00461-6">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="20" data-categories="" data-listing-file-modified-sort="1771305865181" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2022_Adjacent_forest_moderates/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Li, K., Grass, I., Fung, T., Fardiansah, R., Rohlfs, M., Buchori, D., Tscharntke, T. (2022). Adjacent forest moderates insect pollination of oil palm. <i>Agriculture, Ecosystems &amp; Environment</i> <i>338</i>, 108108. https://doi.org/10.1016/j.agee.2022.108108
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://linkinghub.elsevier.com/retrieve/pii/S0167880922002572">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="21" data-categories="" data-listing-file-modified-sort="1771305865182" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2022_Biomonitoring_via_DNA/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Carneiro de Melo Moura, C., Setyaningsih, C. A., Li, K., Merk, M. S., Schulze, S., Raffiudin, R., Grass, I., Behling, H., Tscharntke, T., Westphal, C., Gailing, O. (2022). Biomonitoring via DNA metabarcoding and light microscopy of bee pollen in rainforest transformation landscapes of Sumatra. <i>BMC Ecology and Evolution</i> <i>22</i>(1), 51. https://doi.org/10.1186/s12862-022-02004-x
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://bmcevolbiol.biomedcentral.com/articles/10.1186/s12862-022-02004-x">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="22" data-categories="" data-listing-file-modified-sort="1771305865181" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2022_Reduced_rainfall_and/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Li, K., Hajian-Forooshani, Z., Su, C., Perfecto, I., Vandermeer, J. (2022). Reduced rainfall and resistant varieties mediate a critical transition in the coffee rust disease. <i>Scientific Reports</i> <i>12</i>(1), 1564. https://doi.org/10.1038/s41598-022-05362-0
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="http://www.nature.com/articles/s41598-022-05362-0">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="23" data-categories="" data-listing-file-modified-sort="1771305865180" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2020_Landscape_drivers_of/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Otero-Jiménez, B., Li, K., Tucker, P. K. (2020). Landscape drivers of connectivity for a forest rodent in a coffee agroecosystem. <i>Landscape Ecology</i> <i>35</i>(5), 1249-1261. https://doi.org/10.1007/s10980-020-00999-6
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://doi.org/10.1007/s10980-020-00999-6">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="24" data-categories="" data-listing-file-modified-sort="1771305865178" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2020_Taylor_made_landscapes:/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Ong, T. W. Y., Li, K., Lucatero, A., Pak, D., Hawkes, L. M., Hunter, M. R., Vandermeer, J. H. (2020). Taylor made landscapes: using Taylor's law to scale between metapopulations and source-sinks in urban garden space. <i>Frontiers in Sustainable Food Systems</i> <i>4</i>. https://doi.org/10.3389/fsufs.2020.00046
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://www.frontiersin.org/articles/10.3389/fsufs.2020.00046/abstract">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="25" data-categories="" data-listing-file-modified-sort="1771305865176" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2019_Critical_factors_limiting/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Li, K., Tscharntke, T., Saintes, B., Buchori, D., Grass, I. (2019). Critical factors limiting pollination success in oil palm: A systematic review. <i>Agriculture, Ecosystems &amp; Environment</i> <i>280</i>, 152-160. https://doi.org/10.1016/j.agee.2019.05.001
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="http://www.sciencedirect.com/science/article/pii/S0167880919301240">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="26" data-categories="" data-listing-file-modified-sort="1771305865177" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2019_Reducing_Fertilizer_and/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Darras, K. F. A., Corre, M. D., Formaglio, G., Tjoa, A., Potapov, A., Brambach, F., Sibhatu, K. T., Grass, I., Rubiano, A. A., Buchori, D., Drescher, J., Fardiansah, R., Hölscher, D., Irawan, B., Kneib, T., Krashevska, V., Krause, A., Kreft, H., Li, K., Maraun, M., Polle, A., Ryadin, A. R., Rembold, K., Stiegler, C., Scheu, S., Tarigan, S., Valdés-Uribe, A., Yadi, S., Tscharntke, T., Veldkamp, E. (2019). Reducing Fertilizer and Avoiding Herbicides in Oil Palm Plantations—Ecological and Economic Valuations. <i>Frontiers in Forests and Global Change</i> <i>2</i>. https://doi.org/10.3389/ffgc.2019.00065
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="http://www.frontiersin.org/articles/10.3389/ffgc.2019.00065/full?utm_source=S-TWT&amp;utm_medium=SNET&amp;utm_campaign=ECO_FSUFS_XXXXXXXX_auto-dlvrit">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="27" data-categories="" data-listing-file-modified-sort="1771305865175" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2019_The_Community_Ecology/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Vandermeer, J., Armbrecht, I., de la Mora, A., Ennis, K. K., Fitch, G., Gonthier, D. J., Hajian-Forooshani, Z., Hsieh, H., Iverson, A., Jackson, D., Jha, S., Jiménez-Soto, E., Lopez-Bautista, G., Larsen, A., Li, K., Liere, H., MacDonald, A., Marin, L., Mathis, K. A., Monagan, I., Morris, J. R., Ong, T., Pardee, G. L., Rivera-Salinas, I. S., Vaiyda, C., Williams-Guillen, K., Yitbarek, S., Uno, S., Zemenick, A., Philpott, S. M., Perfecto, I. (2019). The Community Ecology of Herbivore Regulation in an Agroecosystem: Lessons from Complex Systems. <i>BioScience</i> <i>69</i>(12), 974-996. https://doi.org/10.1093/biosci/biz127
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://academic.oup.com/bioscience/article/69/12/974/5672693">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="28" data-categories="" data-listing-file-modified-sort="1771305865179" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2018_Context_Matters:_Contrasting/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Egerer, M., Li, K., Ong, T. W. Y. (2018). Context Matters: Contrasting Ladybird Beetle Responses to Urban Environments across Two US Regions. <i>Sustainability</i> <i>10</i>(6), 1829. https://doi.org/10.3390/su10061829
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="http://www.mdpi.com/2071-1050/10/6/1829">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="29" data-categories="" data-listing-file-modified-sort="1771305865184" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2018_Relating_soil_geochemical/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Nelson, C. M., Li, K., Obenour, D. R., Miller, J., Misenheimer, J. C., Scheckel, K., Betts, A., Juhasz, A., Thomas, D. J., Bradham, K. D. (2018). Relating soil geochemical properties to arsenic bioaccessibility through hierarchical modeling. <i>Journal of Toxicology and Environmental Health, Part A</i> <i>81</i>(6), 160-172. https://doi.org/10.1080/15287394.2018.1423798
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://www.tandfonline.com/doi/full/10.1080/15287394.2018.1423798">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="30" data-categories="" data-listing-file-modified-sort="1771305865179" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2017_From_endogenous_to/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Li, K., He, Y., Campbell, S. K., Colborn, A. S., Jackson, E. L., Martin, A., Monagan, I. V., Ong, T. W. Y., Perfecto, I. (2017). From endogenous to exogenous pattern formation: Invasive plant species changes the spatial distribution of a native ant. <i>Global Change Biology</i> <i>23</i>(6), 2250-2261. https://doi.org/10.1111/gcb.13671
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="http://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.13671">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="31" data-categories="" data-listing-file-modified-sort="1771305865183" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2017_Relationship_Between_Total/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Bradham, K. D., Nelson, C. M., Kelly, J., Pomales, A., Scruton, K., Dignam, T., Misenheimer, J. C., Li, K., Obenour, D. R., Thomas, D. J. (2017). Relationship Between Total and Bioaccessible Lead on Children’s Blood Lead Levels in Urban Residential Philadelphia Soils. <i>Environmental Science &amp; Technology</i> <i>51</i>(17), 10005-10011. https://doi.org/10.1021/acs.est.7b02058
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://doi.org/10.1021/acs.est.7b02058">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="32" data-categories="" data-listing-file-modified-sort="1771305865173" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2016_Disentangling_endogenous_versus/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Li, K., Vandermeer, J. H., Perfecto, I. (2016). Disentangling endogenous versus exogenous pattern formation in spatial ecology: a case study of the ant Azteca sericeasur in southern Mexico. <i>Royal Society Open Science</i> <i>3</i>(5), 160073-160073. https://doi.org/10.1098/rsos.160073
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="http://rsos.royalsocietypublishing.org/content/3/5/160073%5Cnhttp://rsos.royalsocietypublishing.org/content/3/5/160073.full?ijkey=Gh0O8ecullSQNuu&amp;keytype=ref#ref-5%5Cnhttp://rsos.royalsocietypublishing.org/content/royopensci/3/5/160073.full.pdf">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="33" data-categories="" data-listing-file-modified-sort="1771305865172" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2013_Effect_of_Sub-Canopy/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Belasen, A., Burkett, E., Injaian, A., Li, K., Allen, D., Perfecto, I. (2013). Effect of Sub-Canopy on Habitat Selection in the Blue-spotted Salamander (Ambystoma laterale-jeffersonianum unisexual complex). <i>Copeia</i> <i>2013</i>(2), 254-261. https://doi.org/10.1643/CE-12-051
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="http://www.asihcopeiaonline.org/doi/pdf/10.1643/CE-12-051">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="34" data-categories="" data-listing-file-modified-sort="1771305865180" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- <a href="/publications/2009_Coyote,_Canis_latrans,/index.qmd"> -->
+
+            <div class="listing-pub-apa">
+              Sheldon, J. W., Reed, G., Burnett, A. C., Li, K., Crabtree, R. L. (2009). Coyote, Canis latrans, Predation on a Bison, Bison bison, Calf in Yellowstone National Park. <i>The Canadian Field-Naturalist</i> <i>123</i>(3), 260-261. https://doi.org/10.22621/cfn.v123i3.974
+            </div>
+
+            <!-- </a> -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
+        </div>
+        <div class="listing-links">
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://www.canadianfieldnaturalist.ca/index.php/cfn/article/view/974">
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+            
+
+        </div>
+    </div>
+
+    
+    </div>
+
+<div class="listing-no-matching d-none">No matching items</div>
+<nav id="pubs-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div>
+
 
 
 

@@ -1,0 +1,18 @@
+---
+title: 'Disentangling endogenous versus exogenous pattern formation in spatial ecology:
+  a case study of the ant Azteca sericeasur in southern Mexico'
+author:
+- Li, K.
+- Vandermeer, J. H.
+- Perfecto, I.
+categories: []
+url_source: http://rsos.royalsocietypublishing.org/content/3/5/160073%5Cnhttp://rsos.royalsocietypublishing.org/content/3/5/160073.full?ijkey=Gh0O8ecullSQNuu&keytype=ref#ref-5%5Cnhttp://rsos.royalsocietypublishing.org/content/royopensci/3/5/160073.full.pdf
+url_preprint: ''
+journ: Royal Society Open Science
+volume: 3
+issue: 5
+page: 160073-160073
+year: 2016
+doi: 10.1098/rsos.160073
+---
+

@@ -1,0 +1,29 @@
+---
+title: 'Looking beyond land-use and land-cover change: Zoonoses emerge in the agricultural
+  matrix'
+author:
+- Perfecto, I.
+- Chaves, L. F.
+- Fitch, G. M.
+- Hajian-Forooshani, Z.
+- Iuliano, B.
+- Li, K.
+- Medina, N.
+- Morris, J.
+- Otero-Jiménez, B.
+- Rivera-Salinas, I. S.
+- Su, C.
+- Vandermeer, J.
+- White, A.
+- Williams-Guillén, K.
+categories: []
+url_source: https://www.sciencedirect.com/science/article/pii/S2590332223003895
+url_preprint: ''
+journ: One Earth
+volume: 6
+issue: 9
+page: 1131-1142
+year: 2023
+doi: 10.1016/j.oneear.2023.08.010
+---
+

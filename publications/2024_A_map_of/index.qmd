@@ -1,0 +1,18 @@
+---
+title: A map of pollinator floral resource habitats in the agricultural landscape
+  of Central New York
+author:
+- Li, K.
+- Fisher, J.
+- Power, A.
+- Iverson, A.
+categories: []
+url_source: https://oneecosystem.pensoft.net/article/118634/
+url_preprint: ''
+journ: One Ecosystem
+volume: 9
+page: e118634
+year: 2024
+doi: 10.3897/oneeco.9.e118634
+---
+

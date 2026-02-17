@@ -1,0 +1,46 @@
+---
+title: 'The Community Ecology of Herbivore Regulation in an Agroecosystem: Lessons
+  from Complex Systems'
+author:
+- Vandermeer, J.
+- Armbrecht, I.
+- de la Mora, A.
+- Ennis, K. K.
+- Fitch, G.
+- Gonthier, D. J.
+- Hajian-Forooshani, Z.
+- Hsieh, H.
+- Iverson, A.
+- Jackson, D.
+- Jha, S.
+- Jiménez-Soto, E.
+- Lopez-Bautista, G.
+- Larsen, A.
+- Li, K.
+- Liere, H.
+- MacDonald, A.
+- Marin, L.
+- Mathis, K. A.
+- Monagan, I.
+- Morris, J. R.
+- Ong, T.
+- Pardee, G. L.
+- Rivera-Salinas, I. S.
+- Vaiyda, C.
+- Williams-Guillen, K.
+- Yitbarek, S.
+- Uno, S.
+- Zemenick, A.
+- Philpott, S. M.
+- Perfecto, I.
+categories: []
+url_source: https://academic.oup.com/bioscience/article/69/12/974/5672693
+url_preprint: ''
+journ: BioScience
+volume: 69
+issue: 12
+page: 974-996
+year: 2019
+doi: 10.1093/biosci/biz127
+---
+

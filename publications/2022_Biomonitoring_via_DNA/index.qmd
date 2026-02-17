@@ -1,0 +1,26 @@
+---
+title: Biomonitoring via DNA metabarcoding and light microscopy of bee pollen in rainforest
+  transformation landscapes of Sumatra
+author:
+- Carneiro de Melo Moura, C.
+- Setyaningsih, C. A.
+- Li, K.
+- Merk, M. S.
+- Schulze, S.
+- Raffiudin, R.
+- Grass, I.
+- Behling, H.
+- Tscharntke, T.
+- Westphal, C.
+- Gailing, O.
+categories: []
+url_source: https://bmcevolbiol.biomedcentral.com/articles/10.1186/s12862-022-02004-x
+url_preprint: ''
+journ: BMC Ecology and Evolution
+volume: 22
+issue: 1
+page: '51'
+year: 2022
+doi: 10.1186/s12862-022-02004-x
+---
+

@@ -1,0 +1,15 @@
+---
+title: Modeling tools for ecosystem service tradeoffs and synergies in agricultural
+  landscapes
+author:
+- Li, K.
+- Goslee, S. C.
+categories: []
+url_source: https://www.tandfonline.com/doi/full/10.1080/00224561.2025.2533100
+url_preprint: ''
+journ: Journal of Soil and Water Conservation
+page: 1-17
+year: 2025
+doi: 10.1080/00224561.2025.2533100
+---
+

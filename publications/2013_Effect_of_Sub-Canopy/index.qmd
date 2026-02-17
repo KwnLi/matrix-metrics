@@ -1,0 +1,21 @@
+---
+title: Effect of Sub-Canopy on Habitat Selection in the Blue-spotted Salamander (Ambystoma
+  laterale-jeffersonianum unisexual complex)
+author:
+- Belasen, A.
+- Burkett, E.
+- Injaian, A.
+- Li, K.
+- Allen, D.
+- Perfecto, I.
+categories: []
+url_source: http://www.asihcopeiaonline.org/doi/pdf/10.1643/CE-12-051
+url_preprint: ''
+journ: Copeia
+volume: 2013
+issue: 2
+page: 254-261
+year: 2013
+doi: 10.1643/CE-12-051
+---
+
