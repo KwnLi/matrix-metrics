@@ -1,15 +1,45 @@
 ---
 title: "Matrix Metrics"
+subtitle: "Making sense of the landscape matrix"
 toc: false
+# include CSS style for title blocks
+title-block-banner: "#00000000"
+title-block-banner-color: "#ffffff"
+include-in-header:
+  - text: |
+      <style>
+      #title-block-header.quarto-title-block.default .quarto-title-meta {
+        color: #ffffff;
+      }
+      .quarto-title-block .quarto-title-banner {
+        height: 0;
+      }
+      #title-block-header {
+        background-image: url(media/bkgd.jpg);
+        background-size: cover;
+        background-position-y: center;
+        height: 400px;
+        opacity: 1; /* Adjust as needed */
+        z-index: -1;
+      }
+      #title-block-header::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5); 
+        z-index: -1;
+      }
+      </style>
 ---
 
-***I am actively developing this site. Come back soon for updates!***
+I am a landscape ecologist who is also trained in landscape architecture. I use my unique background to take an encompassing approach to research in landscape systems that includes aspects of agriculture, ecology, and public health, as well as a data-driven approach to ecological landscape design. My work aims to make environmental data accessible and actionable for communities and decision makers. I have expertise in geographic information systems (GIS), statistical analysis, and data visualization, as well as hands-on experience in ecological restoration, stewardship, and landscape design.
 
-Ecological and social systems are critically interconnected in the landscape. In the vocabulary of landscape and agro-ecology, the landscape **matrix** describes parts of the landscape where people and nature interact. As a scientist and researcher, I value **metrics** as tools for quantifying the observable world around me in hopes of better understanding it. Matrix metrics has a nice alliterative ring to it.
+Through research and consulting work, I am dedicated to creating landscapes that meet human and ecological needs and foster resilient communities for people and nature.
 
-As a landscape ecologist, I want to understand certain things about the landscape matrix – how we humans impact it, how the natural systems within it support us, and how we can support it. I am committed to using my expertise to find solutions that support a sustainable and functioning matrix, which are responsive to local communities, support people’s health and needs, and restore natural systems.
-
-### My areas of expertise
+### Areas of Expertise
 
 -   Landscape Ecology and Agroecology
 -   Ecological Landscape Planning and Design

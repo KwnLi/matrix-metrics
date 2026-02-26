@@ -1,5 +1,5 @@
 ---
-title: "Publications"
+title: "My Publications"
 listing:
   - id: pubs
     template: _ejs/publications.ejs

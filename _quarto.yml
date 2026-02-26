@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Matrix Metrics"
+  title: "Kevin Li"
   navbar:
     right:
       - href: index.qmd
@@ -11,7 +11,9 @@ website:
       - href: kevin.qmd
         text: About me
       - href: research.qmd
+        text: Research
       - href: publications.qmd
+        text: Publications
       - posts.qmd
 
 format:

@@ -1,5 +1,5 @@
 ---
-title: "Kevin Li"
+title: "Hello, I'm Kevin Li"
 image: media/tree.jpg
 toc: false
 about:
@@ -14,10 +14,6 @@ about:
     - text: ResearchGate
       href: https://www.researchgate.net/profile/Kevin-Li-39
 ---
-
-I am a landscape- and agro-ecologist who is also trained in landscape architecture. I use my unique background to take an encompassing approach to research in landscape systems that includes aspects of agriculture, ecology, and public health, as well as a data-driven approach to ecological landscape design. My work aims to make environmental data accessible and actionable for communities and decision makers. I have expertise in geographic information systems (GIS), statistical analysis, and data visualization, as well as hands-on experience in ecological restoration, stewardship, and landscape design.
-
-Through research and consulting work, I am dedicated to creating landscapes that meet human and ecological needs and foster resilient communities for people and nature.
 
 ## Education
 
