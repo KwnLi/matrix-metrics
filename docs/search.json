@@ -63,6 +63,34 @@
     "text": "My research investigates how ecology and society interact in a landscape context. I conduct field and computational research in ecology to look for solutions that integrate human activity within the larger landscape system. My goal is to find sustainable and equitable ways to fulfill people’s needs while restoring and protecting natural ecosystems."
   },
   {
+    "objectID": "research.html#understanding-spatial-patterns-of-ecological-processes",
+    "href": "research.html#understanding-spatial-patterns-of-ecological-processes",
+    "title": "Research Themes",
+    "section": "Understanding spatial patterns of ecological processes",
+    "text": "Understanding spatial patterns of ecological processes\nA recurring theme of my work is inferring pattern from the spatial organization of ecological phenomena. I want to understand, to what degree do ecological processes organize and influence their own spatial distribution (are endogenous), as opposed to reflect their environmental (exogenous) context?"
+  },
+  {
+    "objectID": "research.html#optimizing-landscape-ecosystem-services",
+    "href": "research.html#optimizing-landscape-ecosystem-services",
+    "title": "Research Themes",
+    "section": "Optimizing landscape ecosystem services",
+    "text": "Optimizing landscape ecosystem services\nCan we design landscapes leverage ecological processes to optimize multiple ecosystem services, like pollination and crop production? This requires understanding how the landscape influences ecosystem functions and services through the composition and configuration of various types of natural habitats versus human land uses."
+  },
+  {
+    "objectID": "research.html#supporting-data-driven-decision-making-in-conservation-and-environment",
+    "href": "research.html#supporting-data-driven-decision-making-in-conservation-and-environment",
+    "title": "Research Themes",
+    "section": "Supporting data-driven decision making in conservation and environment",
+    "text": "Supporting data-driven decision making in conservation and environment\nEcological data is messy and complex. I am use a variety of applied statistical methods, from spatially explicit point process models to generalized linear mixed effects models to disentangle ecological patterns. I am also interested in developing tools that make landscape data and dynamic processes accessible to a wide audience."
+  },
+  {
+    "objectID": "research.html#understanding-factors-of-landscape-transformation",
+    "href": "research.html#understanding-factors-of-landscape-transformation",
+    "title": "Research Themes",
+    "section": "Understanding factors of landscape transformation",
+    "text": "Understanding factors of landscape transformation\nA landscape is a complex system where social, historical, and ecological forces interact. My work searches for leverage points where relatively small changes can lead to broader impacts, to apply in building resilient socio-ecological systems."
+  },
+  {
     "objectID": "kevin.html",
     "href": "kevin.html",
     "title": "Hello, I’m Kevin Li",
@@ -98,38 +126,17 @@
     "text": "I am a landscape ecologist who is also trained in landscape architecture.\nThrough academic research and consulting work, I envision landscapes that meet human and ecological needs and foster resilient communities for people and nature.\n\nAreas of Expertise\n\nLandscape Ecology and Agroecology\nEcological Landscape Planning and Design\nEnvironmental and Spatial Statistics and Analysis"
   },
   {
+    "objectID": "index.html#i-am-a-landscape-ecologist-who-is-also-trained-in-landscape-architecture.",
+    "href": "index.html#i-am-a-landscape-ecologist-who-is-also-trained-in-landscape-architecture.",
+    "title": "Matrix Metrics",
+    "section": "",
+    "text": "Through academic research and consulting work, I envision landscapes that meet human and ecological needs and foster resilient communities for people and nature.\n\n\n\nLandscape Ecology and Agroecology\nEcological Landscape Planning and Design\nEnvironmental and Spatial Statistics and Analysis"
+  },
+  {
     "objectID": "posts.html",
     "href": "posts.html",
     "title": "Notes",
     "section": "",
     "text": "No matching items"
-  },
-  {
-    "objectID": "research.html#understanding-spatial-patterns-of-ecological-processes",
-    "href": "research.html#understanding-spatial-patterns-of-ecological-processes",
-    "title": "Research Themes",
-    "section": "Understanding spatial patterns of ecological processes",
-    "text": "Understanding spatial patterns of ecological processes\nA recurring theme of my work is inferring pattern from the spatial organization of ecological phenomena. I want to understand, to what degree do ecological processes organize and influence their own spatial distribution (are endogenous), as opposed to reflect their environmental (exogenous) context?"
-  },
-  {
-    "objectID": "research.html#optimizing-landscape-ecosystem-services",
-    "href": "research.html#optimizing-landscape-ecosystem-services",
-    "title": "Research Themes",
-    "section": "Optimizing landscape ecosystem services",
-    "text": "Optimizing landscape ecosystem services\nCan we design landscapes leverage ecological processes to optimize multiple ecosystem services, like pollination and crop production? This requires understanding how the landscape influences ecosystem functions and services through the composition and configuration of various types of natural habitats versus human land uses."
-  },
-  {
-    "objectID": "research.html#supporting-data-driven-decision-making-in-conservation-and-environment",
-    "href": "research.html#supporting-data-driven-decision-making-in-conservation-and-environment",
-    "title": "Research Themes",
-    "section": "Supporting data-driven decision making in conservation and environment",
-    "text": "Supporting data-driven decision making in conservation and environment\nEcological data is messy and complex. I am use a variety of applied statistical methods, from spatially explicit point process models to generalized linear mixed effects models to disentangle ecological patterns. I am also interested in developing tools that make landscape data and dynamic processes accessible to a wide audience."
-  },
-  {
-    "objectID": "research.html#understanding-factors-of-landscape-transformation",
-    "href": "research.html#understanding-factors-of-landscape-transformation",
-    "title": "Research Themes",
-    "section": "Understanding factors of landscape transformation",
-    "text": "Understanding factors of landscape transformation\nA landscape is a complex system where social, historical, and ecological forces interact. My work searches for leverage points where relatively small changes can lead to broader impacts, to apply in building resilient socio-ecological systems."
   }
 ]

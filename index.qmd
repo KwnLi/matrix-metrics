@@ -35,7 +35,7 @@ include-in-header:
       </style>
 ---
 
-I am a landscape ecologist who is also trained in landscape architecture.
+**I am a landscape ecologist who is also trained in landscape architecture.**
 
 Through academic research and consulting work, I envision landscapes that meet human and ecological needs and foster resilient communities for people and nature.
 
