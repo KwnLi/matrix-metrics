@@ -37,7 +37,7 @@ include-in-header:
 
 I am a landscape ecologist who is also trained in landscape architecture.
 
-Through academic research and consulting work, I am dedicated to envisioning landscapes that meet human and ecological needs and foster resilient communities for people and nature.
+Through academic research and consulting work, I envision landscapes that meet human and ecological needs and foster resilient communities for people and nature.
 
 ### Areas of Expertise
 

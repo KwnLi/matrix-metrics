@@ -10,8 +10,12 @@ website:
         text: Home
       - href: kevin.qmd
         text: About me
-      - href: research.qmd
-        text: Research
+      - text: Research
+        menu: 
+          - text: Themes
+            href: research.qmd
+          - text: Projects
+            href: projects.qmd
       - href: publications.qmd
         text: Publications
       - posts.qmd
