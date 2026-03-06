@@ -7,7 +7,9 @@ listing:
     sort: "year desc"
     page-size: 30
     filter-ui: true
-    fields: [image, title, publication, author,url_source]
+    fields: [title, journ, author,url_source,year]
+    field-types:
+      author: string
 page-layout: full
 ---
 
