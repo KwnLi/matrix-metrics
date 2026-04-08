@@ -21,39 +21,11 @@
     "text": "Insect pollinators rely on floral resources in their landscape, while their visits to flowering plants can provide pollination. My ongoing work seeks to better understand what floral resources are available to pollinators over space and time. I am developing projects that use citizen science data and satellite imagery to map floral communities."
   },
   {
-    "objectID": "projects.html#landscape-floral-resource-continuity-and-connectivity",
-    "href": "projects.html#landscape-floral-resource-continuity-and-connectivity",
+    "objectID": "projects.html#completed-research-projects",
+    "href": "projects.html#completed-research-projects",
     "title": "Research Projects",
-    "section": "",
-    "text": "Insect pollinators rely on floral resources in their landscape, while their visits to flowering plants can provide pollination. My ongoing work seeks to better understand what floral resources are available to pollinators over space and time. I am developing projects that use citizen science data and satellite imagery to map floral communities."
-  },
-  {
-    "objectID": "projects.html#beespatial",
-    "href": "projects.html#beespatial",
-    "title": "Research Projects",
-    "section": "BeeSpatial",
-    "text": "BeeSpatial\nI develop the web application BeeSpatial as a research-focused complement to Beescape, an interactive map-based application that helps users assess landscape quality for supporting bees and other pollinators. BeeSpatial helps researchers access a trove of habitat and environmental landscape data, including predicted seasonal floral resources, bee nesting habitat, land cover, and climate variables."
-  },
-  {
-    "objectID": "projects.html#modeling-landscape-agroecosystem-services",
-    "href": "projects.html#modeling-landscape-agroecosystem-services",
-    "title": "Research Projects",
-    "section": "Modeling Landscape Agroecosystem Services",
-    "text": "Modeling Landscape Agroecosystem Services\nMy recently published work shows that distinct aspects of landscape composition and configuration maximize different ecosystem services through nonlinear relationships, suggesting thresholds or tipping points (Li and Goslee 2025, Landscape Ecol)."
-  },
-  {
-    "objectID": "projects.html#coffee-leaf-rust-transmission-dynamics-and-tipping-points",
-    "href": "projects.html#coffee-leaf-rust-transmission-dynamics-and-tipping-points",
-    "title": "Research Projects",
-    "section": "Coffee Leaf Rust Transmission Dynamics and Tipping Points",
-    "text": "Coffee Leaf Rust Transmission Dynamics and Tipping Points\nI applied a tipping point indicator from engineering to understand the spatiotemporal dynamics of annual resurgences of the coffee leaf rust (Hemileia vastatrix) in a Mexican farm (Li et al. 2022, Sci Rep)."
-  },
-  {
-    "objectID": "projects.html#pollinators-in-oil-palm-landscapes",
-    "href": "projects.html#pollinators-in-oil-palm-landscapes",
-    "title": "Research Projects",
-    "section": "Pollinators in Oil Palm Landscapes",
-    "text": "Pollinators in Oil Palm Landscapes\nIn my dissertation work in Indonesia, I found that oil palm pollinators may benefit from mesopredator-suppressing effects, e.g. insectivorous birds that spill over from the forest into the oil palm farm (Li et al. 2023, Agric Ecosyst Environ)."
+    "section": "Completed Research Projects",
+    "text": "Completed Research Projects\n\nCoffee Leaf Rust Transmission Dynamics and Tipping Points\nI applied a tipping point indicator from engineering to understand the spatiotemporal dynamics of annual resurgences of the coffee leaf rust (Hemileia vastatrix) in a Mexican farm (Li et al. 2022, Sci Rep).\n\n\nPollinators in Oil Palm Landscapes\nIn my dissertation work in Indonesia, I found that oil palm pollinators may benefit from mesopredator-suppressing effects, e.g. insectivorous birds that spill over from the forest into the oil palm farm (Li et al. 2023, Agric Ecosyst Environ)."
   },
   {
     "objectID": "research.html",
@@ -123,14 +95,7 @@
     "href": "index.html",
     "title": "Matrix Metrics",
     "section": "",
-    "text": "I am a landscape ecologist who is also trained in landscape architecture.\nThrough academic research and consulting work, I envision landscapes that meet human and ecological needs and foster resilient communities for people and nature.\n\nAreas of Expertise\n\nLandscape Ecology and Agroecology\nEcological Landscape Planning and Design\nEnvironmental and Spatial Statistics and Analysis"
-  },
-  {
-    "objectID": "index.html#i-am-a-landscape-ecologist-who-is-also-trained-in-landscape-architecture.",
-    "href": "index.html#i-am-a-landscape-ecologist-who-is-also-trained-in-landscape-architecture.",
-    "title": "Matrix Metrics",
-    "section": "",
-    "text": "Through academic research and consulting work, I envision landscapes that meet human and ecological needs and foster resilient communities for people and nature.\n\n\n\nLandscape Ecology and Agroecology\nEcological Landscape Planning and Design\nEnvironmental and Spatial Statistics and Analysis"
+    "text": "I am a landscape ecologist trained in landscape architecture.\nThrough academic research and consulting, I envision landscapes that meet human and ecological needs and foster resilient communities for people and nature.\n\n\nAreas of Expertise\n\nLandscape Ecology and Agroecology\nEcological Landscape Planning and Design\nEnvironmental and Spatial Statistics and Analysis"
   },
   {
     "objectID": "posts.html",

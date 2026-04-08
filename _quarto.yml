@@ -22,7 +22,9 @@ website:
 
 format:
   html:
-    theme: flatly
+    theme: 
+      - journal
+      - custom.scss
     css: styles.css
     toc: true
 
