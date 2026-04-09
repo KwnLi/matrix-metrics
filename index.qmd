@@ -1,5 +1,5 @@
 ---
-title: "Matrix Metrics"
+title: "Matrix -- Metrics"
 subtitle: "Making sense of the landscape matrix"
 toc: false
 # include CSS style for title blocks
@@ -41,6 +41,8 @@ Through academic research and consulting, I envision landscapes that meet human 
 
 ### Areas of Expertise
 
--   Landscape Ecology and Agroecology
--   Ecological Landscape Planning and Design
--   Environmental and Spatial Statistics and Analysis
+- **RESEARCH** | Landscape Ecology and Agroecology
+
+- **DATA** | Environmental and Spatial Statistics and Analysis
+
+- **DESIGN** | Ecological Landscape Planning and Design
