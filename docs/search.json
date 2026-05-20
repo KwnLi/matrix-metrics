@@ -18,7 +18,7 @@
     "href": "index.html",
     "title": "Matrix – Metrics",
     "section": "",
-    "text": "I am a landscape ecologist trained in landscape architecture.\nThrough academic research and consulting, I envision landscapes that meet human and ecological needs and foster resilient communities for people and nature.\n\n\nAreas of Expertise\n\nRESEARCH | Landscape ecology and agroecology\nDATA | Environmental and spatial statistics and analysis\nDESIGN | Ecological landscape planning and design"
+    "text": "I am a landscape ecologist trained in landscape architecture.\nThrough academic research and consulting, I envision landscapes that meet human and ecological needs and foster resilient communities for people and nature.\n\n\nAreas of Work\n\nRESEARCH | Landscape ecology and agroecology\nDATA | Environmental and spatial statistics and analysis\nDESIGN | Ecological landscape planning and design"
   },
   {
     "objectID": "kevin.html",
@@ -51,16 +51,16 @@
   {
     "objectID": "research.html",
     "href": "research.html",
-    "title": "Research",
+    "title": "Landscape Ecological Research",
     "section": "",
-    "text": "My research investigates ecology in a landscape context. Landscapes are complex systems built by social, historical, and ecological forces. Using field and computational methods, my research seeks management solutions that integrate human activities sustainably and equitably within their ecological systems, fulfilling people’s needs while restoring and protecting natural biodiversity.\n\n\nWhat can we learn about ecological processes from spatial and temporal patterns? I am interested in how, and to what degree, do ecological processes organize and influence their own distributions (are endogenous), as opposed to reflect their environmental (exogenous) context. This knowledge has important implications for planning successful ecological interventions and predicting ecological resilience.\n\n\n\nHow can we design landscapes to leverage ecological processes for multiple ecosystem services, like pollination, water purification, and crop production? My work investigates how the landscape influences ecosystem functions and services through the composition and configuration of natural habitats and human land uses.\n\n\n\nHow do changes in complex systems in landscapes happen? My work searches for leverage points where relatively small changes can lead to broader impacts that help build resilient socio-ecological systems."
+    "text": "My research investigates ecology in a landscape context. Landscapes are complex systems built by social, historical, and ecological forces. Using field and computational methods, my research seeks management solutions that integrate human activities sustainably and equitably within their ecological systems, fulfilling people’s needs while restoring and protecting natural biodiversity.\n\n\nWhat can we learn about ecological processes from spatial and temporal patterns? I am interested in how, and to what degree, do ecological processes organize and influence their own distributions, as opposed to reflect their environmental context. This knowledge has important implications for planning successful ecological interventions and predicting ecological resilience.\n\n\n\nHow can we design landscapes to leverage ecological processes for multiple ecosystem services, like pollination, water purification, and crop production? My work investigates how the landscape influences ecosystem functions and services through the composition and configuration of natural habitats and human land uses.\n\n\n\nHow do changes in complex systems in landscapes happen? My work searches for leverage points where relatively small changes can lead to broader impacts that help build resilient socio-ecological systems."
   },
   {
     "objectID": "research.html#themes",
     "href": "research.html#themes",
-    "title": "Research",
+    "title": "Landscape Ecological Research",
     "section": "",
-    "text": "My research investigates ecology in a landscape context. Landscapes are complex systems built by social, historical, and ecological forces. Using field and computational methods, my research seeks management solutions that integrate human activities sustainably and equitably within their ecological systems, fulfilling people’s needs while restoring and protecting natural biodiversity.\n\n\nWhat can we learn about ecological processes from spatial and temporal patterns? I am interested in how, and to what degree, do ecological processes organize and influence their own distributions (are endogenous), as opposed to reflect their environmental (exogenous) context. This knowledge has important implications for planning successful ecological interventions and predicting ecological resilience.\n\n\n\nHow can we design landscapes to leverage ecological processes for multiple ecosystem services, like pollination, water purification, and crop production? My work investigates how the landscape influences ecosystem functions and services through the composition and configuration of natural habitats and human land uses.\n\n\n\nHow do changes in complex systems in landscapes happen? My work searches for leverage points where relatively small changes can lead to broader impacts that help build resilient socio-ecological systems."
+    "text": "My research investigates ecology in a landscape context. Landscapes are complex systems built by social, historical, and ecological forces. Using field and computational methods, my research seeks management solutions that integrate human activities sustainably and equitably within their ecological systems, fulfilling people’s needs while restoring and protecting natural biodiversity.\n\n\nWhat can we learn about ecological processes from spatial and temporal patterns? I am interested in how, and to what degree, do ecological processes organize and influence their own distributions, as opposed to reflect their environmental context. This knowledge has important implications for planning successful ecological interventions and predicting ecological resilience.\n\n\n\nHow can we design landscapes to leverage ecological processes for multiple ecosystem services, like pollination, water purification, and crop production? My work investigates how the landscape influences ecosystem functions and services through the composition and configuration of natural habitats and human land uses.\n\n\n\nHow do changes in complex systems in landscapes happen? My work searches for leverage points where relatively small changes can lead to broader impacts that help build resilient socio-ecological systems."
   },
   {
     "objectID": "posts/2026-04-09-aim-news/index.html",
@@ -100,7 +100,7 @@
   {
     "objectID": "data.html",
     "href": "data.html",
-    "title": "Supporting data-driven decision making in conservation and environment",
+    "title": "Data-Driven Conservation and Environmental Decision Making",
     "section": "",
     "text": "I apply a variety of statistical methods, from spatially explicit point process models to generalized linear mixed effects models to disentangle ecological patterns. I am also interested in developing tools that make landscape and environmental data and accessible to a wider audience."
   }

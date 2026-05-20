@@ -39,7 +39,7 @@ include-in-header:
 
 Through academic research and consulting, I envision landscapes that meet human and ecological needs and foster resilient communities for people and nature.
 
-### Areas of Expertise
+### Areas of Work
 
 - [**RESEARCH**](research.qmd) | Landscape ecology and agroecology
 

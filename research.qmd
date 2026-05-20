@@ -1,5 +1,5 @@
 ---
-title: "Research"
+title: "Landscape Ecological Research"
 format: html
 ---
 
@@ -9,12 +9,12 @@ My research investigates ecology in a landscape context. Landscapes are complex 
 
 ### Uncovering ecological process from pattern
 
-What can we learn about ecological processes from spatial and temporal patterns? I am interested in how, and to what degree, do ecological processes organize and influence their own distributions (are **endogenous**), as opposed to reflect their environmental (**exogenous**) context. This knowledge has important implications for planning successful ecological interventions and predicting ecological resilience.
+*What can we learn about ecological processes from spatial and temporal patterns?* I am interested in how, and to what degree, do ecological processes organize and influence their own distributions, as opposed to reflect their environmental context. This knowledge has important implications for planning successful ecological interventions and predicting ecological resilience.
 
 ### Designing for ecosystem services in the landscape
 
-How can we design landscapes to leverage ecological processes for multiple ecosystem services, like pollination, water purification, and crop production? My work investigates how the landscape influences ecosystem functions and services through the composition and configuration of natural habitats and human land uses.
+*How can we design landscapes to leverage ecological processes for multiple ecosystem services, like pollination, water purification, and crop production?* My work investigates how the landscape influences ecosystem functions and services through the composition and configuration of natural habitats and human land uses.
 
 ### Understanding impacts of landscape transformation
 
-How do changes in complex systems in landscapes happen? My work searches for leverage points where relatively small changes can lead to broader impacts that help build resilient socio-ecological systems.
+*How do changes in complex systems in landscapes happen?* My work searches for leverage points where relatively small changes can lead to broader impacts that help build resilient socio-ecological systems.

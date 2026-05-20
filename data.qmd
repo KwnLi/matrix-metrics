@@ -1,5 +1,5 @@
 ---
-title: "Supporting data-driven decision making in conservation and environment"
+title: "Data-Driven Conservation and Environmental Decision Making"
 format: html
 ---
 
