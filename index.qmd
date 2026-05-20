@@ -41,8 +41,8 @@ Through academic research and consulting, I envision landscapes that meet human 
 
 ### Areas of Expertise
 
-- **RESEARCH** | Landscape ecology and agroecology
+- [**RESEARCH**](research.qmd) | Landscape ecology and agroecology
 
-- **DATA** | Environmental and spatial statistics and analysis
+- [**DATA**](data.qmd) | Environmental and spatial statistics and analysis
 
-- **DESIGN** | Ecological landscape planning and design
+- [**DESIGN**](design.qmd) | Ecological landscape planning and design

@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Research Themes – Kevin Li</title>
+<title>Research – Kevin Li</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -32,15 +35,14 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f458484e91383cf27319819a5e9fb2aa.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-cd2fc4d7f0f0fab413baadaa8d90e585.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,8 +82,6 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Kevin Li</span>
     </a>
@@ -101,17 +101,21 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About me</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Research</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-work" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Work</span>
     </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-research">    
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-work">    
         <li>
     <a class="dropdown-item" href="./research.html">
- <span class="dropdown-text">Themes</span></a>
+ <span class="dropdown-text">Research</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./projects.html">
- <span class="dropdown-text">Projects</span></a>
+    <a class="dropdown-item" href="./data.html">
+ <span class="dropdown-text">Data</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./design.html">
+ <span class="dropdown-text">Design</span></a>
   </li>  
     </ul>
   </li>
@@ -139,10 +143,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#understanding-spatial-patterns-of-ecological-processes" id="toc-understanding-spatial-patterns-of-ecological-processes" class="nav-link active" data-scroll-target="#understanding-spatial-patterns-of-ecological-processes">Understanding spatial patterns of ecological processes</a></li>
-  <li><a href="#optimizing-landscape-ecosystem-services" id="toc-optimizing-landscape-ecosystem-services" class="nav-link" data-scroll-target="#optimizing-landscape-ecosystem-services">Optimizing landscape ecosystem services</a></li>
-  <li><a href="#supporting-data-driven-decision-making-in-conservation-and-environment" id="toc-supporting-data-driven-decision-making-in-conservation-and-environment" class="nav-link" data-scroll-target="#supporting-data-driven-decision-making-in-conservation-and-environment">Supporting data-driven decision making in conservation and environment</a></li>
-  <li><a href="#understanding-factors-of-landscape-transformation" id="toc-understanding-factors-of-landscape-transformation" class="nav-link" data-scroll-target="#understanding-factors-of-landscape-transformation">Understanding factors of landscape transformation</a></li>
+  <li><a href="#themes" id="toc-themes" class="nav-link active" data-scroll-target="#themes">Themes</a>
+  <ul class="collapse">
+  <li><a href="#uncovering-ecological-process-from-pattern" id="toc-uncovering-ecological-process-from-pattern" class="nav-link" data-scroll-target="#uncovering-ecological-process-from-pattern">Uncovering ecological process from pattern</a></li>
+  <li><a href="#designing-for-ecosystem-services-in-the-landscape" id="toc-designing-for-ecosystem-services-in-the-landscape" class="nav-link" data-scroll-target="#designing-for-ecosystem-services-in-the-landscape">Designing for ecosystem services in the landscape</a></li>
+  <li><a href="#understanding-impacts-of-landscape-transformation" id="toc-understanding-impacts-of-landscape-transformation" class="nav-link" data-scroll-target="#understanding-impacts-of-landscape-transformation">Understanding impacts of landscape transformation</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -151,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research Themes</h1>
+<h1 class="title">Research</h1>
 </div>
 
 
@@ -168,24 +174,23 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>My research investigates how ecology and society interact in a landscape context. I conduct field and computational research in ecology to look for solutions that integrate human activity within the larger landscape system. My goal is to find sustainable and equitable ways to fulfill people’s needs while restoring and protecting natural ecosystems.</p>
-<section id="understanding-spatial-patterns-of-ecological-processes" class="level2">
-<h2 class="anchored" data-anchor-id="understanding-spatial-patterns-of-ecological-processes">Understanding spatial patterns of ecological processes</h2>
-<p>A recurring theme of my work is inferring pattern from the spatial organization of ecological phenomena. I want to understand, to what degree do ecological processes organize and influence their own spatial distribution (are <strong>endogenous</strong>), as opposed to reflect their environmental (<strong>exogenous</strong>) context?</p>
+<section id="themes" class="level2">
+<h2 class="anchored" data-anchor-id="themes">Themes</h2>
+<p>My research investigates ecology in a landscape context. Landscapes are complex systems built by social, historical, and ecological forces. Using field and computational methods, my research seeks management solutions that integrate human activities sustainably and equitably within their ecological systems, fulfilling people’s needs while restoring and protecting natural biodiversity.</p>
+<section id="uncovering-ecological-process-from-pattern" class="level3">
+<h3 class="anchored" data-anchor-id="uncovering-ecological-process-from-pattern">Uncovering ecological process from pattern</h3>
+<p>What can we learn about ecological processes from spatial and temporal patterns? I am interested in how, and to what degree, do ecological processes organize and influence their own distributions (are <strong>endogenous</strong>), as opposed to reflect their environmental (<strong>exogenous</strong>) context. This knowledge has important implications for planning successful ecological interventions and predicting ecological resilience.</p>
 </section>
-<section id="optimizing-landscape-ecosystem-services" class="level2">
-<h2 class="anchored" data-anchor-id="optimizing-landscape-ecosystem-services">Optimizing landscape ecosystem services</h2>
-<p>Can we design landscapes leverage ecological processes to optimize multiple ecosystem services, like pollination and crop production? This requires understanding how the landscape influences ecosystem functions and services through the composition and configuration of various types of natural habitats versus human land uses.</p>
+<section id="designing-for-ecosystem-services-in-the-landscape" class="level3">
+<h3 class="anchored" data-anchor-id="designing-for-ecosystem-services-in-the-landscape">Designing for ecosystem services in the landscape</h3>
+<p>How can we design landscapes to leverage ecological processes for multiple ecosystem services, like pollination, water purification, and crop production? My work investigates how the landscape influences ecosystem functions and services through the composition and configuration of natural habitats and human land uses.</p>
 </section>
-<section id="supporting-data-driven-decision-making-in-conservation-and-environment" class="level2">
-<h2 class="anchored" data-anchor-id="supporting-data-driven-decision-making-in-conservation-and-environment">Supporting data-driven decision making in conservation and environment</h2>
-<p>Ecological data is messy and complex. I am use a variety of applied statistical methods, from spatially explicit point process models to generalized linear mixed effects models to disentangle ecological patterns. I am also interested in developing tools that make landscape data and dynamic processes accessible to a wide audience.</p>
-</section>
-<section id="understanding-factors-of-landscape-transformation" class="level2">
-<h2 class="anchored" data-anchor-id="understanding-factors-of-landscape-transformation">Understanding factors of landscape transformation</h2>
-<p>A landscape is a complex system where social, historical, and ecological forces interact. My work searches for leverage points where relatively small changes can lead to broader impacts, to apply in building resilient socio-ecological systems.</p>
+<section id="understanding-impacts-of-landscape-transformation" class="level3">
+<h3 class="anchored" data-anchor-id="understanding-impacts-of-landscape-transformation">Understanding impacts of landscape transformation</h3>
+<p>How do changes in complex systems in landscapes happen? My work searches for leverage points where relatively small changes can lead to broader impacts that help build resilient socio-ecological systems.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -590,6 +595,44 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Copyright 2026, Kevin Li</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/neivk/">
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://scholar.google.com/citations?user=JQkwWL4AAAAJ">
+      <i class="bi bi-file-earmark-text" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.researchgate.net/profile/Kevin-Li-39">
+      <i class="bi bi-beaker" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/KwnLi">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 

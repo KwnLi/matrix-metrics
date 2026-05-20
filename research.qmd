@@ -1,22 +1,20 @@
 ---
-title: "Research Themes"
+title: "Research"
 format: html
 ---
 
-My research investigates how ecology and society interact in a landscape context. I conduct field and computational research in ecology to look for solutions that integrate human activity within the larger landscape system. My goal is to find sustainable and equitable ways to fulfill people’s needs while restoring and protecting natural ecosystems.
+## Themes
 
-## Understanding spatial patterns of ecological processes
+My research investigates ecology in a landscape context. Landscapes are complex systems built by social, historical, and ecological forces. Using field and computational methods, my research seeks management solutions that integrate human activities sustainably and equitably within their ecological systems, fulfilling people’s needs while restoring and protecting natural biodiversity.
 
-A recurring theme of my work is inferring pattern from the spatial organization of ecological phenomena. I want to understand, to what degree do ecological processes organize and influence their own spatial distribution (are **endogenous**), as opposed to reflect their environmental (**exogenous**) context?
+### Uncovering ecological process from pattern
 
-## Optimizing landscape ecosystem services
+What can we learn about ecological processes from spatial and temporal patterns? I am interested in how, and to what degree, do ecological processes organize and influence their own distributions (are **endogenous**), as opposed to reflect their environmental (**exogenous**) context. This knowledge has important implications for planning successful ecological interventions and predicting ecological resilience.
 
-Can we design landscapes leverage ecological processes to optimize multiple ecosystem services, like pollination and crop production? This requires understanding how the landscape influences ecosystem functions and services through the composition and configuration of various types of natural habitats versus human land uses.
+### Designing for ecosystem services in the landscape
 
-## Supporting data-driven decision making in conservation and environment
+How can we design landscapes to leverage ecological processes for multiple ecosystem services, like pollination, water purification, and crop production? My work investigates how the landscape influences ecosystem functions and services through the composition and configuration of natural habitats and human land uses.
 
-Ecological data is messy and complex. I am use a variety of applied statistical methods, from spatially explicit point process models to generalized linear mixed effects models to disentangle ecological patterns. I am also interested in developing tools that make landscape data and dynamic processes accessible to a wide audience.
+### Understanding impacts of landscape transformation
 
-## Understanding factors of landscape transformation
-
-A landscape is a complex system where social, historical, and ecological forces interact. My work searches for leverage points where relatively small changes can lead to broader impacts, to apply in building resilient socio-ecological systems.
+How do changes in complex systems in landscapes happen? My work searches for leverage points where relatively small changes can lead to broader impacts that help build resilient socio-ecological systems.

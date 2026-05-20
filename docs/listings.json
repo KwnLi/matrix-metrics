@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/2026-04-09-aim-news/index.html"
+    ]
+  },
+  {
     "listing": "/publications.html",
     "items": [
       "/publications/2026_Agricultural_intensification_associated/index.html",
@@ -37,12 +43,6 @@
       "/publications/2016_Disentangling_endogenous_versus/index.html",
       "/publications/2013_Effect_of_Sub-Canopy/index.html",
       "/publications/2009_Coyote,_Canis_latrans,/index.html"
-    ]
-  },
-  {
-    "listing": "/posts.html",
-    "items": [
-      "/posts/2026-04-09-aim-news/index.html"
     ]
   }
 ]

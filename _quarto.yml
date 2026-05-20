@@ -10,16 +10,28 @@ website:
         text: Home
       - href: kevin.qmd
         text: About me
-      - text: Research
-        menu: 
-          - text: Themes
+      - text: Work
+        menu:
+          - text: Research
             href: research.qmd
-          - text: Projects
-            href: projects.qmd
+          - text: Data
+            href: data.qmd
+          - text: Design
+            href: design.qmd
       - href: publications.qmd
         text: Publications
       - posts.qmd
-
+  page-footer: 
+    left: "Copyright 2026, Kevin Li" 
+    right: 
+      - icon: linkedin
+        href: https://www.linkedin.com/in/neivk/
+      - icon: file-earmark-text
+        href: https://scholar.google.com/citations?user=JQkwWL4AAAAJ
+      - icon: beaker
+        href: https://www.researchgate.net/profile/Kevin-Li-39
+      - icon: github
+        href: https://github.com/KwnLi
 format:
   html:
     theme: 

@@ -1,22 +1,37 @@
 ---
-title: "Hello, I'm Kevin Li"
+title: Hello, I'm Kevin Li
 image: media/tree.jpg
 toc: false
 about:
+  id: about-heading
   template: broadside
+  image-width: 350px
   image-shape: rounded
   links:
-    - text: LinkedIn
+    - icon: linkedin
+      text: LinkedIn
       href: https://www.linkedin.com/in/neivk/
-    - text: Google Scholar
+    - icon: file-earmark-text
+      text: Google Scholar
       href: https://scholar.google.com/citations?user=JQkwWL4AAAAJ
-    - text: ResearchGate
+    - icon: beaker
+      text: ResearchGate
       href: https://www.researchgate.net/profile/Kevin-Li-39
+    - icon: github
+      text: Github
+      href: https://github.com/KwnLi
+format:
+  html:
+    css: styles.css
 ---
+
+:::{#about-heading}
 
 I use my unique background in ecology and landscape architecture to take an encompassing approach to research in landscape systems. This includes aspects of agriculture, ecology, and public health research, and a data-driven approach to ecological landscape design. My work aims to make environmental data accessible and actionable for communities and decision makers.
 
 I have expertise in ecology, geographic information systems (GIS), statistical analysis, and data visualization. I also have hands-on experience in ecological restoration, stewardship, and landscape design.
+
+:::
 
 ## Education
 
