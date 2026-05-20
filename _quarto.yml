@@ -32,6 +32,7 @@ website:
         href: https://www.researchgate.net/profile/Kevin-Li-39
       - icon: github
         href: https://github.com/KwnLi
+  favicon: media/favicon.ico
 format:
   html:
     theme: 
