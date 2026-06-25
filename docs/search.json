@@ -53,7 +53,7 @@
     "href": "projects/oil-palm/index.html",
     "title": "Pollinators in oil palm landscapes",
     "section": "",
-    "text": "In my dissertation work in Indonesia, I found that oil palm pollinators may benefit from mesopredator-suppressing effects, e.g. insectivorous birds that spill over from the forest into the oil palm farm (Li et al. 2023, Agric Ecosyst Environ)."
+    "text": "Agricultural expansion and land use change are rapidly transforming tropical landscapes, impacting pollinator species and the services they provide. My dissertation at the University of Göttingen under Teja Tscharntke and Ingo Grass investigates how the conversion of natural forests to agricultural systems, particularly oil palm plantations, affects pollinator biodiversity, ecosystem functions, and pollination services in Jambi Province, Sumatra, Indonesia.\n\n\n\na.) Stingless bee and Apis dorsata visiting male inflorescence (credit: T. Fung); b.) a young oil palm plantation; c.) remnant forest; d.) oil palm pollinator experiment (T. Fung). e.) Biodiversity enrichment patch within an oil palm plantation\n\n\nI first reviewed current understanding of oil palm pollination and identified key biological, management, and climate factors that influence yield stability through their effects on pollinators. Field experiments then demonstrated that natural forest proximity enhances fruit set in oil palm, suggesting important biotic interactions between forest and agricultural habitats. Within a long-term biodiversity enrichment experiment, I showed that increasing tree diversity in oil palm plantations indirectly affects ecosystem functions, such as pollination and herbivory, by altering light and vegetation structure. Finally, experiments with native stingless bees (Tetragonula laeviceps) across multiple land use types revealed that structurally complex habitats promote colony survival and growth, while local floral diversity enhances pollen storage and reproductive success.\nTogether, these studies illustrate that agricultural intensification reduces habitat quality for wild pollinators, but natural habitat and biodiversity restoration can partially offset these losses. By identifying ecological pathways that link land use, biodiversity, and pollination, this work advances our understanding of how ecosystem functions respond to landscape change and provides insight for improving both agricultural sustainability and tropical biodiversity conservation."
   },
   {
     "objectID": "projects/ecosystem-services/index.html",
@@ -81,21 +81,28 @@
     "href": "research.html",
     "title": "Landscape Ecological Research",
     "section": "",
-    "text": "My research investigates ecological processes in their landscape context. Using field and computational methods, I work towards management solutions that integrate human activities sustainably and equitably within their ecological systems, fulfilling people’s needs while restoring and protecting natural biodiversity.\n\n\nWhat can we learn about ecological processes from spatial and temporal patterns? I am interested in how, and to what degree, do ecological processes organize and influence their own distributions, as opposed to reflect their environmental context. This has important implications for planning successful ecological interventions and predicting ecological resilience.\n\n\n\nHow can we design landscapes that leverage ecological processes for multiple ecosystem services? My work investigates how the landscape influences ecosystem functions and services like pollination, water purification, and crop production through the composition and configuration of natural habitats and human land uses.\n\n\n\nIn what ways do changing landscapes affect ecological processes? My work examines leverage points where relatively small changes in the ecosystem can lead to broader impacts. This knowledge helps build resilient socio-ecological systems."
+    "text": "My research investigates ecological processes in their landscape context. Using field and computational methods, I work towards management solutions that integrate human activities sustainably and equitably within their ecological systems, fulfilling people’s needs while restoring and protecting natural biodiversity."
   },
   {
-    "objectID": "research.html#themes",
-    "href": "research.html#themes",
+    "objectID": "research.html#uncovering-ecological-process-from-pattern",
+    "href": "research.html#uncovering-ecological-process-from-pattern",
     "title": "Landscape Ecological Research",
-    "section": "",
-    "text": "My research investigates ecological processes in their landscape context. Using field and computational methods, I work towards management solutions that integrate human activities sustainably and equitably within their ecological systems, fulfilling people’s needs while restoring and protecting natural biodiversity.\n\n\nWhat can we learn about ecological processes from spatial and temporal patterns? I am interested in how, and to what degree, do ecological processes organize and influence their own distributions, as opposed to reflect their environmental context. This has important implications for planning successful ecological interventions and predicting ecological resilience.\n\n\n\nHow can we design landscapes that leverage ecological processes for multiple ecosystem services? My work investigates how the landscape influences ecosystem functions and services like pollination, water purification, and crop production through the composition and configuration of natural habitats and human land uses.\n\n\n\nIn what ways do changing landscapes affect ecological processes? My work examines leverage points where relatively small changes in the ecosystem can lead to broader impacts. This knowledge helps build resilient socio-ecological systems."
+    "section": "Uncovering ecological process from pattern",
+    "text": "Uncovering ecological process from pattern\nWhat can we learn about ecological processes from spatial and temporal patterns? I am interested in how, and to what degree, do ecological processes organize and influence their own distributions, as opposed to reflect their environmental context. This has important implications for planning successful ecological interventions and predicting ecological resilience.\n\nRelevant Work\n\n\n\n\n\n\n\n\n\n\ndeepflora: Landscape Floral Resource Continuity and Connectivity\n\n\nUsing citizen science data and deep neural networks to predict blooming pollinator resources in space and time at high resolution\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "research.html#relevant-projects",
-    "href": "research.html#relevant-projects",
+    "objectID": "research.html#designing-for-ecosystem-services-in-the-landscape",
+    "href": "research.html#designing-for-ecosystem-services-in-the-landscape",
     "title": "Landscape Ecological Research",
-    "section": "Relevant Projects",
-    "text": "Relevant Projects\n\n\n\n\n\n\n\n\n\n\ndeepflora: Landscape Floral Resource Continuity and Connectivity\n\n\nUsing citizen science data and deep neural networks to predict blooming pollinator resources in space and time at high resolution\n\n\n\n\n\n\n\n\n\n\n\n\nModeling ecosystem services in agricultural landscapes\n\n\nApplying landscape simulations of multiple ecosystem services to identify synergies and tradeoffs\n\n\n\n\n\n\n\n\n\n\n\n\nCoffee leaf rust spread and tipping points\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPollinators in oil palm landscapes\n\n\nMy dissertation work investigated the impacts oil palm has on mobile taxa providing ecosystem service in agricultural landscapes\n\n\n\n\n\nNo matching items"
+    "section": "Designing for ecosystem services in the landscape",
+    "text": "Designing for ecosystem services in the landscape\nHow can we design landscapes that leverage ecological processes for multiple ecosystem services? My work investigates how the landscape influences ecosystem functions and services like pollination, water purification, and crop production through the composition and configuration of natural habitats and human land uses.\n\nRelevant Work\n\n\n\n\n\n\n\n\n\n\nModeling ecosystem services in agricultural landscapes\n\n\nApplying landscape simulations of multiple ecosystem services to identify synergies and tradeoffs\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research.html#understanding-impacts-of-landscape-transformation",
+    "href": "research.html#understanding-impacts-of-landscape-transformation",
+    "title": "Landscape Ecological Research",
+    "section": "Understanding impacts of landscape transformation",
+    "text": "Understanding impacts of landscape transformation\nIn what ways do changing landscapes affect ecological processes? My work examines leverage points where relatively small changes in the ecosystem can lead to broader impacts. This knowledge helps build resilient socio-ecological systems.\n\nRelevant Work\n\n\n\n\n\n\n\n\n\n\nCoffee leaf rust spread and tipping points\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPollinators in oil palm landscapes\n\n\nMy dissertation work investigated the impacts oil palm has on mobile taxa providing ecosystem service in agricultural landscapes\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2026-05-30-dtown/index.html",

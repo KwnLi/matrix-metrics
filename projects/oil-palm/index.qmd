@@ -2,7 +2,7 @@
 title: "Pollinators in oil palm landscapes"
 date: "2020"
 description: "My dissertation work investigated the impacts oil palm has on mobile taxa providing ecosystem service in agricultural landscapes"
-category: "research"
+category: "transformation"
 image: "../_images/oil-palm.jpg"
 format:
   html:
@@ -12,4 +12,10 @@ format:
       description: false
 ---
 
-In my dissertation work in Indonesia, I found that oil palm pollinators may benefit from mesopredator-suppressing effects, e.g. insectivorous birds that spill over from the forest into the oil palm farm (Li et al. 2023, Agric Ecosyst Environ).
+Agricultural expansion and land use change are rapidly transforming tropical landscapes, impacting pollinator species and the services they provide. My dissertation at the University of Göttingen under Teja Tscharntke and Ingo Grass investigates how the conversion of natural forests to agricultural systems, particularly oil palm plantations, affects pollinator biodiversity, ecosystem functions, and pollination services in Jambi Province, Sumatra, Indonesia.
+
+![a.) Stingless bee and Apis dorsata visiting male inflorescence (credit: T. Fung); b.) a young oil palm plantation; c.) remnant forest; d.) oil palm pollinator experiment (T. Fung). e.) Biodiversity enrichment patch within an oil palm plantation](../_images/oil-palm-projects.png)
+
+I first reviewed current understanding of oil palm pollination and identified key biological, management, and climate factors that influence yield stability through their effects on pollinators. Field experiments then demonstrated that natural forest proximity enhances fruit set in oil palm, suggesting important biotic interactions between forest and agricultural habitats. Within a long-term biodiversity enrichment experiment, I showed that increasing tree diversity in oil palm plantations indirectly affects ecosystem functions, such as pollination and herbivory, by altering light and vegetation structure. Finally, experiments with native stingless bees (Tetragonula laeviceps) across multiple land use types revealed that structurally complex habitats promote colony survival and growth, while local floral diversity enhances pollen storage and reproductive success.
+
+Together, these studies illustrate that agricultural intensification reduces habitat quality for wild pollinators, but natural habitat and biodiversity restoration can partially offset these losses. By identifying ecological pathways that link land use, biodiversity, and pollination, this work advances our understanding of how ecosystem functions respond to landscape change and provides insight for improving both agricultural sustainability and tropical biodiversity conservation.

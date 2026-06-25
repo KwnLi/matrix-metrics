@@ -1,10 +1,28 @@
 ---
 title: "Landscape Ecological Research"
 listing:
-  - id: projects
+  - id: projects-pattern
     contents: "projects/*/*.qmd"
     include:
-      category: "research"
+      category: "patterns"
+    type: grid
+    grid-columns: 1
+    sort-ui: false
+    sort: "date desc"
+    fields: [image, title, description]
+  - id: projects-es
+    contents: "projects/*/*.qmd"
+    include:
+      category: "ecosystem services"
+    type: grid
+    grid-columns: 1
+    sort-ui: false
+    sort: "date desc"
+    fields: [image, title, description]
+  - id: projects-transform
+    contents: "projects/*/*.qmd"
+    include:
+      category: "transformation"
     type: grid
     grid-columns: 1
     sort-ui: false
@@ -13,23 +31,31 @@ listing:
 format: html
 ---
 
-## Themes
-
 My research investigates ecological processes in their landscape context. Using field and computational methods, I work towards management solutions that integrate human activities sustainably and equitably within their ecological systems, fulfilling people’s needs while restoring and protecting natural biodiversity.
 
-### Uncovering ecological process from pattern
+## Uncovering ecological process from pattern
 
 **_What can we learn about ecological processes from spatial and temporal patterns?_** I am interested in how, and to what degree, do ecological processes organize and influence their own distributions, as opposed to reflect their environmental context. This has important implications for planning successful ecological interventions and predicting ecological resilience.
 
-### Designing for ecosystem services in the landscape
+### Relevant Work
+
+::::{#projects-pattern}
+::::
+
+## Designing for ecosystem services in the landscape
 
 **_How can we design landscapes that leverage ecological processes for multiple ecosystem services?_** My work investigates how the landscape influences ecosystem functions and services like pollination, water purification, and crop production through the composition and configuration of natural habitats and human land uses.
 
-### Understanding impacts of landscape transformation
+### Relevant Work
+
+::::{#projects-es}
+::::
+
+## Understanding impacts of landscape transformation
 
 **_In what ways do changing landscapes affect ecological processes?_** My work examines leverage points where relatively small changes in the ecosystem can lead to broader impacts. This knowledge helps build resilient socio-ecological systems.
 
-## Relevant Projects
+### Relevant Work
 
-::::{#projects}
+::::{#projects-transform}
 ::::

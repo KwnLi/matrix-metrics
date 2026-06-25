@@ -2,7 +2,7 @@
 title: "`deepflora`: Landscape Floral Resource Continuity and Connectivity"
 date: "2026"
 description: "Using citizen science data and deep neural networks to predict blooming pollinator resources in space and time at high resolution"
-category: "research"
+category: "patterns"
 image: "../_images/deepflora.jpg"
 format:
   html:

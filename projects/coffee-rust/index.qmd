@@ -1,7 +1,7 @@
 ---
 title: "Coffee leaf rust spread and tipping points"
 date: "2022"
-category: "research"
+category: "transformation"
 image: ../_images/coffee-rust.jpg
 format:
   html:

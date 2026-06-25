@@ -76,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-projects .list');
+    const listingTargetEl = window.document.querySelector('#listing-projects-pattern .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -89,7 +89,63 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-projects'] = new List('listing-projects', options);
+    window['quarto-listings']['listing-projects-pattern'] = new List('listing-projects-pattern', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-projects-es .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-projects-es'] = new List('listing-projects-es', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-projects-transform .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-projects-transform'] = new List('listing-projects-transform', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -204,13 +260,18 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#themes" id="toc-themes" class="nav-link active" data-scroll-target="#themes">Themes</a>
+  <li><a href="#uncovering-ecological-process-from-pattern" id="toc-uncovering-ecological-process-from-pattern" class="nav-link active" data-scroll-target="#uncovering-ecological-process-from-pattern">Uncovering ecological process from pattern</a>
   <ul class="collapse">
-  <li><a href="#uncovering-ecological-process-from-pattern" id="toc-uncovering-ecological-process-from-pattern" class="nav-link" data-scroll-target="#uncovering-ecological-process-from-pattern">Uncovering ecological process from pattern</a></li>
-  <li><a href="#designing-for-ecosystem-services-in-the-landscape" id="toc-designing-for-ecosystem-services-in-the-landscape" class="nav-link" data-scroll-target="#designing-for-ecosystem-services-in-the-landscape">Designing for ecosystem services in the landscape</a></li>
-  <li><a href="#understanding-impacts-of-landscape-transformation" id="toc-understanding-impacts-of-landscape-transformation" class="nav-link" data-scroll-target="#understanding-impacts-of-landscape-transformation">Understanding impacts of landscape transformation</a></li>
+  <li><a href="#relevant-work" id="toc-relevant-work" class="nav-link" data-scroll-target="#relevant-work">Relevant Work</a></li>
   </ul></li>
-  <li><a href="#relevant-projects" id="toc-relevant-projects" class="nav-link" data-scroll-target="#relevant-projects">Relevant Projects</a></li>
+  <li><a href="#designing-for-ecosystem-services-in-the-landscape" id="toc-designing-for-ecosystem-services-in-the-landscape" class="nav-link" data-scroll-target="#designing-for-ecosystem-services-in-the-landscape">Designing for ecosystem services in the landscape</a>
+  <ul class="collapse">
+  <li><a href="#relevant-work-1" id="toc-relevant-work-1" class="nav-link" data-scroll-target="#relevant-work-1">Relevant Work</a></li>
+  </ul></li>
+  <li><a href="#understanding-impacts-of-landscape-transformation" id="toc-understanding-impacts-of-landscape-transformation" class="nav-link" data-scroll-target="#understanding-impacts-of-landscape-transformation">Understanding impacts of landscape transformation</a>
+  <ul class="collapse">
+  <li><a href="#relevant-work-2" id="toc-relevant-work-2" class="nav-link" data-scroll-target="#relevant-work-2">Relevant Work</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -236,27 +297,15 @@ window.Quarto = {
 </header>
 
 
-<section id="themes" class="level2">
-<h2 class="anchored" data-anchor-id="themes">Themes</h2>
 <p>My research investigates ecological processes in their landscape context. Using field and computational methods, I work towards management solutions that integrate human activities sustainably and equitably within their ecological systems, fulfilling people’s needs while restoring and protecting natural biodiversity.</p>
-<section id="uncovering-ecological-process-from-pattern" class="level3">
-<h3 class="anchored" data-anchor-id="uncovering-ecological-process-from-pattern">Uncovering ecological process from pattern</h3>
+<section id="uncovering-ecological-process-from-pattern" class="level2">
+<h2 class="anchored" data-anchor-id="uncovering-ecological-process-from-pattern">Uncovering ecological process from pattern</h2>
 <p><strong><em>What can we learn about ecological processes from spatial and temporal patterns?</em></strong> I am interested in how, and to what degree, do ecological processes organize and influence their own distributions, as opposed to reflect their environmental context. This has important implications for planning successful ecological interventions and predicting ecological resilience.</p>
-</section>
-<section id="designing-for-ecosystem-services-in-the-landscape" class="level3">
-<h3 class="anchored" data-anchor-id="designing-for-ecosystem-services-in-the-landscape">Designing for ecosystem services in the landscape</h3>
-<p><strong><em>How can we design landscapes that leverage ecological processes for multiple ecosystem services?</em></strong> My work investigates how the landscape influences ecosystem functions and services like pollination, water purification, and crop production through the composition and configuration of natural habitats and human land uses.</p>
-</section>
-<section id="understanding-impacts-of-landscape-transformation" class="level3">
-<h3 class="anchored" data-anchor-id="understanding-impacts-of-landscape-transformation">Understanding impacts of landscape transformation</h3>
-<p><strong><em>In what ways do changing landscapes affect ecological processes?</em></strong> My work examines leverage points where relatively small changes in the ecosystem can lead to broader impacts. This knowledge helps build resilient socio-ecological systems.</p>
-</section>
-</section>
-<section id="relevant-projects" class="level2">
-<h2 class="anchored" data-anchor-id="relevant-projects">Relevant Projects</h2>
-<div id="listing-projects" class="quarto-listing quarto-listing-container-grid">
+<section id="relevant-work" class="level3">
+<h3 class="anchored" data-anchor-id="relevant-work">Relevant Work</h3>
+<div id="listing-projects-pattern" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1767225600000" data-listing-file-modified-sort="1782362532800" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="249">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1767225600000" data-listing-file-modified-sort="1782386246988" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="249">
 <a href="./projects/deepflora/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -272,7 +321,19 @@ window.Quarto = {
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1735689600000" data-listing-file-modified-sort="1782364635186" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="239">
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+</section>
+<section id="designing-for-ecosystem-services-in-the-landscape" class="level2">
+<h2 class="anchored" data-anchor-id="designing-for-ecosystem-services-in-the-landscape">Designing for ecosystem services in the landscape</h2>
+<p><strong><em>How can we design landscapes that leverage ecological processes for multiple ecosystem services?</em></strong> My work investigates how the landscape influences ecosystem functions and services like pollination, water purification, and crop production through the composition and configuration of natural habitats and human land uses.</p>
+<section id="relevant-work-1" class="level3">
+<h3 class="anchored" data-anchor-id="relevant-work-1">Relevant Work</h3>
+<div id="listing-projects-es" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-1">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1735689600000" data-listing-file-modified-sort="1782386268082" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="239">
 <a href="./projects/ecosystem-services/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -288,7 +349,19 @@ Modeling ecosystem services in agricultural landscapes
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1640995200000" data-listing-file-modified-sort="1782364323959" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+</section>
+<section id="understanding-impacts-of-landscape-transformation" class="level2">
+<h2 class="anchored" data-anchor-id="understanding-impacts-of-landscape-transformation">Understanding impacts of landscape transformation</h2>
+<p><strong><em>In what ways do changing landscapes affect ecological processes?</em></strong> My work examines leverage points where relatively small changes in the ecosystem can lead to broader impacts. This knowledge helps build resilient socio-ecological systems.</p>
+<section id="relevant-work-2" class="level3">
+<h3 class="anchored" data-anchor-id="relevant-work-2">Relevant Work</h3>
+<div id="listing-projects-transform" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-1">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1640995200000" data-listing-file-modified-sort="1782386260152" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
 <a href="./projects/coffee-rust/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -304,7 +377,7 @@ I applied a tipping point indicator from engineering to understand the spatiotem
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-date-sort="1577836800000" data-listing-file-modified-sort="1782296199546" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="38">
+<div class="g-col-1" data-index="1" data-listing-date-sort="1577836800000" data-listing-file-modified-sort="1782389921159" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="266">
 <a href="./projects/oil-palm/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -326,6 +399,7 @@ Pollinators in oil palm landscapes
 
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
