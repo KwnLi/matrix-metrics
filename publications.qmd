@@ -4,7 +4,7 @@ listing:
   - id: pubs
     template: _ejs/publications.ejs
     contents: publications/**/*.qmd
-    sort: "year desc"
+    sort: "date desc"
     page-size: 30
     filter-ui: true
     fields: [title, journ, author,url_source,year]

@@ -15,5 +15,7 @@ journ: Agriculture, Ecosystems & Environment
 volume: 401
 page: '110249'
 year: 2026
+date: '2026-05-01'
 doi: 10.1016/j.agee.2026.110249
 ---
+

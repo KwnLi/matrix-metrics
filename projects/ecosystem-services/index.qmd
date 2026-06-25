@@ -1,0 +1,21 @@
+---
+title: "Modeling ecosystem services in agricultural landscapes"
+description: "Applying landscape simulations of multiple ecosystem services to identify synergies and tradeoffs"
+category: "research"
+date: "2025"
+image: "../_images/ecosystem-services.png"
+format:
+  html:
+    metadata:
+      author: false
+      date: false
+      description: false
+---
+
+Agricultural landscapes must produce food, fodder, fuel, or fiber while simultaneously maintaining non-market ecosystem services. Researchers and decision-makers increasingly recognize the importance of considering tradeoffs and synergies between multiple ecosystem services within the landscape when managing for sustainable agriculture. Ecosystem service modeling can be a valuable approach for exploring landscape management scenarios and understanding potential outcomes. Effective conservation practices such as planting perennial wildflower strips can improve multifunctionality, but their success depends on understanding the ecosystem and landscape context.
+
+We conducted a survey of ecosystem service modeling (ESM) tools to identify frameworks that simultaneously assess multiple ecosystem services associated with sustainable agriculture and are open source/access. We found that most ESM tools include climate, soil, and water processes, while fewer cover pollination, natural habitat, or cultural values, and none include biological pest control or genetic diversity.
+
+To assess the role of natural land cover and landscape complexity (landscape composition, connectivity, fragmentation, and heterogeneity) in ecosystem services, we modeled the effect of adding perennial wildflower strips along crop field margins on ecosystem service indices, including pollinator activity, groundwater recharge, sediment runoff, and nutrient runoff in catchments across a gradient of agricultural development.
+
+We found the effects of landscape composition and configuration on ecosystem services varied with the service considered, and most relationships were nonlinear or showed threshold responses. Management interventions such as wildflower strips must be placed in their landscape context to ensure that investments in conservation practices are as effective as possible.

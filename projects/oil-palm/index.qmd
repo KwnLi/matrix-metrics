@@ -1,0 +1,15 @@
+---
+title: "Pollinators in oil palm landscapes"
+date: "2020"
+description: "My dissertation work investigated the impacts oil palm has on mobile taxa providing ecosystem service in agricultural landscapes"
+category: "research"
+image: "../_images/oil-palm.jpg"
+format:
+  html:
+    metadata:
+      author: false
+      date: false
+      description: false
+---
+
+In my dissertation work in Indonesia, I found that oil palm pollinators may benefit from mesopredator-suppressing effects, e.g. insectivorous birds that spill over from the forest into the oil palm farm (Li et al. 2023, Agric Ecosyst Environ).

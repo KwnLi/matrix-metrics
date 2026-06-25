@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.9.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,13 +34,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./media/favicon2.ico" rel="icon">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-cd2fc4d7f0f0fab413baadaa8d90e585.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -71,7 +73,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-projects .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-projects'] = new List('listing-projects', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -108,15 +168,15 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-work">    
         <li>
     <a class="dropdown-item" href="./research.html">
- <span class="dropdown-text">Research</span></a>
+ <span class="dropdown-text">Ecology Research</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./data.html">
- <span class="dropdown-text">Data</span></a>
+ <span class="dropdown-text">Data for Decisionmaking</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./design.html">
- <span class="dropdown-text">Design</span></a>
+ <span class="dropdown-text">Landscape Design</span></a>
   </li>  
     </ul>
   </li>
@@ -150,6 +210,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#designing-for-ecosystem-services-in-the-landscape" id="toc-designing-for-ecosystem-services-in-the-landscape" class="nav-link" data-scroll-target="#designing-for-ecosystem-services-in-the-landscape">Designing for ecosystem services in the landscape</a></li>
   <li><a href="#understanding-impacts-of-landscape-transformation" id="toc-understanding-impacts-of-landscape-transformation" class="nav-link" data-scroll-target="#understanding-impacts-of-landscape-transformation">Understanding impacts of landscape transformation</a></li>
   </ul></li>
+  <li><a href="#relevant-projects" id="toc-relevant-projects" class="nav-link" data-scroll-target="#relevant-projects">Relevant Projects</a></li>
   </ul>
 </nav>
     </div>
@@ -177,21 +238,94 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="themes" class="level2">
 <h2 class="anchored" data-anchor-id="themes">Themes</h2>
-<p>My research investigates ecology in a landscape context. Landscapes are complex systems built by social, historical, and ecological forces. Using field and computational methods, my research seeks management solutions that integrate human activities sustainably and equitably within their ecological systems, fulfilling people’s needs while restoring and protecting natural biodiversity.</p>
+<p>My research investigates ecological processes in their landscape context. Using field and computational methods, I work towards management solutions that integrate human activities sustainably and equitably within their ecological systems, fulfilling people’s needs while restoring and protecting natural biodiversity.</p>
 <section id="uncovering-ecological-process-from-pattern" class="level3">
 <h3 class="anchored" data-anchor-id="uncovering-ecological-process-from-pattern">Uncovering ecological process from pattern</h3>
-<p><em>What can we learn about ecological processes from spatial and temporal patterns?</em> I am interested in how, and to what degree, do ecological processes organize and influence their own distributions, as opposed to reflect their environmental context. This knowledge has important implications for planning successful ecological interventions and predicting ecological resilience.</p>
+<p><strong><em>What can we learn about ecological processes from spatial and temporal patterns?</em></strong> I am interested in how, and to what degree, do ecological processes organize and influence their own distributions, as opposed to reflect their environmental context. This has important implications for planning successful ecological interventions and predicting ecological resilience.</p>
 </section>
 <section id="designing-for-ecosystem-services-in-the-landscape" class="level3">
 <h3 class="anchored" data-anchor-id="designing-for-ecosystem-services-in-the-landscape">Designing for ecosystem services in the landscape</h3>
-<p><em>How can we design landscapes to leverage ecological processes for multiple ecosystem services, like pollination, water purification, and crop production?</em> My work investigates how the landscape influences ecosystem functions and services through the composition and configuration of natural habitats and human land uses.</p>
+<p><strong><em>How can we design landscapes that leverage ecological processes for multiple ecosystem services?</em></strong> My work investigates how the landscape influences ecosystem functions and services like pollination, water purification, and crop production through the composition and configuration of natural habitats and human land uses.</p>
 </section>
 <section id="understanding-impacts-of-landscape-transformation" class="level3">
 <h3 class="anchored" data-anchor-id="understanding-impacts-of-landscape-transformation">Understanding impacts of landscape transformation</h3>
-<p><em>How do changes in complex systems in landscapes happen?</em> My work searches for leverage points where relatively small changes can lead to broader impacts that help build resilient socio-ecological systems.</p>
-
-
+<p><strong><em>In what ways do changing landscapes affect ecological processes?</em></strong> My work examines leverage points where relatively small changes in the ecosystem can lead to broader impacts. This knowledge helps build resilient socio-ecological systems.</p>
 </section>
+</section>
+<section id="relevant-projects" class="level2">
+<h2 class="anchored" data-anchor-id="relevant-projects">Relevant Projects</h2>
+<div id="listing-projects" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-1">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1767225600000" data-listing-file-modified-sort="1782362532800" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="249">
+<a href="./projects/deepflora/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/_images/deepflora.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+<code>deepflora</code>: Landscape Floral Resource Continuity and Connectivity
+</h5>
+<div class="card-text listing-description delink">
+<p>Using citizen science data and deep neural networks to predict blooming pollinator resources in space and time at high resolution</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1735689600000" data-listing-file-modified-sort="1782364635186" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="239">
+<a href="./projects/ecosystem-services/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/_images/ecosystem-services.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Modeling ecosystem services in agricultural landscapes
+</h5>
+<div class="card-text listing-description delink">
+<p>Applying landscape simulations of multiple ecosystem services to identify synergies and tradeoffs</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-date-sort="1640995200000" data-listing-file-modified-sort="1782364323959" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
+<a href="./projects/coffee-rust/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/_images/coffee-rust.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Coffee leaf rust spread and tipping points
+</h5>
+<div class="card-text listing-description delink">
+I applied a tipping point indicator from engineering to understand the spatiotemporal dynamics of annual resurgences of the coffee leaf rust (Hemileia vastatrix) in a…
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-date-sort="1577836800000" data-listing-file-modified-sort="1782296199546" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="38">
+<a href="./projects/oil-palm/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/_images/oil-palm.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Pollinators in oil palm landscapes
+</h5>
+<div class="card-text listing-description delink">
+<p>My dissertation work investigated the impacts oil palm has on mobile taxa providing ecosystem service in agricultural landscapes</p>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+
+
+
 </section>
 
 </main> <!-- /main -->

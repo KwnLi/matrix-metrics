@@ -12,11 +12,11 @@ website:
         text: About me
       - text: Work
         menu:
-          - text: Research
+          - text: Ecology Research
             href: research.qmd
-          - text: Data
+          - text: Data for Decisionmaking
             href: data.qmd
-          - text: Design
+          - text: Landscape Design
             href: design.qmd
       - href: publications.qmd
         text: Publications
@@ -40,6 +40,3 @@ format:
       - custom.scss
     css: styles.css
     toc: true
-
-editor: visual
-

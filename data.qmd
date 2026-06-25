@@ -1,6 +1,21 @@
 ---
 title: "Data-Driven Conservation and Environmental Decision Making"
+listing:
+  - id: projects
+    contents: "projects/*/*.qmd"
+    include:
+      category: "data"
+    type: grid
+    grid-columns: 1
+    sort-ui: false
+    sort: "date desc"
+    fields: [image, title, description]
 format: html
 ---
 
 I apply a variety of statistical methods, from spatially explicit point process models to generalized linear mixed effects models to disentangle ecological patterns. I am also interested in developing tools that make landscape and environmental data and accessible to a wider audience.
+
+## Related Projects
+
+::::{#projects}
+::::

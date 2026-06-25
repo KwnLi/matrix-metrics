@@ -1,6 +1,5 @@
 ---
-title: "Matrix -- Metrics"
-subtitle: "Making sense of the landscape matrix"
+title: "Making sense of the landscape matrix"
 toc: false
 # include CSS style for title blocks
 title-block-banner: "#00000000"

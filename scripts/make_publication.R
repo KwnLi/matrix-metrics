@@ -8,6 +8,7 @@ make_publication <- function(
     issue = "",
     page = "",
     year = "",
+    date = "",
     categories = list(),
     doi = "",
     url_source = "",
@@ -26,6 +27,7 @@ make_publication <- function(
     issue = issue,
     page = page,
     year = year,
+    date = date,
     doi = doi
   )
   

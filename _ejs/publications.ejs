@@ -32,7 +32,9 @@ function formatAPA(item) {
   const volume = item.volume ? ` <i>${item.volume}</i>` : "";
   const issue = item.issue ? `(${item.issue})` : "";
   const pages = item.page ? `, ${item.page}` : "";
-  const doi = item.doi ? ` https://doi.org/${item.doi}` : "";
+  const doi = item.doi
+  ? ` <a href="https://doi.org/${item.doi}" target="_blank" style="color: var(--bs-link-color);">https://doi.org/${item.doi}</a>`
+  : "";
 
   return `
     ${authors} ${year}
@@ -85,14 +87,6 @@ function formatAPA(item) {
         </div>
         
         <div class="listing-links">
-            <% if (item.url_source) { %>
-            <div class="listing-pub-url">
-
-                    <a href="<%- item.url_source %>">
-                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
-                    </a>
-                </div>
-                    <% } %>
 
             <% if (item.url_preprint) { %>
             <div class="listing-pub-url">

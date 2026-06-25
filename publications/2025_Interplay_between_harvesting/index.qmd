@@ -1,0 +1,21 @@
+---
+title: Interplay between harvesting, planting density, and ripening time affects coffee
+  leaf rust dispersal and infection
+author:
+- Mora Van Cauwelaert, E.
+- Li, K.
+- Hajian-Forooshani, Z.
+- Vandermeer, J.
+- Benítez, M.
+categories: []
+url_source: https://doi.org/10.1007/s12080-025-00609-8
+url_preprint: ''
+journ: Theoretical Ecology
+volume: 18
+issue: 1
+page: '14'
+year: 2025
+date: '2025-03-31'
+doi: 10.1007/s12080-025-00609-8
+---
+

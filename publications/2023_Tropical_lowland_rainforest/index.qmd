@@ -16,6 +16,7 @@ volume: 20
 issue: 1
 page: 88-100
 year: 2023
+date: '2023-08-02'
 doi: 10.5994/jei.20.1.88
 ---
 

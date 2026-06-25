@@ -39,6 +39,7 @@ journ: Frontiers in Forests and Global Change
 volume: 2
 page: ''
 year: 2019
+date: '2019'
 doi: 10.3389/ffgc.2019.00065
 ---
 

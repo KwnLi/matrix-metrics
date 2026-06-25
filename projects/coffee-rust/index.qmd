@@ -1,0 +1,14 @@
+---
+title: "Coffee leaf rust spread and tipping points"
+date: "2022"
+category: "research"
+image: ../_images/coffee-rust.jpg
+format:
+  html:
+    metadata:
+      author: false
+      date: false
+      description: false
+---
+
+I applied a tipping point indicator from engineering to understand the spatiotemporal dynamics of annual resurgences of the coffee leaf rust (Hemileia vastatrix) in a Mexican farm (Li et al. 2022, Sci Rep).

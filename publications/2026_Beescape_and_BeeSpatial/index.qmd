@@ -1,0 +1,28 @@
+---
+title: '<i>Beescape</i> and <i>BeeSpatial</i>: Making multi-scale environmental indicators
+  of bee habitat accessible across audiences'
+author:
+- Li, K.
+- Grab, H.
+- Buckner, M. A.
+- Houtman, L.
+- Kammerer, M.
+- McLaughlin, D.
+- Ostroski, A.
+- Douglas, M. R.
+- Goslee, S. C.
+- Khanna, V.
+- Lonsdorf, E. V.
+- Robinson, A. C.
+- Grozinger, C. M.
+categories: []
+url_source: https://www.sciencedirect.com/science/article/pii/S2665972726002709
+url_preprint: ''
+journ: Environmental and Sustainability Indicators
+volume: 31
+page: '101381'
+year: 2026
+date: '2026-09-01'
+doi: 10.1016/j.indic.2026.101381
+---
+

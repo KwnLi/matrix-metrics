@@ -6,7 +6,8 @@ pubsdir <- "publications"
 
 pubs <- read.csv(pubspath)
 
-articles <- pubs %>% filter(Item.Type == "journalArticle")
+articles <- pubs %>% filter(Item.Type == "journalArticle") %>%
+  arrange(desc(Date))
 
 for(i in seq_len(nrow(articles))){
   title.i <- articles$Title[i]
@@ -16,11 +17,15 @@ for(i in seq_len(nrow(articles))){
   issue.i <- articles$Issue[i]
   page.i <- articles$Pages[i]
   year.i <- articles$Publication.Year[i]
+  date.i <- articles$Date[i]
   url_source.i <- articles$Url[i]
   doi.i <- articles$DOI[i]
   # categories.i <- 
   
-  titlewords <- strsplit(title.i," ") |> unlist()
+  titlewords <- gsub("<[^>]+>", "", title.i) |>        # remove <i>…</i> and any HTML tags
+    gsub("[^A-Za-z0-9 _-]", "", x = _) |>   # strip chars illegal in dir names
+    strsplit(" ") |> unlist()
+  
   file_path.i <- do.call(
     file.path,
     list(pubsdir, 
@@ -40,6 +45,7 @@ for(i in seq_len(nrow(articles))){
     issue = issue.i,
     page = page.i,
     year = year.i,
+    date = date.i,
     url_source = url_source.i,
     doi = doi.i,
     file_path = file.path(file_path.i,"index.qmd"),
