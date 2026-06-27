@@ -15,7 +15,7 @@ format: html
 
 I apply a variety of statistical methods, from spatially explicit point process models to generalized linear mixed effects models to disentangle ecological patterns. I am also interested in developing tools that make landscape and environmental data and accessible to a wider audience.
 
-## Relavent work
+## Relevant work
 
 ::::{#projects}
 ::::
