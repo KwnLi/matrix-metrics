@@ -1,9 +1,21 @@
 ---
-title: "`deepflora`: Landscape Floral Resource Continuity and Connectivity"
+title: "Mapping Floral Resource Continuity and Connectivity"
 date: "2026"
 description: "Using citizen science data and deep neural networks to predict blooming pollinator resources in space and time at high resolution"
 category: "patterns"
 image: "../_images/deepflora.jpg"
+toc: false
+listing:
+  - id: pubs
+    include:
+      project: "deepflora"
+    template: ../../_ejs/publications.ejs
+    contents: ../../publications/**/*.qmd
+    sort: "date desc"
+    page-size: 30
+    fields: [title, journ, author,url_source,year]
+    field-types:
+      author: string
 format:
   html:
     metadata:
@@ -25,3 +37,9 @@ To estimate bloom times, we are modeling the curves of seasonal peaks in citizen
 We can then combine the Deepbiosphere spatial distribution model with the finite mixture model-derived bloom curve over thermal time to estimate blooms over space and time.
 
 ![Probability of bloom based on deepbiosphere and bloom prediction](../_images/stflrpb_Ccanadensis.gif)
+
+## Related publications
+
+::: {#pubs}
+:::
+

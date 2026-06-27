@@ -12,11 +12,11 @@ website:
         text: About me
       - text: Work
         menu:
-          - text: Ecology Research
+          - text: Landscape Agroecology
             href: research.qmd
-          - text: Data for Decisionmaking
+          - text: Environmental Data Science
             href: data.qmd
-          - text: Landscape Design
+          - text: Ecological Landscape Planning
             href: design.qmd
       - href: publications.qmd
         text: Publications

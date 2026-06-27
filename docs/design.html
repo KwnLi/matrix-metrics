@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Ecological Landscape Design – Kevin Li</title>
+<title>Ecological Landscape Planning – Kevin Li</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -34,6 +34,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./media/favicon2.ico" rel="icon">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -71,7 +73,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-projects-es .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-projects-es'] = new List('listing-projects-es', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -108,15 +168,15 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-work">    
         <li>
     <a class="dropdown-item" href="./research.html">
- <span class="dropdown-text">Ecology Research</span></a>
+ <span class="dropdown-text">Landscape Agroecology</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./data.html">
- <span class="dropdown-text">Data for Decisionmaking</span></a>
+ <span class="dropdown-text">Environmental Data Science</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./design.html">
- <span class="dropdown-text">Landscape Design</span></a>
+ <span class="dropdown-text">Ecological Landscape Planning</span></a>
   </li>  
     </ul>
   </li>
@@ -139,15 +199,24 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#designing-for-ecosystem-services-in-the-landscape" id="toc-designing-for-ecosystem-services-in-the-landscape" class="nav-link active" data-scroll-target="#designing-for-ecosystem-services-in-the-landscape">Designing for ecosystem services in the landscape</a>
+  <ul class="collapse">
+  <li><a href="#relevant-work" id="toc-relevant-work" class="nav-link" data-scroll-target="#relevant-work">Relevant Work</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ecological Landscape Design</h1>
+<h1 class="title">Ecological Landscape Planning</h1>
 </div>
 
 
@@ -164,9 +233,38 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>I am interested in ecological landscape design – incorporating ecological thinking into how we plan space, from the scale of vacant lots to watersheds. In addition to being an ecologist, I have a Master’s in Landscape Architecture from the University of Michigan. I consult on ecologically-based landscape planning and design in spaces like farms, urban gardens, and pocket forests.</p>
+<p>I am interested in ecological landscape design – integrating ecological understanding into how we plan space, from the scale of vacant lots to watersheds. In addition to being an ecologist, I have a Master’s in Landscape Architecture from the University of Michigan. I also consult on ecologically-based landscape planning and design in spaces like farms, urban gardens, and pocket forests.</p>
+<section id="designing-for-ecosystem-services-in-the-landscape" class="level2">
+<h2 class="anchored" data-anchor-id="designing-for-ecosystem-services-in-the-landscape">Designing for ecosystem services in the landscape</h2>
+<p><em>How can we design landscapes that leverage ecological processes for multiple ecosystem services?</em> My research investigates how the landscape influences ecosystem functions and services like pollination, water purification, and crop production through the composition and configuration of natural habitats and human land uses.</p>
+<section id="relevant-work" class="level3">
+<h3 class="anchored" data-anchor-id="relevant-work">Relevant Work</h3>
+<div id="listing-projects-es" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-1">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1735689600000" data-listing-file-modified-sort="1782537304635" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="240">
+<a href="./projects/ecosystem-services/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/_images/ecosystem-services.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Modeling ecosystem services in agricultural landscapes
+</h5>
+<div class="card-text listing-description delink">
+<p>Applying landscape simulations of multiple ecosystem services to identify synergies and tradeoffs</p>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 
 
+
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

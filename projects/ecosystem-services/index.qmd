@@ -4,6 +4,18 @@ description: "Applying landscape simulations of multiple ecosystem services to i
 category: "ecosystem services"
 date: "2025"
 image: "../_images/ecosystem-services.png"
+toc: false
+listing:
+  - id: pubs
+    include:
+      project: "ecosystem-services"
+    template: ../../_ejs/publications.ejs
+    contents: ../../publications/**/*.qmd
+    sort: "date desc"
+    page-size: 30
+    fields: [title, journ, author,url_source,year]
+    field-types:
+      author: string
 format:
   html:
     metadata:
@@ -19,3 +31,9 @@ We conducted a survey of ecosystem service modeling (ESM) tools to identify fram
 To assess the role of natural land cover and landscape complexity (landscape composition, connectivity, fragmentation, and heterogeneity) in ecosystem services, we modeled the effect of adding perennial wildflower strips along crop field margins on ecosystem service indices, including pollinator activity, groundwater recharge, sediment runoff, and nutrient runoff in catchments across a gradient of agricultural development.
 
 We found the effects of landscape composition and configuration on ecosystem services varied with the service considered, and most relationships were nonlinear or showed threshold responses. Management interventions such as wildflower strips must be placed in their landscape context to ensure that investments in conservation practices are as effective as possible.
+
+## Related publications
+
+::: {#pubs}
+:::
+

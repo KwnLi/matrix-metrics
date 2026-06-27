@@ -47,12 +47,62 @@
     ]
   },
   {
+    "listing": "/projects/oil-palm/index.html",
+    "items": [
+      "/publications/2025_Proximity_to_Natural/index.html",
+      "/publications/2023_Tropical_lowland_rainforest/index.html",
+      "/publications/2023_Tree_islands_enhance/index.html",
+      "/publications/2023_Tree_identity_and/index.html",
+      "/publications/2022_Biomonitoring_via_DNA/index.html",
+      "/publications/2022_Adjacent_forest_moderates/index.html",
+      "/publications/2019_Critical_factors_limiting/index.html",
+      "/publications/2019_Reducing_Fertilizer_and/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/ecosystem-services/index.html",
+    "items": [
+      "/publications/2025_Modeling_tools_for/index.html",
+      "/publications/2025_Benefits_of_wildflower/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/deepflora/index.html",
+    "items": [
+      "/publications/2024_A_map_of/index.html",
+      "/publications/2024_Seasonal_bee_communities/index.html",
+      "/publications/2024_Not_just_crop/index.html"
+    ]
+  },
+  {
     "listing": "/research.html",
     "items": [
       "/projects/deepflora/index.html",
-      "/projects/ecosystem-services/index.html",
       "/projects/coffee-rust/index.html",
       "/projects/oil-palm/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/beespatial/index.html",
+    "items": [
+      "/publications/2026_Beescape_and_BeeSpatial/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/coffee-rust/index.html",
+    "items": [
+      "/publications/2025_Interplay_between_harvesting/index.html",
+      "/publications/2025_Non-Independent_Co-Occurrence_of/index.html",
+      "/publications/2024_A_simple_mechanism/index.html",
+      "/publications/2024_Farmer_Perceptions_of/index.html",
+      "/publications/2023_Coffee_leaf_rust/index.html",
+      "/publications/2022_Reduced_rainfall_and/index.html"
+    ]
+  },
+  {
+    "listing": "/design.html",
+    "items": [
+      "/projects/ecosystem-services/index.html"
     ]
   },
   {

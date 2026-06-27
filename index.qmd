@@ -38,10 +38,10 @@ include-in-header:
 
 Through academic research and consulting, I envision landscapes that meet human and ecological needs and foster resilient communities for people and nature.
 
-### Areas of Work
+### RESEARCH
 
-- [**RESEARCH**](research.qmd) | Landscape ecology and agroecology
+- [**Landscape Agroecology**](research.qmd) | Ecological processes across spatial scales, in agricultural contexts
 
-- [**DATA**](data.qmd) | Environmental and spatial statistics and analysis
+- [**Environmental Data Science**](data.qmd) | Environmental and spatial statistics and analysis
 
-- [**DESIGN**](design.qmd) | Ecological landscape planning and design
+- [**Ecological Landscape Planning**](design.qmd) | Integrating ecology into spatial planning and design

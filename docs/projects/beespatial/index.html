@@ -35,6 +35,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../media/favicon2.ico" rel="icon">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
@@ -72,12 +74,70 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-pubs .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-journ','listing-author','listing-url_source','listing-year',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-engines","listing-language","listing-freeze","listing-title","listing-author","listing-categories","listing-url_source","listing-url_preprint","listing-journ","listing-volume","listing-page","listing-year","listing-date","listing-doi","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-pubs'] = new List('listing-pubs', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -109,15 +169,15 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-work">    
         <li>
     <a class="dropdown-item" href="../../research.html">
- <span class="dropdown-text">Ecology Research</span></a>
+ <span class="dropdown-text">Landscape Agroecology</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../data.html">
- <span class="dropdown-text">Data for Decisionmaking</span></a>
+ <span class="dropdown-text">Environmental Data Science</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../design.html">
- <span class="dropdown-text">Landscape Design</span></a>
+ <span class="dropdown-text">Ecological Landscape Planning</span></a>
   </li>  
     </ul>
   </li>
@@ -140,15 +200,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#related-past-workshops" id="toc-related-past-workshops" class="nav-link active" data-scroll-target="#related-past-workshops">Related past workshops</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -177,8 +229,8 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="https://beescape.psu.edu/"><strong>Beescape</strong></a> provides bee habitat quality indicators at user-selected locations and is designed from feedback by its main intended users: beekeepers, growers, gardeners, scientists, and conservationists. <em>Beescape</em> enables dynamic visualizations of landscape conditions impacting bees to support bee colony and habitat management and general awareness of the local status and relative importance of these factors.</p>
 <p>I led development of the web application <a href="https://beesuite.psu.edu/beespatial/"><strong>BeeSpatial</strong></a> as a research-focused complement to <em>Beescape</em> that gives scientists and geospatial analysts additional data layer selections, functions for multi-location data extraction, and access to underlying geospatial data files to conduct subsequent analysis and processing. To meet its intended users’ needs, <em>BeeSpatial</em> returns reproducible data queries at large volumes for research workflows.</p>
 <p>Together, these applications extend access to an integrated set of bee habitat quality indicators across audiences. This framework can be applied to other global regions and conservation management contexts, where key geospatial indicators are relevant for a range of stakeholders and supporting data and spatial models exist but are not broadly accessible.</p>
-<section id="related-past-workshops" class="level2">
-<h2 class="anchored" data-anchor-id="related-past-workshops">Related past workshops</h2>
+<section id="past-workshops" class="level2">
+<h2 class="anchored" data-anchor-id="past-workshops">Past workshops</h2>
 <p><a href="https://ecospatialsummit.com/"><strong>Ecospatial Summit</strong></a> (<em>Oct.&nbsp;10-11, 2024</em>) As part of the Beescape team, I co-organized a summit that convened a broad range of geospatial conservation data stakeholders to foster knowledge sharing, collaboration, and innovation around spatial data platforms. We featured the <em>Beescape</em> and <em>BeeSpatial</em> platforms and beyond, touching on ecosystem services and conservation.</p>
 <ul>
 <li><a href="https://climateecology.github.io/ecospatial-workshop/index.html">BeeSpatial workshop materials</a></li>
@@ -187,6 +239,52 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="https://appliedsystemsecology.github.io/beespatial-workshop/">Workshop materials</a></li>
 </ul>
+</section>
+<section id="related-publications" class="level2">
+<h2 class="anchored" data-anchor-id="related-publications">Related publications</h2>
+<div id="listing-pubs" class="quarto-listing quarto-listing-container-custom">
+
+<div class="list quarto-listing-default">
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="0" data-categories="" data-listing-date-sort="1788242400000" data-listing-file-modified-sort="1782536439309" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- Hidden fields for Quarto filter indexing -->
+            <div class="listing-title" style="display:none"><i>Beescape</i> and <i>BeeSpatial</i>: Making multi-scale environmental indicators of bee habitat accessible across audiences</div>
+            <div class="listing-author" style="display:none">Li, K., Grab, H., Buckner, M. A., Houtman, L., Kammerer, M., McLaughlin, D., Ostroski, A., Douglas, M. R., Goslee, S. C., Khanna, V., Lonsdorf, E. V., Robinson, A. C., Grozinger, C. M.</div>
+            <div class="listing-year" style="display:none">2026</div>
+            <div class="listing-journ" style="display:none">Environmental and Sustainability Indicators</div>
+        
+            <!-- Visible APA formatted citation -->
+            <div class="listing-pub-apa">
+              Li, K., Grab, H., Buckner, M. A., Houtman, L., Kammerer, M., McLaughlin, D., Ostroski, A., Douglas, M. R., Goslee, S. C., Khanna, V., Lonsdorf, E. V., Robinson, A. C., Grozinger, C. M. (2026). <i>Beescape</i> and <i>BeeSpatial</i>: Making multi-scale environmental indicators of bee habitat accessible across audiences. <i>Environmental and Sustainability Indicators</i> <i>31</i>, 101381. <a href="https://doi.org/10.1016/j.indic.2026.101381" target="_blank" style="color: var(--bs-link-color);">https://doi.org/10.1016/j.indic.2026.101381</a>
+            </div>
+        
+            
+              <div class="listing-categories">
+                
+              </div>
+            
+        </div>
+        
+        <div class="listing-links">
+
+            
+
+        </div>
+    </div>
+
+    
+    </div>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+
 
 
 </section>

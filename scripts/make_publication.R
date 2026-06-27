@@ -13,6 +13,7 @@ make_publication <- function(
     doi = "",
     url_source = "",
     url_preprint = "",
+    project = "",
     file_path
     ){
   
@@ -28,7 +29,8 @@ make_publication <- function(
     page = page,
     year = year,
     date = date,
-    doi = doi
+    doi = doi,
+    project = project
   )
   
   yaml.args <- yaml.args[!is.na(yaml.args)]

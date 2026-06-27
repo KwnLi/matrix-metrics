@@ -8,7 +8,7 @@
 
 <meta name="description" content="False">
 
-<title>deepflora: Landscape Floral Resource Continuity and Connectivity – Kevin Li</title>
+<title>Mapping Floral Resource Continuity and Connectivity – Kevin Li</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -35,6 +35,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../media/favicon2.ico" rel="icon">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
@@ -72,12 +74,70 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-pubs .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-journ','listing-author','listing-url_source','listing-year',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-engines","listing-language","listing-freeze","listing-title","listing-author","listing-categories","listing-url_source","listing-url_preprint","listing-journ","listing-volume","listing-page","listing-year","listing-date","listing-doi","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-issue"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-pubs'] = new List('listing-pubs', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -109,15 +169,15 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-work">    
         <li>
     <a class="dropdown-item" href="../../research.html">
- <span class="dropdown-text">Ecology Research</span></a>
+ <span class="dropdown-text">Landscape Agroecology</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../data.html">
- <span class="dropdown-text">Data for Decisionmaking</span></a>
+ <span class="dropdown-text">Environmental Data Science</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../design.html">
- <span class="dropdown-text">Landscape Design</span></a>
+ <span class="dropdown-text">Ecological Landscape Planning</span></a>
   </li>  
     </ul>
   </li>
@@ -140,15 +200,13 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><code>deepflora</code>: Landscape Floral Resource Continuity and Connectivity</h1>
+<h1 class="title">Mapping Floral Resource Continuity and Connectivity</h1>
 </div>
 
 
@@ -187,8 +245,122 @@ ul.task-list li input[type="checkbox"] {
 <figcaption>Probability of bloom based on deepbiosphere and bloom prediction</figcaption>
 </figure>
 </div>
+<section id="related-publications" class="level2">
+<h2 class="anchored" data-anchor-id="related-publications">Related publications</h2>
+<div id="listing-pubs" class="quarto-listing quarto-listing-container-custom">
+
+<div class="list quarto-listing-default">
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="0" data-categories="" data-listing-date-sort="1715148000000" data-listing-file-modified-sort="1782536439326" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- Hidden fields for Quarto filter indexing -->
+            <div class="listing-title" style="display:none">A map of pollinator floral resource habitats in the agricultural landscape of Central New York</div>
+            <div class="listing-author" style="display:none">Li, K., Fisher, J., Power, A., Iverson, A.</div>
+            <div class="listing-year" style="display:none">2024</div>
+            <div class="listing-journ" style="display:none">One Ecosystem</div>
+        
+            <!-- Visible APA formatted citation -->
+            <div class="listing-pub-apa">
+              Li, K., Fisher, J., Power, A., Iverson, A. (2024). A map of pollinator floral resource habitats in the agricultural landscape of Central New York. <i>One Ecosystem</i> <i>9</i>, e118634. <a href="https://doi.org/10.3897/oneeco.9.e118634" target="_blank" style="color: var(--bs-link-color);">https://doi.org/10.3897/oneeco.9.e118634</a>
+            </div>
+        
+            
+              <div class="listing-categories">
+                
+              </div>
+            
+        </div>
+        
+        <div class="listing-links">
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="1" data-categories="" data-listing-date-sort="1714197600000" data-listing-file-modified-sort="1782536439328" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- Hidden fields for Quarto filter indexing -->
+            <div class="listing-title" style="display:none">Seasonal bee communities vary in their responses to resources at local and landscape scales: implication for land managers</div>
+            <div class="listing-author" style="display:none">Kammerer, M., Iverson, A. L., Li, K., Tooker, J. F., Grozinger, C. M.</div>
+            <div class="listing-year" style="display:none">2024</div>
+            <div class="listing-journ" style="display:none">Landscape Ecology</div>
+        
+            <!-- Visible APA formatted citation -->
+            <div class="listing-pub-apa">
+              Kammerer, M., Iverson, A. L., Li, K., Tooker, J. F., Grozinger, C. M. (2024). Seasonal bee communities vary in their responses to resources at local and landscape scales: implication for land managers. <i>Landscape Ecology</i> <i>39</i>(5), 97. <a href="https://doi.org/10.1007/s10980-024-01895-z" target="_blank" style="color: var(--bs-link-color);">https://doi.org/10.1007/s10980-024-01895-z</a>
+            </div>
+        
+            
+              <div class="listing-categories">
+                
+              </div>
+            
+        </div>
+        
+        <div class="listing-links">
+
+            
+
+        </div>
+    </div>
+
+    
+    
+    
+
+    <div class="quarto-post image-right no-image" data-index="2" data-categories="" data-listing-date-sort="1706252400000" data-listing-file-modified-sort="1782536439330" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+         
+        
+         
+        <div class="body">
+            <!-- Hidden fields for Quarto filter indexing -->
+            <div class="listing-title" style="display:none">Not just crop or forest: an integrated land cover map for agricultural and natural areas</div>
+            <div class="listing-author" style="display:none">Kammerer, M., Iverson, A. L., Li, K., Goslee, S. C.</div>
+            <div class="listing-year" style="display:none">2024</div>
+            <div class="listing-journ" style="display:none">Scientific Data</div>
+        
+            <!-- Visible APA formatted citation -->
+            <div class="listing-pub-apa">
+              Kammerer, M., Iverson, A. L., Li, K., Goslee, S. C. (2024). Not just crop or forest: an integrated land cover map for agricultural and natural areas. <i>Scientific Data</i> <i>11</i>(1), 137. <a href="https://doi.org/10.1038/s41597-024-02979-w" target="_blank" style="color: var(--bs-link-color);">https://doi.org/10.1038/s41597-024-02979-w</a>
+            </div>
+        
+            
+              <div class="listing-categories">
+                
+              </div>
+            
+        </div>
+        
+        <div class="listing-links">
+
+            
+
+        </div>
+    </div>
+
+    
+    </div>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 
 
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
